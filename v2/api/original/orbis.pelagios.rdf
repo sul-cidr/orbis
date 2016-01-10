@@ -1,0 +1,2818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:h="http://www.w3.org/1999/xhtml" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:oac="http://www.openannotation.org/ns/" xmlns:dcterms="http://purl.org/dc/terms/" xml:base="http://orbis.stanford.edu/api/orbis.pelagios.rdf">
+<rdf:Description rdf:ID="orbis_50001">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/187242"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50001"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Abodiacum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50002">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/874296"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50002"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ad fl. Tigrim</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50003">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/167618"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50003"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ad Publicanos</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50004">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/187259"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50004"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ad Tricesimum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50005">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/265766"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50005"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ad Aras</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50006">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/550403"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50006"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Adramyttium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50007">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/442451"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50007"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Aeclanum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50008">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/746700"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50008"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Aelana</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50009">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/442452"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50009"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Aequum Tuticum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50010">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/432652"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50010"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Aesernia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50011">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/256008"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50011"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Aesuris</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50012">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/108751"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50012"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ara Agrippinensium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50013">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/187265"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50013"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Aguntum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50014">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/678010"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50014"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ake-Ptolemais</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50015">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/413005"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50015"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Alba Fucens</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50016">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/285412"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50016"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Albulae</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50017">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/727070"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50017"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Alexandria</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50018">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/658371"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50018"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Alexandria ad Issum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50019">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/550434"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50019"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Alexandria Troas</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50020">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/393374"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50020"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Altinum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50022">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/413014"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50022"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ancona</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50023">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/619103"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50023"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ancyra</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50024">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/658381"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50024"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Antiochia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50025">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/609307"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50025"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Caesarea (Phrygia)</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50026">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/668335"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50026"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Apamea</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50027">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/638751"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50027"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Apamea (Pisidia)</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50028">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/736889"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50028"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Aphroditopolis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50029">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/511153"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50029"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Claudia Aprensis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50030">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/206927"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50030"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Apulum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50031">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/148053"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50031"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Aquae Sextiae</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50032">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/79299"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50032"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Aquae Sulis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50034">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/187290"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50034"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Aquileia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50035">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/197130"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50035"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Aquincum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50036">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/363924"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50036"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Arae Philaenorum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50038">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/668198"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50038"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, x</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50039">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/619164"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50039"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Archelais</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50041">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/108754"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50041"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Argentorate</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50042">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/393379"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50042"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ariminum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50043">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/413032"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50043"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Arretium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50044">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/631187"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50044"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Artaxata</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50045">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/197143"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50045"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Arupium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50046">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/687839"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50046"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ascalon</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50047">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/413036"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50047"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Asculum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50048">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/236352"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50048"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Asturica</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50049">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/413039"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50049"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Aternum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50050">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/579885"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50050"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Athenae</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50051">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/442484"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50051"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Aufidena</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50052">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/383579"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50052"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Augusta Praetoria</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50053">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/177494"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50053"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Augusta Raurica</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50054">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/108772"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50054"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Augusta Suessionum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50055">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/383580"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50055"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Augusta Taurinorum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50056">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/118580"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50056"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Augusta Vindelicum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50057">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/108775"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50057"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Augustobona</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50058">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/256001"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50058"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Augustobriga</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50059">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/177460"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50059"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Augustodunum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50060">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/295221"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50060"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Auzia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50061">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/138207"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50061"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Avaricum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50062">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/177495"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50062"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Aventicum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50063">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/108788"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50063"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Bagacum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50064">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/275599"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50064"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Banasa</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50065">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/246343"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50065"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Barcino</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50066">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/442500"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50066"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Barium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50067">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/658405"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50067"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Batnae</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50068">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/246237"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50068"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Beneharnum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50069">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/432721"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50069"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Beneventum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50072">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/658409"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50072"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Beroia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50073">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/678060"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50073"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Berytus</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50074">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/687854"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50074"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Eleutheropolis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50075">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/246247"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50075"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Bilbilis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50076">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/844879"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50076"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Claudiopolis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50077">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/108818"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50077"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Bonna</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50078">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/393421"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50078"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Bononia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50079">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/206975"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50079"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Bononia (Moesia)</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50080">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/678073"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50080"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Bostra</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50081">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/432725"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50081"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Bovianum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50082">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/236377"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50082"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Bracara Augusta</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50083">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/187325"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50083"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Brigantium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50084">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/236465"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50084"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Flavium Brigantium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50085">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/197180"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50085"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Brigetio</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50086">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/442509"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50086"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Brundisium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50087">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/314912"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50087"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Bulla Regia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50088">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/138248"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50088"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Burdigala</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50089">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/197184"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50089"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Burnum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50090">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/79360"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50090"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Burrio</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50091">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/177485"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50091"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Cabilonnum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50092">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/658418"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50092"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Caeciliana</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50093">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/246344"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50093"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Caesaraugusta</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50095">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/629034"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50095"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Caesarea (Cappadocia)</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50096">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/138255"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50096"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Caesarodunum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50097">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/246279"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50097"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Calagurris</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50098">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/79368"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50098"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Calleva</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50099">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/177486"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50099"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Cambete</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50100">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/187335"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50100"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Cambodunum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50102">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/442525"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50102"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Canusium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50103">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/324684"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50103"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Capsa</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50104">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/432754"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50104"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Capua</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50105">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/128376"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50105"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Carnuntum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50106">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/658427"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50106"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Carrhae</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50107">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/314921"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50107"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Carthago</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50108">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/265849"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50108"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Carthago Nova</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50109">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/432764"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50109"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Casinum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50110">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/413074"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50110"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Castrum Truentinum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50111">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/265855"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50111"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Castulo</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50112">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/716540"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50112"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Catabathmus Maior</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50113">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/432773"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50113"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Caudium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50114">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/197206"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50114"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Celeia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50115">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/138281"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50115"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Cenabum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50116">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/118629"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50116"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Cetium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50117">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/520988"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50117"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Chalcedon</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50118">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/197207"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50118"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Cibalae</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50119">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/893974"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50119"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Circesium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50120">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/305064"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50120"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Cirta</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50121">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/138298"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50121"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Civitas Namnetum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50122">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/413096"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50122"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Clusium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50123">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/727101"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50123"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Clysma</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50124">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/108894"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50124"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Augusta Treverorum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50125">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/108896"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50125"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ulpia Traiana Tricensimae</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50126">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/628959"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50126"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Comana</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50127">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/383627"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50127"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Comum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50128">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/236443"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50128"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Conimbriga</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50129">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/520998"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50129"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Constantinopolis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50130">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/786010"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50130"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Coptos</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50131">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/256128"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50131"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Corduba</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50132">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/413105"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50132"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Corfinium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50133">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/89152"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50133"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Coriosopitum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50134">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/413107"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50134"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Cosa</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50135">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/305068"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50135"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Cuicul</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50136">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/432808"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50136"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Cumae</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50137">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/187357"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50137"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Curia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50138">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/373778"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50138"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Cyrene</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50139">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/658446"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50139"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Cyrrhus</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50140">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/678106"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50140"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Damascus</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50141">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/373780"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50141"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Darnis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50142">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/138326"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50142"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Decetia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50143">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/540726"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50143"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Delphi</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50144">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/383633"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50144"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Dertona</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50145">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/246369"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50145"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Dertosa</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50146">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/216788"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50146"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Deultum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50147">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/79420"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50147"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Deva</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50148">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/334536"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50148"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Diana Veteranorum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50149">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/207078"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50149"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Dierna</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50151">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/481808"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50151"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Doclea</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50152">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/207088"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50152"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Domavium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50153">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/609367"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50153"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Dorylaion</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50154">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/207100"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50154"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Drobeta</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50155">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/893990"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50155"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Dura</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50156">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/79431"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50156"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Durnonovaria</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50157">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/108945"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50157"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Durocortorum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50158">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/216800"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50158"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Durostorum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50159">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/481818"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50159"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Dyrrhachium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50160">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/89175"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50160"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Eburacum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50161">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/658457"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50161"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Edessa</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50162">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/579920"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50162"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Eleusis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50163">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/256155"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50163"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Emerita Augusta</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50164">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/668261"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50164"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Emesa</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50165">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/687891"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50165"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Emmaus</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50166">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/197258"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50166"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Emona</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50167">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/246382"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50167"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Emporiae</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50168">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/187368"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50168"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Endidae</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50169">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/599612"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50169"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ephesus</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50170">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/658556"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50170"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Epiphaneia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50171">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/413129"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50171"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Fanum Fortunae</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50172">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/393420"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50172"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Faventia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50173">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/432830"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50173"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ferentinum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50174">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/413138"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50174"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Florentia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50175">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/432839"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50175"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Formiae</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50176">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/157836"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50176"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Forum Iulii</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50177">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/432847"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50177"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Fregellanum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50178">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/697665"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50178"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Gadara</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50179">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/256177"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50179"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Gades</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50180">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/89215"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50180"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Galacum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50181">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/687902"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50181"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Gaza</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50182">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/177528"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50182"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Genava</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50183">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/383664"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50183"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Genua</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50184">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/609351"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50184"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Germa</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50185">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/109008"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50185"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Gesoriacum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50188">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/324716"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50188"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Hadrumetum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50189">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/727117"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50189"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Heliopolis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50191">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/481861"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50191"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Heraklea</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50192">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/736920"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50192"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Herakleopolis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50193">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/442613"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50193"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Herdoniae</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50194">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/756574"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50194"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Hermopolis Magna</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50195">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/776181"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50195"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Hibis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50196">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/727126"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50196"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Hierakonpolis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50197">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/795815"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50197"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Hierasykaminos</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50198">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/305090"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50198"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Hippo Regius</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50199">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/256210"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50199"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Hispalis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50200">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/216839"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50200"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Histria</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50201">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/197312"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50201"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Iader</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50202">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/648647"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50202"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Iconium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50203">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/246431"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50203"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ilerda</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50204">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/550595"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50204"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ilium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50205">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/413182"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50205"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Interpromium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50206">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/295279"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50206"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Iol Caesarea</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50207">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/79531"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50207"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Isca</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50208">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/256231"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50208"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Italica</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50209">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/393441"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50209"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Iulia Concordia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50210">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/138400"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50210"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Iuliomagus</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50211">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/187430"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50211"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Iulium Carnicum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50212">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/187432"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50212"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Iuvavum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50213">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/687928"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50213"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Jerusalem</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50214">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/501450"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50214"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Kallipolis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50215">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/678224"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50215"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Kapitolias</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50216">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/658506"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50216"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Katabolos</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50217">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/776189"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50217"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Kellis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50218">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/766375"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50218"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Klaudianon</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50219">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/844991"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50219"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Flaviopolis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50220">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/236501"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50220"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Lacobriga</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50221">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/334569"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50221"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Lamasba</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50222">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/334570"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50222"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Lambaesis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50223">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/501570"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50223"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Lampsacus</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50224">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/236505"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50224"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Lancia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50225">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/668290"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50225"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Laodicea</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50226">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/442629"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50226"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Larinum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50227">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/540905"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50227"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Larissa</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50228">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/118802"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50228"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Lauriacum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50230">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/344448"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50230"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Lepcis Magna</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50231">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/138422"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50231"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Limonum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50233">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/275666"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50233"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Lixus</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50234">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/109120"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50234"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Loium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50235">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/79574"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50235"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Londinium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50236">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/177565"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50236"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Lousonna</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50237">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/403234"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50237"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Luca</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50238">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/99003"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50238"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Lugdunum Cananefatium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50239">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/246477"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50239"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Lugdunum Convenarum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50240">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/89234"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50240"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Luguvalium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50241">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/403235"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50241"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Luna</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50242">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/109126"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50242"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Lutetia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50243">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/687953"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50243"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Lydda</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50244">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/756593"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50244"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Lykopolis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50245">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/599778"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50245"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Magnesia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50246">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/648704"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50246"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Mampsoukrenai</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50247">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/216878"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50247"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Marcianopolis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50248">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/265965"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50248"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Mariana</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50250">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/148127"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50250"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Massilia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50251">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/383706"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50251"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Mediolanum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50252">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/138458"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50252"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Mediolanum (Aquitania)</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50253">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/629039"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50253"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Melitene</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50254">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/736963"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50254"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Memphis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50255">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/432940"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50255"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Minturnae</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50256">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/432941"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50256"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Misenum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50258">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/776216"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50258"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Mounesis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50259">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/197389"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50259"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Mursa</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50260">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/315085"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50260"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Musti</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50261">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/383715"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50261"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Mutina</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50262">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/786069"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50262"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Myos Hormos</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50263">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/207303"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50263"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Naissus</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50265">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/413225"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50265"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Narnia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50266">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/197400"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50266"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Narona</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50267">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/727169"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50267"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Naucratis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50268">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/433014"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50268"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Neapolis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50269">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/148142"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50269"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Nemausus</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50270">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/109194"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50270"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Nemetacum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50271">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/511268"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50271"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Nicaea</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50272">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/511337"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50272"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Nicomedia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50273">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/531013"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50273"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Nicopolis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50274">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/857248"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50274"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Nicopolis (Pontus)</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50275">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/874623"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50275"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Nisibis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50276">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/216899"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50276"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Novae</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50277">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/109224"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50277"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Noviomagus</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50278">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/432985"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50278"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Nuceria</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50279">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/413231"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50279"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ocriculum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50280">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/216904"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50280"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Odessus</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50281">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/344456"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50281"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Oea</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50282">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/216907"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50282"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Oescus</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50283">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/256338"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50283"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Olisipo</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50285">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/246539"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50285"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Osca</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50286">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/422995"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50286"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ostia/Portus</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50287">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/118901"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50287"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ovilava</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50288">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/736983"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50288"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Oxyrhynchus</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50289">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/236590"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50289"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Palantia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50290">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/668331"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50290"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Palmyra</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50291">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/716615"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50291"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Paraetonium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50292">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/383737"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50292"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Parma</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50293">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/187505"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50293"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Parthanum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50294">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/393473"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50294"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Patavium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50295">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/256358"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50295"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Pax Iulia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50296">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/491687"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50296"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Pella</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50297">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/727192"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50297"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Pelusium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50298">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/177602"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50298"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Penne Locos</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50299">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/334608"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50299"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Perdices</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50300">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/550812"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50300"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Pergamum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50301">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/511357"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50301"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Perinthus</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50302">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/697725"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50302"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Petra</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50303">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/79639"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50303"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Petuaria</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50304">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/697728"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50304"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Philadelpheia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50305">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/501482"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50305"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Philippi</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50306">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/216927"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50306"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Philippopolis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50307">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/403253"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50307"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Pisae</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50308">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/403254"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50308"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Pistoriae</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50309">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/383741"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50309"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Placentia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50310">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/197446"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50310"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Poetovio</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50311">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/197448"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50311"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Pola</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50312">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/433032"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50312"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Pompeii</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50313">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/246567"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50313"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Pompelo</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50314">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/187516"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50314"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Pons Aeni</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50315">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/187518"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50315"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Pons Drusi</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50316">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/207361"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50316"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Porolissum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50317">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/423012"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50317"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Portus</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50318">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/207362"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50318"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Potaissa</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50319">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/364003"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50319"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Praetorium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50320">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/373879"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50320"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ptolemais</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50321">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/756635"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50321"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ptolemais Hermiou</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50322">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/432815"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50322"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Puteoli</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50323">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/393480"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50323"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ravenna</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50324">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/413283"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50324"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Reate</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50326">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/452416"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50326"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Regium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50327">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/423025"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50327"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Roma</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50328">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/285512"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50328"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Rusaddir</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50329">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/305137"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50329"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Rusicade</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50330">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/79664"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50330"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Rutupiae</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50331">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/344282"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50331"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Sabratha</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50332">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/266021"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50332"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Saguntum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50333">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/275696"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50333"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Sala</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50334">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/305142"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50334"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Saldae</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50335">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/433075"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50335"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Salernum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50336">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/197488"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50336"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Salona</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50338">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/658587"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50338"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Samosata</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50339">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/187537"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50339"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Santicum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50340">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/550867"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50340"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Sardis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50342">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/874684"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50342"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Satala</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50343">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/197498"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50343"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Savaria</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50344">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/197501"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50344"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Scarbantia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50345">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/481986"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50345"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Scodra</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50346">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/678378"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50346"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Scythopolis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50347">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/629075"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50347"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Sebasteia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50348">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/167919"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50348"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Segusio</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50349">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/197505"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50349"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Senia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50350">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/207439"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50350"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Serdica</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50351">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/197509"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50351"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Servitium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50352">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/315152"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50352"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Sicca Veneria</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50353">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/639105"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50353"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Side</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50354">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/285521"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50354"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Siga</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50355">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/874699"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50355"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Singara</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50356">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/207443"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50356"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Singidunum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50357">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/433122"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50357"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Sinuessa</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50358">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/442797"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50358"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Sipontum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50359">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/207447"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50359"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Sirmium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50360">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/266043"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50360"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Sisapo</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50361">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/197504"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50361"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Siscia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50362">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/305153"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50362"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Sitifis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50363">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/550893"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50363"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Smyrna</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50364">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/668376"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50364"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Soura</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50365">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/79692"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50365"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Spinis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50366">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/413320"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50366"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Spoletium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50367">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/491731"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50367"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Stobi</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50368">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/295346"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50368"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Sufasar</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50369">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/324816"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50369"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Sufetula</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50370">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/118986"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50370"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Summuntorium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50371">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/246671"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50371"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Summus Pyreneus (West)</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50372">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/246672"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50372"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Summus Pyreneus (East)</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50373">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/786123"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50373"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Syene</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50375">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/207485"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50375"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Taliata</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50376">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/619267"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50376"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Tabia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50377">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/442810"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50377"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Tarentum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50378">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/433143"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50378"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Tarracina</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50380">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/648789"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50380"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Tarsus</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50382">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/727244"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50382"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Terenouthis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50383">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/187578"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50383"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Tergeste</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50384">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/315198"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50384"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Thagaste</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50385">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/334636"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50385"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Thamugadi</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50386">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/541138"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50386"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Thebae</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50387">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/324828"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50387"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Thelepte</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50388">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/678427"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50388"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Thelseai</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50389">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/491741"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50389"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Thessalonica</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50390">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/324831"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50390"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Theveste</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50391">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/315221"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50391"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Thuburnica</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50392">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/207495"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50392"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Tibiscum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50393">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/423081"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50393"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Tibur</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50395">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/383798"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50395"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Ticinum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50396">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/275736"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50396"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Tingi</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50398">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/246694"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50398"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Tolosa</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50399">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/217016"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50399"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Tomis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50400">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/599987"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50400"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Tralles</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50401">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/857359"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50401"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Trapezus</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50402">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/383804"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50402"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Tridentum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50403">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/217025"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50403"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Troesmis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50404">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/648801"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50404"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Tyana</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50405">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/678437"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50405"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Tyrus</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50406">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/167718"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50406"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Valentia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50407">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/167954"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50407"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Vappincum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50408">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/187608"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50408"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Veldidena</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50409">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/79732"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50409"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Venonis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50411">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/79735"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50411"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Venta Icenorum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50413">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/383815"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50413"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Vercellae</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50414">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/383816"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50414"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Verona</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50415">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/79739"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50415"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Verulamium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50416">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/177657"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50416"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Vesontio</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50417">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/452337"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50417"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Vibo Valentia</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50419">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/207549"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50419"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Viminacium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50420">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/128537"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50420"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Vindobona</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50421">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/79741"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50421"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Viroconium</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50422">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/246748"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50422"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Virovesca</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50423">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/197583"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50423"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Virunum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50424">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/177663"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50424"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Vivisco</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50425">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/413389"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50425"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Volsinii</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50426">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/275740"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50426"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Volubilis</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50427">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/334669"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50427"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Zarai</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50428">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/658636"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50428"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Zeugma</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50429">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/167717"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50429"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Lugdunum</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50430">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/844944"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50430"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Heraclea Pontica</dcterms:title>
+</rdf:Description>
+<rdf:Description rdf:ID="orbis_50431">
+	<rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+	<oac:hasBody rdf:resource="http://pleiades.stoa.org/places/638955"/>
+	<oac:hasTarget rdf:resource="http://orbis.stanford.edu/api/site/50431"/>
+	<dcterms:creator rdf:resource="http://orbis.stanford.edu/"/>
+	<dcterms:title>The Roman era place, Laodicea ad Lycum</dcterms:title>
+</rdf:Description>
+</rdf:RDF>

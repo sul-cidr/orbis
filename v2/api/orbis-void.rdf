@@ -1,0 +1,20 @@
+<rdf:RDF
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:void="http://rdfs.org/ns/void#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+     <rdf:Description rdf:about="http://orbis.stanford.edu/api/void.ttl">
+         <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+         <dcterms:title>ORBIS: The Stanford Geospatial Network Model of the Roman World</dcterms:title>
+         <dcterms:description>ORBIS seeks to better understand the shape of the ancient world as it 
+           was influenced by location, time of year, priority, and mode of travel. 
+           It presents this information using traditional cartographic methods and 
+           data visualization. This is made possible through the use of a network 
+           transportation model based on historical maritime and terrestrial 
+           routes, as well as cost in time and money based on historical sources 
+           and simulations.</dcterms:description>
+         <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+         <foaf:homepage rdf:resource="http://orbis.stanford.edu"/>
+         <void:dataDump rdf:resource="http://orbis.stanford.edu/api/orbis.pelagios.rdf"/>
+     </rdf:Description>
+</rdf:RDF>

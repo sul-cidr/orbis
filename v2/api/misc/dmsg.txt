@@ -1,0 +1,1 @@
+you put a directory name in your REST request

@@ -1,0 +1,6 @@
+#AuthType WebAuth
+#Require valid-user
+
+# AuthGroupFile /webs/authgroups
+# require group orbis
+

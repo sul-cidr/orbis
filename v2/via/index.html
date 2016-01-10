@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html  itemscope itemtype="http://schema.org/WebApplication">
+  <head>
+  <title>ORBIS|via</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+<script type="text/javascript" src="../../lib/d3/d3.v2.min.js"></script>
+
+<meta itemprop="name" content="ORBIS|via">
+<meta itemprop="description" content="ORBIS|via - A situated perspective into the ORBIS network model of the Roman world.">
+<meta itemprop="image" content="http://orbis.stanford.edu/via/">
+
+<style type="text/css">
+
+svg {
+  width: 1280px;
+  height: 800px;
+  pointer-events: all;
+}
+
+circle {
+  fill: #dbe4f0;
+}
+
+path {
+  fill: #bfc7a4;
+  stroke: #a4bebe;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+    </style>
+
+  </head>
+  <body>
+      <div id="header" style="height:55px; border:0px solid gray; background-color:#fdfbf1;">
+            <a href="http://orbis.stanford.edu/" target="_blank"><img src="images/orbis_via_l.png"/></a><img src="images/orbis_via_r.png"/>
+      <a href="http://orbis.stanford.edu/#map" target="_blank"><img src="images/orbis_map.png"/></a>
+            <a href="http://orbis.stanford.edu/#cartogram" target="_blank"><img src="images/orbis_cartogram.png"/></a>
+            <div class="g-plusone" data-size="medium"></div>
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://orbis.stanford.edu/via/" data-via="ORBIS_Stanford">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Forbis.stanford.edu%2Fvia%2F&amp;send=false&amp;layout=button_count&amp;width=300&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=20" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:20px;" allowTransparency="true"></iframe>
+</div>
+    
+    <div id="body" style="border:0px solid gray; background-color:#fdfbf1;">
+    </div>
+    <script type="text/javascript">
+	  if ((document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1")) == false) {
+		  var html = "ORBIS|via requires SVG support. Please upgrade your browser to one that supports SVG graphics.";
+		  document.getElementById("body").innerHTML = html;
+	  }
+
+    </script>
+
+    <script type="text/javascript">
+
+    ///ANALYTICS
+var _gaq = _gaq || [];
+
+_gaq.push(['_setAccount', 'UA-30365192-1']);
+
+_gaq.push(['_trackPageview']);
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+
+
+(function() {
+
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+})();    
+    ///
+
+    
+rankRamp=d3.scale.linear().domain([50,90,100]).range([4,8,16]).clamp(true);
+
+routeTypeVernacularArray = {"road": "traveling on the road","upstream": "sailing upstream","downstream": "sailing downstream","slowcoast": "sailing along the coast","slowover": "sailing overseas","ferry": "taking a ferry route"};
+routeTypeArray = ["road", "upstream", "downstream", "slowcoast", "slowover", "ferry"];
+routeLegend = {"road": "#906045", "upstream": "#174787", "downstream": "#5390e2", "slowcoast": "#cfdfd6", "slowover": "#9f7f90", "ferry": "purple", "Start": "Red"};
+vehicleOption = ["foot", "rapidmarch", "oxcart", "porter", "horse", "privateroutine", "privateaccelerated", "fastcarriage", "horserelay"];
+vehicleOptionName = ["Foot (30km/day)", "Rapid March (60km/day)", "Oxcart (12km/day)", "Porter (20km/day)", "Horseback (56km/day)", "Private Travel (36km/day)", "Private Travel (Accelerated) (50km/day)", "Fast Carriage (67km/day)", "24-hour Horse Relay (250km/day)"];
+monthArray = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+currentVehicle = 0;
+currentDuration = 0;
+currentDate = new Date(301,0,1);
+currentLocation = {"type": "Feature", "geometry": {"type":"Point","coordinates":[12.485073740960559,41.891009607907208]}, "properties": {"nodeid":50327,"rank":100,"label": "Roma","modes": ["road","downstream"],"routeTime": [{"road": 2.05},{"downstream": 1.61}]}};
+startup = true;
+var feature;
+var routeObjects;
+var sites;
+
+currentRoutes = new Array();
+yourRoute = new Array();
+
+projection = d3.geo.azimuthal()
+    .scale(1000)
+    .origin([12.485073740960559,41.891009607907208])
+    .mode("orthographic")
+    .translate([640, 400]);
+
+circle = d3.geo.greatCircle()
+    .origin(projection.origin());
+
+path = d3.geo.path()
+    .projection(projection);
+
+svg = d3.select("#body").append("svg:svg")
+    .attr("width", 1280)
+    .attr("height", 800)
+    ;
+
+backMap = svg.append("svg:g").attr("class", "map")
+	.attr("transform", "translate(2,3)")
+
+d3.json("romeland.json", function(collection) {
+	  embossed = backMap.selectAll("path.countries")
+	      .data(collection.features)
+	    .enter().append("svg:path")
+	      .attr("d", clip)
+	      .attr("class", "countries")
+//	      .style("fill", "brown")
+	      .style("stroke", "#638a8a")
+	      .style("stroke-width", 4)
+	      	      ;
+
+map = svg.append("svg:g").attr("class", "map");
+	  feature = map.selectAll("path.countries")
+	      .data(collection.features)
+	    .enter().append("svg:path")
+	      .attr("d", clip)
+	      .attr("class", "countries")
+	      	      ;
+
+		  d3.json("basepaths.json", function(collection) {
+			  baseRoads = map.selectAll("path.routes")
+			      .data(collection.features)
+			    .enter().append("svg:path")
+			      .style("fill", "none")
+			      .style("stroke", function(d) {return (d.c == "d" ? "#efe4a9" : "#7ca5e4")})
+			      .attr("d", clip)
+			      .attr("class", "baseroads")
+			      .style("stroke-width", 2)
+			      .style("opacity", 0)
+				      .transition()
+				      .duration(1000)
+				      .style("opacity", .8)
+			      	      ;
+
+//      	      create and empty a yourRouteObjects
+				yourRouteObjects = map.selectAll("path.yourroutes")
+			    .data(collection.features[0])
+			    .attr("d", clip)
+			    .attr("class", "yourroutes")
+			    	  ;
+			    map.selectAll("path.yourroutes").remove();
+
+	  populateBaseSites();
+		});
+	});
+
+
+function createCenterPoint() {
+	d3.select(document.getElementById("centerLabel")).remove()
+		
+	centerLabel = svg.append("svg:g")
+	.attr("id", "centerLabel")
+	;
+
+	centerLabel
+	.append("svg:circle")
+	.attr("cx", 640)
+	.attr("cy", 400)
+	.attr("r", 15)
+	.style("stroke", "#f56446")
+	.style("stroke-width", 5)
+	.style("fill", "none")
+		      .style("opacity", 0)
+		      .transition()
+		      .delay(1000)
+		      .duration(1000)
+		      .style("opacity", .6)
+	;
+	
+	centerLabel
+	.append("svg:text")
+      .text((currentLocation.properties.label == "x") ? "" : currentLocation.properties.label)
+	.attr("x", 633)
+	.attr("y", 407)
+      	  .attr("stroke", "white")
+      	  .attr("stroke-width", "5")
+	      .style("font-size", "150%")
+		      .style("opacity", 0)
+		      .transition()
+		      .delay(1000)
+		      .duration(1000)
+		      .style("opacity", .5)
+      ;
+    
+	centerLabel
+	.append("svg:text")
+      .text((currentLocation.properties.label == "x") ? "" : currentLocation.properties.label)
+	.attr("x", 633)
+	.attr("y", 407)
+	      .style("font-size", "150%")
+		      .style("opacity", 0)
+		      .transition()
+		      .delay(1000)
+		      .duration(1000)
+		      .style("opacity", 1)
+      ;
+    	
+}
+
+function welcomeScreen() {
+
+	welcome = svg.append("svg:g")
+	.attr("id", "welcome")
+	;
+
+	welcome
+	.append("svg:rect")
+	.attr("height", 800)
+	.attr("width", 1280)
+	.style("opacity", 0)
+    .on("click", function() {closeWelcome()})
+	;
+
+	
+	welcome
+	.append("svg:rect")
+	.attr("height", 560)
+	.attr("width", 600)
+	.attr("rx", 20)
+	.attr("ry", 20)
+	.attr("x", 490)
+	.attr("y", 85)
+	.style("stroke", "white")
+	.style("fill", "#e1b0b0")
+	.style("opacity", .9)
+	;
+
+			welcome
+			.append("svg:foreignObject")
+			.attr("height", 545)
+			.attr("width", 600)
+			.attr("x", 490)
+		    .attr("y", 90)
+		  .append("xhtml:body")
+		    .html("<center><p><h1>Welcome to ORBIS|via</h1></p></center><p><img src='images/via_modes.png' align='right' onclick='closeWelcome()' alt='How modes appear in ORBIS|via'/>To get started, click on one of the orange sites to see its name. When you click on the site's name, you'll be able to travel around the ORBIS network from that site. When you click on a connected site, you'll be shown the methods of travel available to that site and the number of days it takes to get there. By clicking on that number, you'll travel to the site.</p><p>This is meant to be a simple proof-of-concept demonstrating that models like ORBIS can provide multiple points of interaction with humanities scholarship. In this case, ORBIS|via allows you to travel the network in a fashion similar to the great early video game <b>Oregon Trail</b>. Obviously, there are no game elements, and only speed is taken into account (Once we release an API, you might see an independent game developer make a true Oregon Trail for Rome).</p><p>ORBIS|via uses routes and sites from <a href='http://orbis.stanford.edu' target='_blank'>ORBIS: The Stanford Geospatial Model of the Roman World</a> created by <a href='http://www.stanford.edu/~scheidel/' target='_blank'>Walter Scheidel</a> and <a href='http://dhs.stanford.edu' target='_blank'>Elijah Meeks</a> with the support of Stanford University Library. The site is written in <a href='http://d3js.org/' target='_blank'>d3.js</a> by Elijah Meeks with art by <a href='http://www.hajrameeks.com' target='_blank'>Hajra Meeks</a>.</p><p><center><a href='#' onclick='closeWelcome()'> - click here or on the map to remove this box - </a></center></p>");
+
+}
+
+		    function closeWelcome() {
+		    	d3.select(document.getElementById("welcome")).remove(); 
+		    	_gaq.push(['_trackEvent', 'viaEvent', "closeWelcomeScreen"]);			    
+		    }
+		    
+function restartVia() {
+    d3.select(document.getElementById("centerLabel")).remove()
+	map.selectAll("path.yourroutes").remove();
+	d3.selectAll("g.sites").remove();
+	d3.selectAll("path.routes").remove();
+	projection.origin([12.485073740960559,41.891009607907208]);
+    refresh(1,1000);
+    summaryStatistics();
+	populateBaseSites();
+}
+
+function populateBaseSites() {
+	  d3.json("selectionSites.json", function(json) {
+		  sites = map.selectAll("g.sites")
+		      .data(json.features)
+		      .enter()
+		      .append("svg:g")
+		      .attr("class", "sites")
+		      .attr("id", function(d) {return "site" + d.properties.nodeid})
+		      .attr("transform", function(d) {return "translate(" + projection(d.geometry.coordinates) + ")";})
+		      .style("cursor", "pointer")
+		      .on("click", siteClick)
+		      ;
+	      sites.append("svg:circle")			      
+		      .attr('r', function(d) {return (d.properties.rank == 100) ? 5 : 3})
+		      .attr("class", "sites")
+		      .style("fill", function(d) {return (d.properties.rank == 100) ? "#f69970" : "#f56446"})
+		      .style("opacity", 0)
+		      .transition()
+		      .delay(300)
+		      .duration(1000)
+		      .style("opacity", .85)
+		      ;
+
+		  if (startup == true) {
+			  welcomeScreen();
+			  startup = false;
+		  }
+	      
+	  })
+
+}
+
+function refresh(duration, scale) {
+
+	d3.select(document.getElementById("summary")).remove();
+	
+	projection.scale(scale);
+	
+  (duration ? embossed.transition().duration(duration) : embossed).attr("d", clip);
+  (duration ? feature.transition().duration(duration) : feature).attr("d", clip);
+  (duration ? baseRoads.transition().duration(duration) : baseRoads).attr("d", clip);
+  (duration ? routeObjects.transition().duration(duration) : routeObjects).attr("d", clip);
+  (duration ? sites.attr("transform", function(d) {return "translate(" + checkProjection(d.geometry.coordinates) + ")";}) : sites.transition().duration(duration).attr("transform", function(d) {return "translate(" + projection(o1) + ")";}));
+  (duration ? yourRouteObjects.transition().duration(duration) : yourRouteObjects).attr("d", clip);
+			  
+}
+
+function clip(d) {
+  return path(circle.clip(d));
+}
+
+function checkProjection(inArray){
+	inArray = projection(inArray);
+	inArray[0] = Math.min(inArray[0],1200);
+	inArray[1] = Math.min(inArray[1],760);
+	inArray[0] = Math.max(inArray[0],40);
+	inArray[1] = Math.max(inArray[1],40);
+	return inArray;
+}
+
+function createVoyage(d,i,mode) {
+
+	if (mode == "upstream" || mode == "downstream") {
+		voyageImage = "vignettes/river.png";
+	}
+	else if (mode == "slowover" || mode == "slowcoast") {
+		voyageImage = "vignettes/overseas.png";
+	}
+	else {
+		voyageImage = "vignettes/road.png";
+	}
+	_gaq.push(['_trackEvent', 'viaRouteEvent', "" + mode]); 
+	
+	voyage = svg.append("svg:g")
+			.attr("id", "voyage")
+		    .on("click", function() {voyageClick(d,i)});
+			;
+
+			voyage
+			.append("svg:rect")
+			.attr("height", 800)
+			.attr("width", 1280)
+			.style("stroke", "#fdfbf1")
+			.style("fill", "#fdfbf1")
+			.style("opacity", .5)
+			;
+
+			voyage
+			.append("svg:rect")
+			.attr("height", 300)
+			.attr("width", 300)
+			.attr("x", 490)
+			.attr("y", 150)
+			.style("stroke", "brown")
+			.style("fill", "brown")
+			.style("opacity", .7)
+			;
+			  voyage
+				.append("svg:image")
+			    .attr("xlink:href", voyageImage)
+			    .attr("x", 500)
+			    .attr("y", 160)
+			    .attr("width", 280)
+			    .attr("height", 280);
+
+			    var voyageText = "";
+
+			    if (mode == "Start") {
+
+					    voyageText += ("<p><center>You are in " + d.properties.label + "</p></center> From here you can travel around the Roman world.</p>");
+			    }
+			    else {
+			    if (mode == "road") {
+
+			    voyageText += ("<p>You are traveling by <b>" + vehicleOptionName[currentVehicle] + "</b> from <b>" + ((currentLocation.properties.label == "x") ? "a crossroads" : currentLocation.properties.label) + "</b> to <b>" + ((d.properties.label == "x") ? "a crossroads" : d.properties.label) + "</b>.</p>");
+				     }
+					    
+			    else {
+					    voyageText += ("<p>You are sailing from <b>" + currentLocation.properties.label + "</b> to <b>" + d.properties.label + "</b>.</p>");
+			    }
+
+			    for (x = 0; x < currentRoutes.features.length; x++) {
+
+				   if (currentRoutes.features[x].properties.source == currentLocation.properties.nodeid && currentRoutes.features[x].properties.target == d.properties.nodeid && currentRoutes.features[x].properties.type == mode) {
+					   yourRoute.push(currentRoutes.features[x])
+
+				voyageText += ("<p>The journey will cover " + currentRoutes.features[x].properties.length + "km and take " + ((currentRoutes.features[x].properties.duration > 1.5) ? Math.round(currentRoutes.features[x].properties.duration) + " days" : "a day or less" ) + ".</p>");
+					   
+					   break;
+				   }
+			    }
+			    }
+
+				voyage
+				.append("svg:rect")
+				.attr("height", 140)
+				.attr("width", 300)
+				.attr("x", 490)
+				.attr("y", 455)
+				.style("stroke", "#fdfbf1")
+				.style("fill", "#fdfbf1")
+				.style("opacity", .75)
+				;
+				
+					  voyage.append("svg:foreignObject")
+						.attr("height", 140)
+						.attr("width", 300)
+						.attr("x", 490)
+					    .attr("y", 455)
+					  .append("xhtml:body")
+					    .html(voyageText);
+
+					  d3.json("plQuery.php?s="+currentLocation.properties.nodeid+"&t="+d.properties.nodeid, function(json) {
+						  plsites = svg.selectAll("g.plsites")
+						      .data(json)
+						      .enter()
+						      .append("svg:g")
+						      .attr("class", "plsites")
+						      .attr("transform", function(d, i) {return "translate(100,"+ ((i * 25) + 200) + ")";})
+						      .style("cursor", "pointer")
+						      .on("click", plClick)
+						      ;
+
+					      if(plsites[0].length > 0) {
+
+						    voyage.append("svg:text")
+						    .attr("x",60)
+						    .attr("y",185)
+						    .text("Places near this route (from Pleiades)")
+						      .style("font-size", "150%")
+						      .style("opacity", 0)
+						      .transition()
+						      .duration(1000)
+						      .style("opacity", 1)						      
+					      }
+
+					      plsites.append("svg:text")
+					      .text( function(d) {return d.label})
+					      .style("font-size", "150%")
+					      .attr("x", 10)
+					      .attr("y", 9)
+						      .style("opacity", 0)
+						      .transition()
+						      .duration(1000)
+						      .style("opacity", 1)
+					      ;
+					      
+					      
+					      plsites.append("svg:circle")			      
+						      .attr('r', 7)
+						      .attr("class", "sites")
+						      .style("stroke", "#2265c1")
+						      .style("stroke-width", 3)
+						      .style("fill", "#fdfbf1")
+						      .style("opacity", 0)
+						      .transition()
+						      .duration(1000)
+						      .style("opacity", 1)
+						      ;
+						      
+					  })
+				
+}
+
+function plClick(d,i) {
+	window.open('http://pleiades.stoa.org' + d.link,'_blank');
+}
+
+function voyageClick(d,i) {
+	svg.selectAll("g.plsites").remove();
+	d3.select(document.getElementById("voyage")).remove();
+	changeCenter(d,i);
+	currentLocation = d;
+	_gaq.push(['_trackEvent', 'viaMoveEvent', "" + currentLocation.properties.label]); 
+}
+
+
+
+function createVignette(d,i) {
+	d3.select(document.getElementById("vignette")).remove();
+	var vignetteImage = "road";
+
+	switch(d.properties.label)
+	{
+	case "Constantinopolis":
+		vignetteImage = "constantinopolis";
+	  break;
+	case "Lugdunum":
+		vignetteImage = "lugdunum";
+	  break;
+	case "Roma":
+		vignetteImage = "roma";
+	  break;
+	default:
+		if (d.properties.rank > 85) {
+			vignetteImage = "urban"
+		}
+		else if (d.properties.rank > 50) {
+			vignetteImage = "rural"
+		}
+	}
+	
+		  vignette = svg.append("svg:g")
+		      .attr("id", "vignette")
+		      ;
+
+		  vignette
+	      .append("svg:rect")
+	      .attr("height", 300)
+	      .attr("width", 300)
+		      .attr("x", 970)
+		      .attr("y", 110)
+	      .style("fill", "#e1b0b0")
+	  .style("stroke", "#133b71")
+	      ;
+
+		  vignette
+			.append("svg:image")
+		    .attr("xlink:href", ("vignettes/" + vignetteImage + ".png"))
+		    .attr("x", 980)
+		    .attr("y", 120)
+		    .attr("width", 280)
+		    .attr("height", 280);
+
+		  vignette
+			.append("svg:text")
+		    .attr("x", 975)
+		    .attr("y", 35)
+   	        .style("font-size", "200%")
+		    .text((d.properties.label == "x") ? "a crossroads" : d.properties.label);
+		    
+		  vignette
+			.append("svg:text")
+		    .attr("x", 975)
+		    .attr("y", 65)
+   	        .style("font-size", "115%")
+		    .text("" + currentDuration + " days travelling");
+
+		  vignette
+			.append("svg:text")
+		    .attr("x", 975)
+		    .attr("y", 95)
+ 	        .style("font-size", "115%")
+		    .text("" + vehicleOptionName[currentVehicle]);
+		    
+		  vignette
+			.append("svg:text")
+		    .attr("x", 1135)
+		    .attr("y", 75)
+ 	        .style("font-size", "300%")
+		    .text("" + monthArray[currentDate.getMonth()] + " " + currentDate.getDate());
+		  
+		  
+		  vignette
+			  .append("svg:rect")
+			  .attr("height", 20)
+			  .attr("width", 20)
+			  .attr("x", 1240)
+			  .attr("y", 120)
+			  .attr("rx", 10)
+			  .attr("ry", 10)
+			  .attr("fill", "#f69970")
+			  .style("stroke", "#133b71")
+			  .style("opacity", 1)
+		      .style("cursor", "pointer")			  
+		    .on("click", closeVignette);
+		    
+		  vignette
+			.append("svg:image")
+		    .attr("xlink:href", ("icons/x.svg"))
+			.attr("x", 1245)
+		  	.attr("y", 125)
+		    .attr("width", 10)
+		    .attr("height", 10)
+		    .style("cursor", "pointer")
+		    .on("click", closeVignette);
+
+
+		  for (x = 0; x < 9; x++) {
+			  vehicleButton = vignette.append("svg:g")
+			  .style("cursor", "pointer")
+		      .on("click", changeVehicle)
+		      .attr("id", x);
+		      
+		vehicleButton
+		  .append("svg:rect")
+		  .attr("height", 30)
+		  .attr("width", 30)
+		  .attr("x", 965 + x * 35)
+		  .attr("y", 415)
+		  .attr("rx", 5)
+		  .attr("fill", "#f69970")
+		  .style("stroke", "#133b71")
+		  .attr("id", "rect" + x)
+		  .style("opacity", 1)
+		  ;
+
+		vehicleButton
+			.append("svg:image")
+		    .attr("class", "nodeMenu")
+		    .attr("xlink:href", ("icons/" + vehicleOption[x] + ".svg"))
+			.attr("x", 965 + x * 35)
+			.attr("y", 415)
+		    .attr("width", 30)
+		    .attr("height", 30)
+			;
+
+		vehicleButton.append("svg:title")
+			.text("Switch to " + vehicleOptionName[x])
+			;    
+		  }
+
+		  bedButton = vignette.append("svg:g")
+  		  .attr("id", x)
+  	      .on("click", plusDay)
+		  .style("cursor", "pointer")
+		  ;
+		  
+		  bedButton.append("svg:rect")
+		  .attr("height", 30)
+		  .attr("width", 50)
+		  .attr("x", 975)
+		  .attr("y", 450)
+		  .attr("rx", 5)
+		  .attr("fill", "#f56446")
+		  .style("stroke", "#133b71")
+		  .style("opacity", 1);
+		  
+		  bedButton.append("svg:image")
+		    .attr("xlink:href", ("icons/bed.svg"))
+			.attr("x", 976)
+			.attr("y", 450)
+		    .attr("width", 50)
+		    .attr("height", 30)
+			;
+		  bedButton.append("svg:title")
+			.text("Wait until tomorrow morning")
+			;
+
+		  monthButton = vignette.append("svg:g")
+  		  .attr("id", x)
+  	      .on("click", plusMonth)
+		  .style("cursor", "pointer")
+		  ;
+		  monthButton.append("svg:rect")
+		  .attr("height", 30)
+		  .attr("width", 50)
+		  .attr("x", 1035)
+		  .attr("y", 450)
+		  .attr("rx", 5)
+		  .attr("fill", "#f56446")
+		  .style("stroke", "#133b71")
+		  .style("opacity", 1);
+		  
+		  monthButton.append("svg:image")
+		    .attr("xlink:href", ("icons/calendar.svg"))
+			.attr("x", 1036)
+			.attr("y", 450)
+		    .attr("width", 50)
+		    .attr("height", 30)
+			;
+		  monthButton.append("svg:title")
+			.text("Wait until next month")
+			;
+
+		  zoomButtonHere = vignette.append("svg:g")
+  		  .attr("id", x)
+  	      .on("click", zoomButton)
+		  .style("cursor", "pointer")
+		  ;
+		  zoomButtonHere.append("svg:rect")
+		  .attr("height", 30)
+		  .attr("width", 50)
+		  .attr("x", 1095)
+		  .attr("y", 450)
+		  .attr("rx", 5)
+		  .attr("fill", "#f56446")
+		  .style("stroke", "#133b71")
+		  .style("opacity", 1);
+		  
+		  zoomButtonHere.append("svg:image")
+		    .attr("xlink:href", ("icons/medworld.svg"))
+			.attr("x", 1096)
+			.attr("y", 450)
+		    .attr("width", 50)
+		    .attr("height", 30)
+			;
+		  zoomButtonHere.append("svg:title")
+			.text("Zoom out")
+			;
+
+		  trailButtonHere = vignette.append("svg:g")
+  		  .attr("id", x)
+  	      .on("click", trailButton)
+		  .style("cursor", "pointer")
+		  ;
+		  trailButtonHere.append("svg:rect")
+		  .attr("height", 30)
+		  .attr("width", 50)
+		  .attr("x", 1155)
+		  .attr("y", 450)
+		  .attr("rx", 5)
+		  .attr("fill", "#f56446")
+		  .style("stroke", "#133b71")
+		  .style("opacity", 1);
+		  
+		  trailButtonHere.append("svg:image")
+		    .attr("xlink:href", ("icons/trail.svg"))
+			.attr("x", 1156)
+			.attr("y", 450)
+		    .attr("width", 50)
+		    .attr("height", 30)
+			;
+		  trailButtonHere.append("svg:title")
+			.text("Show your journey")
+			;
+
+		  restartButton = vignette.append("svg:g")
+  		  .attr("id", x)
+  	      .on("click", restartVia)
+		  .style("cursor", "pointer")
+		  ;
+		  restartButton.append("svg:rect")
+		  .attr("height", 30)
+		  .attr("width", 50)
+		  .attr("x", 1215)
+		  .attr("y", 450)
+		  .attr("rx", 5)
+		  .attr("fill", "#f56446")
+		  .style("stroke", "#133b71")
+		  .style("opacity", 1);
+		  
+		  restartButton.append("svg:image")
+		    .attr("xlink:href", ("icons/newvia.svg"))
+			.attr("x", 1216)
+			.attr("y", 450)
+		    .attr("width", 50)
+		    .attr("height", 30)
+			;
+		  restartButton.append("svg:title")
+			.text("Start a new journey")
+			;
+			  		  
+}
+
+function openVignette() {
+	d3.select(document.getElementById("vignette")).remove();
+	createVignette(currentLocation,0);
+}
+function closeVignette() {
+	d3.select(document.getElementById("vignette")).remove();
+
+	  vignette = svg.append("svg:g")
+      .attr("id", "vignette")
+      ;
+
+	  vignette
+	  .append("svg:rect")
+	  .attr("height", 40)
+	  .attr("width", 30)
+	  .attr("x", 1230)
+	  .attr("y", 20)
+	  .attr("rx", 5)
+	  .attr("fill", "#f56446")
+	  .style("stroke", "#133b71")
+	  .style("opacity", 1)
+	  .style("cursor", "pointer")
+    .on("click", openVignette);
+
+	  vignette
+		.append("svg:image")
+	    .attr("xlink:href", ("icons/vignette.svg"))
+		.attr("x", 1231)
+		.attr("y", 21)
+	    .attr("height", 40)
+	    .attr("width", 30)
+		.attr("id", x)
+		.style("cursor", "pointer")
+		.on("click", openVignette);
+
+}
+
+function changeVehicle(d, i) {
+	currentVehicle = this.id;
+	changeCenter(currentLocation,0);
+	_gaq.push(['_trackEvent', 'viaEvent', "vehicle-" + vehicleOption[this.id]]);
+
+	d3.select(document.getElementById("rect" + this.id))
+	.transition()
+    .duration(100)
+	  .style("fill", "gray");
+
+	d3.select(document.getElementById("rect" + this.id))
+	.transition()
+	.delay(200)
+    .duration(100)
+	  .style("fill", "orange");
+	
+	
+}
+
+function zoomButton(d, i) {
+	if(projection.scale() == 15000) {
+    refresh(1,4500);
+	}
+	else if (projection.scale() == 4500) {	
+		projection.origin([12.485073740960559,41.891009607907208]);
+	    refresh(1,1000);
+	    summaryStatistics();
+	    d3.select(document.getElementById("centerLabel")).remove()
+	}
+	else {
+		projection.origin(currentLocation.geometry.coordinates);
+	    refresh(1,15000);
+	    createCenterPoint();
+	}
+}
+
+function summaryStatistics() {
+
+    durationMax = 0;
+    lengthMax = 0;
+    lengthArray = [0, 0, 0, 0, 0, 0];
+    durationArray = [0, 0, 0, 0, 0, 0];
+
+	d3.select(document.getElementById("summary")).remove();
+
+	  summary = svg.append("svg:g")
+      .attr("id", "summary")
+      ;      
+
+	  summary
+		.append("svg:line")
+		.attr("x1", 280)
+		.attr("x2", 280)
+		.attr("y1", 60)
+		.attr("y2", 300)
+		.style("stroke", "#c9b7c1")
+		.style("stroke-width", 1)
+		;
+
+	  summary
+		.append("svg:line")
+		.attr("x1", 35)
+		.attr("x2", 35)
+		.attr("y1", 60)
+		.attr("y2", 300)
+		.style("stroke", "#c9b7c1")
+		.style("stroke-width", 1)
+		;
+	  
+	  
+	  for (x = 0; x < yourRoute.length; x++) {
+			switch(yourRoute[x].properties.type)
+			{
+			case "road":
+				  lengthArray[0] += yourRoute[x].properties.length;
+				  durationArray[0] += yourRoute[x].properties.duration;
+				  lengthMax = Math.max(lengthArray[0],lengthMax);
+				  durationMax = Math.max(durationArray[0],durationMax);
+			  break;
+			case "upstream":
+				  lengthArray[1] += yourRoute[x].properties.length;
+				  durationArray[1] += yourRoute[x].properties.duration;
+				  lengthMax = Math.max(lengthArray[1],lengthMax);
+				  durationMax = Math.max(durationArray[1],durationMax);
+				  break;
+			case "downstream":
+				  lengthArray[2] += yourRoute[x].properties.length;
+				  durationArray[2] += yourRoute[x].properties.duration;
+				  lengthMax = Math.max(lengthArray[2],lengthMax);
+				  durationMax = Math.max(durationArray[2],durationMax);
+				  break;
+			case "slowcoast":
+				  lengthArray[3] += yourRoute[x].properties.length;
+				  durationArray[3] += yourRoute[x].properties.duration;
+				  lengthMax = Math.max(lengthArray[3],lengthMax);
+				  durationMax = Math.max(durationArray[3],durationMax);
+				  break;
+			case "slowover":
+				  lengthArray[4] += yourRoute[x].properties.length;
+				  durationArray[4] += yourRoute[x].properties.duration;
+				  lengthMax = Math.max(lengthArray[4],lengthMax);
+				  durationMax = Math.max(durationArray[4],durationMax);
+				  break;
+			case "ferry":
+				  lengthArray[5] += yourRoute[x].properties.length;
+				  durationArray[5] += yourRoute[x].properties.duration;
+				  lengthMax = Math.max(lengthArray[5],lengthMax);
+				  durationMax = Math.max(durationArray[5],durationMax);
+				  break;
+				  
+			}
+	  }
+
+	  durationRamp=d3.scale.linear().domain([0,durationMax]).range([0,100]);		
+	  lengthRamp=d3.scale.linear().domain([0,lengthMax]).range([0,100]);		
+
+	  
+	  for (x = 0; x < routeTypeArray.length; x++) {
+
+		  durationArray[x];
+		  lengthArray[x];
+
+		  summary
+			.append("svg:image")
+		    .attr("xlink:href", ("icons/" + routeTypeArray[x] + ".svg"))
+			.attr("x", 145)
+			.attr("y", 75 + x * 35)
+		    .attr("width", 30)
+		    .attr("height", 30)
+			.attr("id", x)
+
+			  summary
+				.append("svg:rect")
+				.attr("x", 180)
+				.attr("y", 75 + x * 35)
+			    .attr("width", durationRamp(durationArray[x]))
+			    .attr("height", 30)
+			    .style("fill", routeLegend[routeTypeArray[x]])
+				.attr("id", x)
+				;
+
+				  summary
+					.append("svg:rect")
+					.attr("x", 135 - lengthRamp(lengthArray[x]))
+					.attr("y", 75 + x * 35)
+				    .attr("width", lengthRamp(lengthArray[x]))
+				    .attr("height", 30)
+				    .style("fill", routeLegend[routeTypeArray[x]])
+					.attr("id", x)
+					;
+
+		  }
+	
+summary
+.append("svg:text")
+.attr("x", 260)
+.attr("y", 55)
+.text("" + Math.round(durationMax) + " day" + ((durationMax > 1.5) ? "s" : ""));
+
+summary
+.append("svg:text")
+.attr("x", 10)
+.attr("y", 55)
+.text("" + lengthMax + "km");
+
+
+}
+
+
+function trailButton(d,i) {
+	map.selectAll("path.yourroutes").remove();
+	
+	yourRouteObjects = map.selectAll("path.yourroutes")
+    .data(yourRoute)
+  .enter().append("svg:path")
+    .style("fill", "none")
+    .style("stroke", "#f05231")
+    .attr("d", clip)
+    .attr("class", "yourroutes")
+	      .style("stroke-width", 5)
+	      .style("stroke-linejoin", "round")
+	      .style("opacity", .5)
+    	  ;
+
+}
+
+function siteClick(d, i) {
+
+	removeNodeMenu();
+	x = 0;
+	
+        for ( x = 0; x < d.properties.modes.length; x++ ) {      	
+            
+
+        if(d.properties.modes[x] != "Start") {
+
+            nodeMenuButton = d3.select(document.getElementById("site" + d.properties.nodeid))
+              .append("svg:g")
+              .attr("id", d.properties.modes[x])
+			  .attr("transform","translate(" + (((x * 25)) + 5) +",7)")
+      	      .attr("class", "nodeMenu")
+              .style("cursor", "pointer")
+        	  .on("click", moveClick)
+              ;
+                          
+              nodeMenuButton
+        	  .append("svg:rect")
+        	  .attr("height", 20)
+        	  .attr("width", 20)
+        	  .attr("x", 1)
+        	  .attr("rx", 2)
+        	  .attr("fill", "#543f4a")
+  		  	  .style("stroke", "#543f4a")
+        	  .style("opacity", 1)
+            ;
+              
+              nodeMenuButton
+      	  .append("svg:rect")
+      	  .attr("height", 20)
+      	  .attr("width", 20)
+      	  .attr("rx", 2)
+      	  .attr("fill", routeLegend[d.properties.modes[x]])
+		  .style("stroke", "#133b71")
+          ;
+        	
+              nodeMenuButton
+  	  .append("svg:text")
+  	  .attr("x", 4)
+  	  .attr("y", 15)
+  	  .text("" + Math.floor(d.properties.routeTime[x][d.properties.modes[x]]))
+    	  .attr("stroke", "white")
+    	  .attr("fill", "white")
+            ;
+
+              nodeMenuButton.append("svg:title")
+			.text("Click here to travel to " + d.properties.label + " in " + Math.floor(d.properties.routeTime[x][d.properties.modes[x]] * 100)/100 + " day(s) " + routeTypeVernacularArray[d.properties.modes[x]] + ".")
+			;
+        }
+        else {
+
+        	var trstring = (d3.select(document.getElementById("site" + d.properties.nodeid))
+        	.attr("transform")
+        	)
+
+        	var n = trstring.replace("translate(","");
+        	var n2 = n.replace(")","");
+        	var xyco = n2.split(",");
+
+			siteNameSelector = svg.append("svg:g")
+			.attr("class", "nodeMenu")
+			.attr("transform",trstring)
+   	        .style("cursor", "pointer")
+      	    .attr("id", "Start")
+            .on("click", function() {moveClick(d,i)})
+			;
+        	
+        	
+			siteNameSelector.append("svg:text")
+		      .text((d.properties.label == "x") ? "" : d.properties.label)
+		      	  .attr("stroke", "white")
+		      	  .attr("stroke-width", "3")
+			      .style("opacity", .5)
+	      	      .style("font-size", "150%")
+		      ;
+			siteNameSelector.append("svg:text")
+		      .text((d.properties.label == "x") ? "" : d.properties.label)
+			      .style("opacity", 1)
+	      	      .style("font-size", "150%")
+		      ;
+
+			siteNameSelector.append("svg:rect")
+		      .attr("width", 90)
+		      .attr("height", 20)
+		      .attr("rx", 5)
+		      .attr("x", 6)
+		      .attr("y", 12)
+		      .style("fill", "#543f4a")
+		      .style("stroke", "#543f4a")
+		      .style("stroke-width", 3)
+		      .style("opacity", .75)
+		      ;
+		      
+			siteNameSelector.append("svg:rect")
+		      .attr("width", 90)
+		      .attr("height", 20)
+		      .attr("rx", 5)
+		      .attr("x", 5)
+		      .attr("y", 10)
+	      	  .style("fill", "#f1de93")
+	      	  .style("stroke", "#f7ecc2")
+	      	  .style("stroke-width", 2)
+		      ;
+
+			siteNameSelector.append("svg:text")
+		      .attr("x", 9)
+		      .attr("y", 26)
+	      	  .style("fill", "#735665")
+		      .text("Start Here")
+      	      .style("font-size", "125%")
+		      ;
+
+			siteNameSelector.append("svg:title")
+			.text("Click here to start exploring the Roman world starting at " + d.properties.label)
+			;
+			
+        	
+        }
+
+}
+}
+
+function plusDay(d,i){
+	currentDate.setDate(currentDate.getDate()+1);
+	currentDate.setHours(5);
+	changeCenter(currentLocation,0);
+}
+
+function plusMonth(d,i){
+	currentDate.setMonth(currentDate.getMonth()+1);
+	currentDate.setDate(1);
+	currentDate.setHours(5);
+	changeCenter(currentLocation,0);
+}
+
+function moveClick(d,i){
+
+	removeNodeMenu();
+
+	for (y = 0; y < d.properties.modes.length; y++) {
+		if (d.properties.modes[y] == this.id) {
+			currentDuration = Math.round((currentDuration + d.properties.routeTime[y][this.id])*100)/100
+			currentDate.setHours(currentDate.getHours()+ (d.properties.routeTime[y][this.id] * 24));
+		}
+	}
+	if(this.id !== undefined) {
+		createVoyage(d,i,this.id);
+	}
+	else {
+		createVoyage(d,i,"Start");		
+	}
+	
+}
+
+function removeNodeMenu(){
+	d3.selectAll("g.nodeMenu")
+	.remove()
+	;	
+}
+
+
+function changeCenter(d,i) {
+	map.selectAll("path.yourroutes").remove();
+	projection.origin(d.geometry.coordinates);
+	d3.selectAll("g.sites").remove();
+	d3.selectAll("path.routes").remove();
+	
+	  d3.json("routesQuery.php?s="+d.properties.nodeid+"&m="+(currentDate.getMonth()+1)+"&v="+vehicleOption[currentVehicle], function(collection) {
+		  currentRoutes = collection;
+		  routeObjects = map.selectAll("path.routes")
+		      .data(collection.features)
+		    .enter().append("svg:path")
+		      .style("fill", "none")
+		      .style("stroke", function(d) {return routeLegend[d.properties.type]})
+		      .attr("d", clip)
+		      .attr("class", "routes")
+		      .style("opacity", 0)
+			      .style("stroke-width", 4)
+			      .style("stroke-linejoin", "round")
+			      .transition()
+			      .delay(1000)
+			      .duration(1000)
+			      .style("opacity", 1)
+		      	  ;
+
+          createCenterPoint();      	  
+  	      
+		  d3.json("sitesQuery.php?s="+d.properties.nodeid+"&m="+(currentDate.getMonth()+1)+"&v="+vehicleOption[currentVehicle], function(json) {
+			  sites = map.selectAll("g.sites")
+			      .data(json.features)
+			      .enter()
+			      .append("svg:g")
+			      .attr("class", "sites")
+			      .attr("id", function(d) {return "site" + d.properties.nodeid})
+			      .attr("transform", function(d) {return "translate(" + projection(d.geometry.coordinates) + ")";})
+			      .style("cursor", "pointer")
+			      .on("click", siteClick)
+			      ;
+		      sites.append("svg:circle")			      
+		      .attr('r', function(d) {return rankRamp(d.properties.rank)})
+		      .attr("class", "sites")
+		      .style("opacity", 0)
+			      .attr("cx", 1)
+			      .attr("cy", 2)
+			      .style("fill", "#543f4a")
+			      .style("stroke", "#543f4a")
+			      .style("stroke-width", 2)
+		      .transition()
+		      .delay(1000)
+		      .duration(1000)
+		      .style("opacity", .75)
+		      ;
+		      
+		      sites.append("svg:circle")			      
+			      .attr('r', function(d) {return rankRamp(d.properties.rank)})
+			      .attr("class", "sites")
+			      .style("opacity", 0)
+			      .style("fill", "#efe4a9")
+			      .style("stroke", "#f1dd8f")
+			      .transition()
+			      .delay(1000)
+			      .duration(1000)
+			      .style("opacity", 1)
+			      ;
+		      sites.append("svg:text")
+		      .attr("class", "nodetext")
+		      .text(function(d) { return (d.properties.label == "x") ? "" : d.properties.label})
+		      	  .attr("stroke", "white")
+		      	  .attr("stroke-width", "3")
+		          .style("opacity", 0)
+			      .transition()
+			      .delay(1500)
+			      .duration(1000)
+			      .style("opacity", .5)
+		      ;
+		      sites.append("svg:text")
+		      .attr("class", "nodetext")
+		      .text(function(d) { return (d.properties.label == "x") ? "" : d.properties.label})
+   		          .style("opacity", 0)
+			      .transition()
+			      .delay(1500)
+			      .duration(1000)
+			      .style("opacity", 1)		      		      
+		      ;
+
+             sites.append("svg:title")
+  			.text(function(d) { return "Click here to see ways to travel to " + ((d.properties.label == "x") ? "this crossroads" : d.properties.label) + "."})
+  			;
+		      
+	          createVignette(d,i);
+	      
+		    refresh(1,15000);
+	  })
+	  })
+	
+
+	}
+
+    </script>
+  </body>
+</html>

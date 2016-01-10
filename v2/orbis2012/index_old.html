@@ -1,0 +1,589 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- turned on quirks mode for IE -->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<head>
+<!--<meta http-equiv="X-UA-Compatible" content="IE=8" />-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ORBIS</title>
+  <!-- these could be culled for only what's necessary -->
+<script type="text/javascript" src="../../lib/ext-3.4.0/adapter/ext/ext-base.js"></script>
+<script type="text/javascript" src="../../lib/ext-3.4.0/ext-all.js"></script>
+<script src="../../lib/OpenLayers-2.11/OpenLayers.js"></script> 
+<script type="text/javascript" src="../../lib/GeoExt/script/GeoExt.js"></script>
+<script src="../../lib/d3/d3.v2.min.js"></script>
+<!-- <script type="text/javascript" src="http://geodata.stanford.edu/geoserver/pdf/info.json?var=printCapabilities"></script>-->
+<link rel="stylesheet" type="text/css" href="../../lib/ext-3.4.0/resources/css/ext-all.css" />
+<link rel="stylesheet" type="text/css" href="../../lib/ext-3.4.0/resources/css/xtheme-gray.css" />
+<!-- orbis-specific -->
+<link rel="stylesheet" type="text/css" href="css/orbis_v1.css" >
+<link rel="stylesheet" type="text/css" href="css/cartogram.css"/>
+<link rel="stylesheet" type="text/css" href="css/ol-style.css" >
+
+<script type="text/javascript" src="data/months.js"></script>
+<script type="text/javascript" src="data/o_sites639.js"></script>
+<!--<script type="text/javascript" src="js/history.js"></script>
+<script type="text/javascript" src="js/d3orbis14a.js"></script>-->
+<script type="text/javascript" src="js/map_v1.js"></script>
+<script type="text/javascript" src="js/query_v1.js"></script>
+<script type="text/javascript" src="js/results_v1.js"></script>
+<script type="text/javascript" src="js/ohandlers_v1.js"></script>
+<script type="text/javascript" src="js/utility_v1.js"></script>
+<!-- <script src="js/printextstore.js"></script> -->
+
+<script type="text/javascript">
+Ext.namespace('o', 'omap', 'oresults', 'oq');
+// the main onReady()
+Ext.onReady(function(){
+	/* var myMask = new Ext.LoadMask(Ext.getBody(), {msg:"Thinking..."});
+	Ext.Ajax.on('beforerequest', myMask.show, myMask);
+	Ext.Ajax.on('requestcomplete', myMask.hide, myMask);
+	Ext.Ajax.on('requestexception', myMask.hide, myMask); */
+	if (Ext.isIE8 ) { browser = "IE";   window.location = "browsererror.html"; }
+	else if (Ext.isIE7) { window.location = "browsererror.html"; }
+
+	// viewport items are north, south, east, west and center panels
+	var viewport = new Ext.Viewport({
+		id: 'fubar',
+		baseCls: 'x-plain',
+		//bodyStyle: {""},
+		layout: 'border',
+		items: [
+			new Ext.BoxComponent({
+			region: 'north',
+			contentEl: 'north',
+			bodyStyle: {"margin-top":"30px"},
+			height: 36, // give north and south regions a height
+			margins: '0 0 18 0'
+		}),{
+			region: "center",
+			xtype: 'tabpanel',
+			id: 'centerPanel',
+			activeTab: 0,
+			items: [{
+				id: 'tab_home',
+				contentEl: 'home',
+				title: 'Home',
+				closable: false,
+				autoScroll: true,
+				listeners: {activate: closeMap}
+				}, {
+				id: 'tab_introducing',
+				title: 'Introducing ORBIS',
+				layout: 'fit',
+				closable: false,
+				listeners: {activate: function(tab) {closeMap(); _gaq.push(['_trackEvent', 'TabNavV1', 'Introducing']);}},
+				items: {
+					id: 'tab_intro',
+					// title: 'Introduction',
+					autoLoad: {url: 'assets/introducing.html', callback: this.initSearch, scope: this, scripts: true},
+					listeners: { activate: function(tab) {closeMap();} },
+					autoScroll: true
+						}
+				}, {
+				id: 'tab_understanding',
+				title: 'Understanding ORBIS',
+				layout: 'fit',
+				closable: false,
+				listeners: {activate: function(tab) {closeMap(); _gaq.push(['_trackEvent', 'TabNavV1', 'Understanding']);}},
+				//listeners: {scope: this, activate: closeMap},
+				items: {
+				  xtype: 'panel',
+				  layout: 'fit',
+				  items: {
+					  xtype: 'tabpanel',
+					  id: 'understanding_tabs', // includes text, graphs
+					  border: true, // already wrapped so don't add another border
+					  activeTab: 0, // second tab initially active
+					  tabPosition: 'top',
+					  autoScroll: true,
+					  items: [
+						{
+							id: 'text_understanding',
+							title: 'Introduction',
+							autoLoad: {url: 'assets/understanding.html', callback: this.initSearch, scope: this},
+							listeners: {activate: function(tab) {_gaq.push(['_trackEvent', 'TabNavV1', 'Understanding-Intro']);}},
+							autoScroll: true
+						}, {
+							id: 'tab_graph01',
+							title: 'Network visualization',
+							layout: 'fit',
+							listeners: {activate: function(tab) {_gaq.push(['_trackEvent', 'TabNavV1', 'Understanding-Gephi_01']);}},
+							items: [{
+								xtype: 'component',
+								autoEl: {
+									tag: 'iframe',
+									src: 'assets/graphs/gexf_demo/index.html',
+									height: '100%',
+									width: '100%',
+									frameborder: '0'}
+							}],
+							// contentEl: 'graphViz01',
+							autoScroll: true
+						},
+					  ]						  
+				  }			
+				}
+				}, {
+				id: 'tab_building',
+				title: 'Building ORBIS',
+				layout: 'fit',
+				closable: false,
+				listeners: {activate: function(tab) {closeMap(); _gaq.push(['_trackEvent', 'TabNavV1', 'Building']);}},
+				items: {
+					xtype: 'panel',
+					layout: 'fit',
+					items: {
+						xtype: 'tabpanel',
+						id: 'building_tabs',
+						border: true,
+						activeTab: 0,
+						tabPosition: 'top',
+						autoScroll: true,
+						items: [{
+							id: 'build_historical',
+							title: 'Historical evidence',
+							listeners: {
+								activate: function(tab) {_gaq.push(['_trackEvent', 'TabNavV1', 'Building-Historical']);},
+								handler: function() {Ext.History.add("build_historical")}
+							},
+							autoLoad: {url: 'assets/building.html', callback: this.initSearch, scope: this},
+							autoScroll: true
+						}, {
+							id: 'build_gt',
+							title: 'Geospatial technology',
+							listeners: {
+								activate: function(tab) {_gaq.push(['_trackEvent', 'TabNavV1', 'Building-GT']);},
+								handler: function() {Ext.History.add("build_gt")}
+							},
+							autoLoad: {url: 'assets/build_gt.html', callback: this.initSearch, scope: this},
+							autoScroll: true
+						}] // end tabpanel items
+					} // end panel items			
+				} // end tab_building items
+				}, {
+				id: 'tab_using',
+				title: 'Using ORBIS',
+				layout: 'fit',
+				closable: false,
+				listeners: {activate: function(tab) {closeMap(); _gaq.push(['_trackEvent', 'TabNavV1', 'Using']);}},
+				items: {
+					xtype: 'panel',
+					layout: 'fit',
+					items: {
+						xtype: 'tabpanel',
+						id: 'using_tabs',
+						border: true,
+						activeTab: 0,
+						tabPosition: 'top',
+						autoScroll: true,
+						items: [{
+							id: 'using_overview',
+							title: 'Overview',
+							listeners: {activate: function(tab) {_gaq.push(['_trackEvent', 'TabNavV1', 'Using-Overview']);}},
+							autoLoad: {url: 'assets/using.html', callback: this.initSearch, scope: this},
+							autoScroll: true
+						}, {
+							id: 'using_examples',
+							title: 'Examples',
+							listeners: {activate: function(tab) {_gaq.push(['_trackEvent', 'TabNavV1', 'Using-Examples']);}},
+							autoLoad: {url: 'assets/examples.html', callback: this.initSearch, scope: this},
+							autoScroll: true
+						}, {
+							id: 'using_video',
+							title: 'Tutorial video',
+							listeners: {activate: function(tab) {_gaq.push(['_trackEvent', 'TabNavV1', 'Using-Video']);}},
+							autoLoad: {url: 'assets/video1.html', callback: this.initSearch, scope: this},
+							autoScroll: true
+						}]
+				}	} // items, items
+				}, {
+				id: 'tab_mapping',
+				title: 'Mapping ORBIS',
+				layout: 'fit',
+				closable: false,
+				listeners: {
+					scope: this,
+					activate: function (tab) {
+						omap.windowwidth = window.innerWidth;
+						Ext.getCmp('mapping_tabs').setActiveTab(0);
+						map.zoomTo(omap.properzoom());
+						Ext.getCmp('eastPanel').show();
+						Ext.getCmp('eastPanel').expand();
+						Ext.getCmp('southPanel').show();
+						if(resultWin) 
+							{resultWin.show(this).alignTo(Ext.getBody(), "bl-bl?", [10, -90]);};
+						if(resultGridWin) //(omap.gridup == true) 
+							{resultGridWin.show(this).alignTo(Ext.getBody(), "bl-bl?", [410, -90]);};
+						Ext.getCmp('fubar').doLayout();
+					/*
+						uhOh = new Ext.Window({
+							title: 'Oops, sorry!',
+							layout:'fit',
+							width:500,
+							height:500,
+							autoHeight: true,
+							modal: true,
+							bodyStyle: 'background-color: #e0e0e0',
+							closeAction:'hide',
+							//plain: true,
+							expandOnShow: true,
+							contentEl: 'div-uhoh'
+						});
+						uhOh.show(this);
+					*/
+						// google analytics
+						_gaq.push(['_trackEvent', 'TabNavV1', 'Mapping-Top']);
+					}
+				},
+				items: {
+					xtype: 'panel',
+					layout: 'fit',
+					items: {
+						xtype: 'tabpanel',
+						id: 'mapping_tabs',
+						border: true,
+						activeTab: 0,
+						tabPosition: 'top',
+						autoScroll: true,
+						items: [mapPanelB, 
+							{
+							id: 'tab_cartogram',
+							title: 'Interactive distance cartogram',
+							listeners: {activate: function(tab) {
+								closeMap(); cartogram10(); 
+								_gaq.push(['_trackEvent', 'TabNavV1', 'Mapping-Cartogram']);
+								_gaq.push(['_trackEvent', 'TabNavV1Carto', 'Mapping-Cartogram']);}},
+							autoHeight: true,
+							items: [{
+								//autoLoad: {url: 'assets/understanding.html', callback: this.initSearch, scope: this},
+								xtype: 'panel',
+								// title: 'panel in a tab',
+								tbar: [
+									{text:'No Distortion', scale:'medium', handler: clickHandler.createCallback(1)},'-',
+									{text:'Roma', scale:'medium', handler: clickHandler.createCallback(2)},'-',
+									{text:'Constantinopolis', scale:'medium', handler: clickHandler.createCallback(3)},'-',
+									{text:'Londinium', scale:'medium', handler: clickHandler.createCallback(4)},'-',
+									{text:'Antiochia', scale:'medium', handler: clickHandler.createCallback(5)}
+								],
+								autoScroll: true   
+								}, {
+								// carto options and explanation
+								layout: 'hbox',
+								align: 'stretch',
+								pack: 'start',
+								//columns: 2,
+								items: [{
+									xtype: 'fieldset',
+								 	title: 'cartogram options', // title for ease now, goes away
+								 	autoHeight: true,
+								 	width: 300,
+								// items copied in from ext11 29 Mar 16:34
+								items: [
+										{
+									xtype: 'radiogroup',
+									id: 'rg_cartopriority',
+									title: 'River',
+									fieldLabel: 'Priority',
+									labelWidth: 60,
+									disabled: false,
+									items: [
+										{boxLabel: 'Cheapest', name: 'rbcartopriority', id: 'rb_cheapcarto', handler: clickHandler.createCallback(6), inputValue: 0, checked: true}, // 
+										{boxLabel: 'Fastest', name: 'rbcartopriority', id: 'rb_fastcarto', handler: clickHandler.createCallback(6), inputValue: 1},
+									  ] //
+								  }, {
+									xtype: 'radiogroup',
+									id: 'rg_cartomonth',
+									fieldLabel: 'Month',
+									labelWidth: 60,
+									items: [
+										{boxLabel: 'Winter', name: 'rbcartomonth', id: 'rb_jancarto', handler: clickHandler.createCallback(6), inputValue: 0, checked: true}, //
+										{boxLabel: 'Summer', name: 'rbcartomonth', id: 'rb_julcarto', handler: clickHandler.createCallback(6), inputValue: 1},
+									  ] //
+								  }
+								]
+								}, {
+									flex: 1,
+									border: false,
+									autoHeight: true,
+									bodyStyle: {"padding":"0 4px", "margin":"0"},
+									contentEl: 'carto_explain'
+								}] // end carto options
+							}, {
+								// cartogram and figure
+								layout: 'hbox',
+								align: 'stretch',
+								pack: 'start',
+								autoScroll: true,
+								autoHeight: true,
+								autoWidth: true,
+								//columns: 2,
+								items: [{
+									contentEl: 'cartotab10',
+									autoScroll: true,
+									bodyStyle: {"margin-top":"4px"},
+									width: 985
+								}, {
+									//columnWidth: 600,
+									flex: 2,
+									border: false,
+									bodyStyle: {"padding":"6px 0 2px 8px"},
+									contentEl: 'carto_right'
+								}]
+							}]
+						}, {
+							id: 'tab_gallery',
+							title: 'Map gallery',
+							autoScroll: true,
+							autoLoad: {url: 'assets/gallery.html', callback: this.initSearch, scope: this},
+							listeners: {activate: function(tab) {
+								closeMap(); 
+								_gaq.push(['_trackEvent', 'TabNavV1', 'Mapping-Gallery']);}},
+						}]
+				}	} // items, items
+				},{
+				id: 'tab_applying',
+				title: 'Applying ORBIS',
+				//xtype: 'panel',
+				width: 1000,
+				layout: 'column',
+				//autoHeight: true,
+				autoScroll: true,
+				listeners: {activate: function(tab) {closeMap(); _gaq.push(['_trackEvent', 'TabNavV1', 'Applying']);}},
+				items: [{
+					width: 670,
+					//columnWidth: 620,
+					autoHeight: true,
+					baseCls:'x-plain',
+					autoScroll: true,
+					bodyStyle: {"padding-right":"8px"},
+					//handler: loadContent('applyingDiv','assets/applying_intro.html')
+					//autoLoad: {url: 'assets/applying_intro.html', callback: this.initSearch, scope: this},
+					contentEl: 'applyingDiv'
+				}, {
+					width: 300,
+					//columnWidth: 300,
+					autoScroll: false,
+					autoHeight: true,
+					baseCls:'x-plain',
+					bodyStyle: {"margin-top":"43px"},
+					autoLoad: {url: 'assets/apply_TOC.html', callback: this.initSearch, scope: this},
+				}]
+				}, {
+				id: 'tab_credits',
+				title: 'Credits',
+				closable: false,
+				autoScroll: true,
+				autoLoad: {url: 'assets/credits.html', callback: this.initSearch, scope: this},
+				listeners: {activate: function(tab) {closeMap(); _gaq.push(['_trackEvent', 'TabNavV1', 'Credits']);}},
+				} // end tab_credits
+			] // end centerPanel items
+		}, {
+			region: 'east',
+			id: 'eastPanel',
+			title: 'Query and Results',
+			hidden: true,
+			// collapsible: true,
+			collapsed: true, // temporary for testing
+			width: 320, // give east and west regions a width
+			margins: '0 5 0 0',
+			bodyStyle: 'padding-left:5px;',
+			layout: 'fit', // specify layout manager for items
+			contentEl: 'queryForm_full',
+						autoScroll: true,
+						formBind: true,
+						tbar: ['-',
+							{text:'calculate route', scale:'small', handler: doAll, icon: 'ico/gears.gif',},'-',
+							{text:'reset options', scale:'small', icon: 'ico/refresh.gif',
+							handler: function(){
+								fp.getForm().reset();
+								vectorLayer.removeAllFeatures();
+								d3.select("#ograph").remove();
+								document.getElementById("result_blurb").innerHTML = '';
+							}},'-','-',
+							{text:'results grid', scale:'small', handler: showResultGrid, 
+								icon: 'ico/list-items.gif', tooltip: 'Open window displaying this session\'s results' }
+						]
+		}, {
+			region: 'south',
+			id: 'southPanel',
+			contentEl: 'south',
+			split: true,
+			height: 85,
+			minSize: 85,
+			//maxSize: 200,
+			hidden: true,
+			//title: 'Route timeline',
+			margins: '0 0 0 0'
+		} ] // end viewport region items
+	}) // end viewport
+
+	hashargs = getHashValue();
+	if(hashargs.length == 2) {
+		if (hashargs[1] == 'cartogram') {goRemoteTab(5,'mapping_tabs',1)}
+		else if(hashargs[1] == 'map') {goRemoteTab(5,'mapping_tabs',0)}
+		else if(hashargs[1] == 'geomodel') {goRemoteTab(3,'building_tabs',1)};
+	};
+	
+});
+
+// copied from ext11 29 Mar 16:30
+var clickHandler = function(action) {
+		var cheapBtn = document.getElementById('rb_cheapcarto');
+		var monthBtn = document.getElementById('rb_jancarto');
+		shiftcarto(action, cheapBtn.checked, monthBtn.checked);
+};
+
+// closeMap() make all map elements go away
+function closeMap(){
+	Ext.getCmp('southPanel').hide();
+	// Ext.getCmp('westPanel').hide();
+	Ext.getCmp('eastPanel').hide();
+	Ext.getCmp('fubar').doLayout();
+
+	d3.select(document.getElementById("o_graph")).remove();
+	document.getElementById("result_blurb").innerHTML = '';
+	if(resultWin) {resultWin.hide() };
+	if(resultGridWin) {resultGridWin.hide() };
+}
+
+</script>
+<!-- google analytics -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-30365192-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+ <!-- bunch of divs with default content, overriden in cases by 'region:' declarations above -->
+<div id="queryForm_full"></div>   
+<div id="layerTree"></div>
+<div id="cartotab10" class="x-hide-display"></div> <!-- this should get filled by  cartogram() on activating tab_cartogram in 'Understanding' -->
+<div id="west" class="x-hide-display"></div>
+<div id="north" class="x-hide-display"><span id="sitetitle"><a href="#">ORBIS</a></span>
+  <span id="tagline">&nbsp;&nbsp;The Stanford Geospatial Network Model of the Roman World</span>
+  <div id="authors" style="padding-top:0;">
+  <table align="right" width="215" cellpadding="0" cellspacing="0"><tr>
+   <td><a href="ORBIS_v1paper_20120501.pdf" target="_blank" onclick="_gaq.push(['_trackEvent', 'TabNavV1', 'download_paper']);">
+   <img src="images/download_03.png" width="61" height="56"  /></a></td>
+    <td align="right"><span class="goldlabel">CREATED BY</span> <br/><a href="http://www.stanford.edu/~scheidel/" target="_blank">Walter Scheidel</a>
+      <br/><a href="https://dhs.stanford.edu/" target="_blank">Elijah Meeks</a> 
+    </td>
+    <td width="34"><img src="images/SU-tree_46h.png" width="34" height="46" style="clear:both;"/>
+    </td>
+    </tr></table>
+  </div>
+</div>
+<!-- home page stuff -->
+<div id="content" style="margin-top:0;">
+<div id="home" class="x-hide-display">
+	<div id="hometop">
+   
+      <!--<div id="sorry" style="margin:10; font-family:Verdana, Geneva, sans-serif; font-size:smaller; border:thin dotted #434A44 ; background-color: e0e0e0; color:#900; padding:5px;"><b>NOTE:</b> Due to an unexpectedly high volume of traffic to the site, performance of the <a href="#" onclick="goTab(5)"  style="text-decoration:none; color:#603">routing map</a> and <a href="#" onclick="goRemoteTab(6,'mapping_tabs',1)" style="text-decoration:none; color:#603">interactive cartogram</a> occasionally suffers and you <b>may</b> experience delay of a second or two. Everything does work, so please do try them out.</div>-->
+   
+      <div id="lcol">
+         <p><span class="firstchar">S</span>panning one-ninth of the earth's circumference across three continents, the Roman Empire ruled a quarter of humanity through complex networks of political power, military domination and economic exchange. These extensive connections were sustained by premodern transportation and communication technologies that relied on energy generated by human and animal bodies, winds, and currents.</p> <p>Conventional maps that represent this world as it appears from space signally fail to capture the severe environmental constraints that governed the flows of people, goods and information. Cost, rather than distance, is the principal determinant of connectivity.</p> <p>For the first time, ORBIS allows us to express Roman communication costs in terms of both time and expense. By simulating movement along the principal routes of the Roman road network, the main navigable rivers, and hundreds of sea routes in the Mediterranean, Black Sea and coastal Atlantic, this interactive model reconstructs the duration and financial cost of travel in antiquity.</p> <p>Taking account of seasonal variation and accommodating a wide range of modes and means of transport, ORBIS reveals the true shape of the Roman world and provides a unique resource for our understanding of premodern history.</p>
+      </div> <!-- end lcol -->
+      <div id="pic">
+      <a href="#" onclick="goTab(5)"><img id="homemap" src="images/home_geo05.png" width="460" height="300" alt="mediterranean routes" /></a>
+      <!--<a href="#"><img id="homemap" src="images/medi-sea_dark-and-abstract450w.png" width="450" height="291" alt="mediterranean routes" /></a>-->
+         <div id="blurb">ORBIS is work in progress and your comments are invaluable in helping us improve our site. 
+         Feedback is welcome at <a href="mailto:orbisproject@stanford.edu">orbisproject@stanford.edu.</a></div>
+      </div><!-- end pic -->
+   </div> <!-- end hometop -->
+<div id="homebot" style="clear:both;">
+<table width="100%" border="0" cellspacing="2" cellpadding="5">
+  <tr style="vertical-align:top;">
+   <td width="16%"><a href="#" onclick="goTab(1)"><p id="link_introducing" class="fauxbutton">Introducing ORBIS</p></a></td> <!--  class="fauxbutton" -->
+   <td width="17%"><a href="#" onclick="goTab(2)"><p id="link_understanding" class="fauxbutton">Understanding ORBIS</p></a></td>
+   <td width="17%"><a href="#" onclick="goTab(3)"><p id="link_building" class="fauxbutton">Building ORBIS</p></a></td>
+   <td width="17%"><a href="#" onclick="goTab(4)"><p id="link_using" class="fauxbutton">Using ORBIS</p></a></td>
+   <td width="17%"><a href="#" onclick="goTab(5)"><p id="link_mapping" class="fauxbutton">Mapping ORBIS</p></a></td>
+   <td width="16%"><a href="#" onclick="goTab(6)"><p id="link_applying" class="fauxbutton">Applying ORBIS</p></a></td>
+  </tr>
+  <tr valign="top">
+    <td width="17%"><p class="navpanelblurb">What is ORBIS, and what does it do? Start with this short introduction to learn more about our project. </p></td>
+    <td width="16%"><p class="navpanelblurb">What can you expect of ORBIS? Discussion of three key features will help you appreciate the capabilities and limits of our model.</p></td>
+    <td width="17%"><p class="navpanelblurb">How was ORBIS designed and what is the basis of the model? This section describes the historical data and information technology that guide our simulations.</p></td>
+    <td width="17%"><p class="navpanelblurb">What do you need to know to make the most of ORBIS? This brief manual explains how to generate simulations and achieve the best results. A <a href="#" onclick="goRemoteTab(4,'using_tabs',2)" style="text-decoration:none;">video tutorial</a> is also available.
+       </td>
+    <td width="16%"><p class="navpanelblurb">The network map of the Roman Empire is the centerpiece of this site; after familiarizing yourself with the model's structure and functionality, use the map to explore the ancient world. </p></td>
+    <td width="17%"><p class="navpanelblurb">ORBIS has been created to foster new ways of studying the ancient world. This section presents scholarship supported by our model.</p></td>
+  </tr>
+  <tr><td height="15">&nbsp;</td><td></td></tr>
+</table>
+<table width="100%" border="0" cellpadding="5" cellspacing="0">
+  <tr class="footer">
+<!--  <td width = "30%" height="28"><a href="mailto:karlg@stanford.edu?subject=issue/problem with ORBIS site">&nbsp;Web site problem?</td>-->
+  <td width="30%" align="left" style="padding-left:2px;"><a href="#" onclick="citeWin()"><b>How to cite ORBIS</b></a></td>
+  <td width="70%" style="text-align:right; padding-right:5px;">
+  <div class="fb-like" data-href="http://orbis.stanford.edu" data-send="false" data-width="450" data-show-faces="false" data-font="segoe ui"></div>
+  <a href="https://twitter.com/orbis_stanford" class="twitter-follow-button" data-show-count="false">Follow @orbis_stanford</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></td></tr>
+  <tr class="footer"><td><a href="mailto:karlg@stanford.edu?subject=ORBIS website problem">Website problem? Let us know</a></td><td></td></tr>
+  <tr><td height="50">&nbsp;</td><td></td></tr>
+</table>
+</div> <!-- end homebot --> 
+</div> <!-- end home-->
+</div> <!-- end content-->
+
+<div id="south" class="x-hide-display" style="width:100%; padding-left: 30px;">
+  <svg width="1200" height="80"></svg>
+</div>
+ <div id="carto_explain" class="x-hide-display"><p>In the aggregate, our model simulations make it possible to reconfigure conventional maps of the Roman Empire to express the relative cost of transfers from or to a central point as distance. This perspective captures the structural properties of the imperial system as a whole by identifying the relative position of particular elements of the network and illustrating the impact of travel speed and especially transport prices on overall connectivity. Distance cartograms show that due to massive cost differences between aquatic and terrestrial modes of transport, peripheries were far more remote from the center in terms of price than in terms of time. </p></div>
+
+<div  class="x-hide-display" id="div-uhoh" style="margin:10; font-family:Verdana, Geneva, sans-serif; border:thin dotted #434A44  ; background-color: #fff; color:#434A44; padding:5px; font-size:1.5em;"><img src="images/atlas200h.jpg" width="125" height="200" align="right" />Due to an unexpectedly high volume of traffic to the site, performance of the routing map and interactive cartogram are not what they should be. If you experience delays performing route calculations or rendering the map, you can try refreshing the map by zooming in or out. Please do return next week -- these issues should be entirely solved by then. We are very sorry for any inconvenience!</div>
+
+<div id="carto_right" class="x-hide-display"><img src="images/dc_explanation_320w.png" width="240" height="666" /></div>
+<div id="resultsDiv" class="x-hide-display"></div>
+<div id="gridContentsDiv" class="x-hide-display"></div>
+<div id="result-win" class="x-hidden">
+  <div class="x-window-header">Calculated route</div>
+  <div id="result-tabs">
+      <div id="result_blurb" class="x-tab" title="result" ></div>
+  </div>
+</div>
+<!-- intro material for Applying -->
+<div id="applyingDiv" class="x-hide-display">
+	<div class="articlebody"><h2>Applying ORBIS</h2><p>ORBIS is a novel resource for the study of the ancient world. This page hosts academic work that has been inspired and supported by our model. As work progresses, contributions will range from brief reports on specific aspects of the project to working paper versions of forthcoming print publications and open-access electronic publications of relevant scholarship. </p>
+    <div class="applyingPanel"><a href="#" onclick="loadContent('applyingDiv','assets/applying_Arcenas.html')">
+    	<img src="figures/apply_splash_peralta.png" width="550" height="120" /></a><br/>
+        <span class="applyTOCTitle">ORBIS and the Ancient Itineraries: Preliminary Observations</span><br/>
+        <span class="italic">Dan-el Padilla Peralta</span><p>A short study undertaken to compare the distance measurements generated 
+        	through the ORBIS network with the distances recorded in the major ancient itineraries.</p></div>
+    <div class="applyingPanel"><a href="#" onclick="loadContent('applyingDiv','assets/applying_Arcenas.html')">
+    	<img src="figures/apply_splash_arcenas.png" width="550" height="120" /></a><br/>
+        <span class="applyTOCTitle">ORBIS and the Sea: a model for maritime transportation under the Roman Empire</span><br/>
+        <span class="italic">Scott Arcenas</span><p>Rome's reliance upon sailing vessels places velocity of travel (V) at the mercy of an independent variable—namely the velocity of the wind (Vwind)—and thus demands that it be analyzed as a function—namely f(Vwind).</p></div>
+	</div>
+</div>
+<div id="helptext_kml" class="x-hide-display">A KML-formatted file can be loaded in Google Earth, and some other mapping applications. Save the file with an extension of '.kml' -- for example, <b>routes01.kml</b>.</div>
+<div id="helptext_csv" class="x-hide-display"><p>A <b>comma-separated</b> date file. You can:</p><p>'Open with...' a spreadsheet program or text editor, or<br/>Choose 'Save as...' and rename with and extention of '.csv' -- for example, <b>routes01.csv</b></p></div>
+<div id="helptext_modes" class="x-hide-display">An explanation of the abbreviated terms, e.g. 'slowover'</div>
+<map name="Map" id="Map">
+   <area shape="rect" coords="2,0,72,17" href="#" alt="geographic map" onclick="goRemoteTab(5,'mapping_tabs',0)"/>
+   <area shape="rect" coords="72,1,150,16" href="#" alt="distance cartogram" onclick="goRemoteTab(5,'mapping_tabs',1)"/>
+</map>
+<!-- try to get history going -->
+<form id="history-form" class="x-hidden" action="#">
+	<div>
+		<input id="x-history-field" type="hidden" />
+		<iframe id="x-history-frame"></iframe>
+	</div>
+</form>
+</body>
+</html>

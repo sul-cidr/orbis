@@ -1,0 +1,5098 @@
+[
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": 19.63,
+        "ycoord": 42.01,
+        "grainall": 1.7,
+        "grainsome": 17.45
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": 22.98,
+        "ycoord": 45.58,
+        "grainall": 14.14,
+        "grainsome": 22.11
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": 19.15,
+        "ycoord": 44.29,
+        "grainall": 9.09,
+        "grainsome": 9.42
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": 19.66,
+        "ycoord": 41.08,
+        "grainall": 1.97,
+        "grainsome": 19.81
+    },
+    {
+        "name": "X",
+        "scale": 1,
+        "xcoord": 23.5,
+        "ycoord": 46.02,
+        "grainall": 16.7,
+        "grainsome": 6.8
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": -8.71,
+        "ycoord": 39.21,
+        "grainall": 4.03,
+        "grainsome": 24.68
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": 36.11,
+        "ycoord": 32.63,
+        "grainall": 6.58,
+        "grainsome": 21.07
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": -8.67,
+        "ycoord": 39.22,
+        "grainall": 4.17,
+        "grainsome": 8.87
+    },
+    {
+        "name": "Ioppe",
+        "scale": 6,
+        "xcoord": 34.75,
+        "ycoord": 32.05,
+        "grainall": 1.84,
+        "grainsome": 18.51
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": 25.86,
+        "ycoord": 42.07,
+        "grainall": 9.45,
+        "grainsome": 23.92
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": -6.11,
+        "ycoord": 38.96,
+        "grainall": 8.39,
+        "grainsome": 7.3
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": 15.39,
+        "ycoord": 46.36,
+        "grainall": 7.82,
+        "grainsome": 10.85
+    },
+    {
+        "name": "Mouth of Witham",
+        "scale": 1,
+        "xcoord": 0.01,
+        "ycoord": 52.96,
+        "grainall": 7.08,
+        "grainsome": 21.22
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": 18.49,
+        "ycoord": 45.28,
+        "grainall": 11.45,
+        "grainsome": 20.47
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": 11.64,
+        "ycoord": 46.78,
+        "grainall": 9.45,
+        "grainsome": 10.84
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": 11.62,
+        "ycoord": 44.82,
+        "grainall": 1.65,
+        "grainsome": 23.85
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": 30.61,
+        "ycoord": 38.33,
+        "grainall": 12.66,
+        "grainsome": 1.1
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": 15.69,
+        "ycoord": 44.37,
+        "grainall": 2.93,
+        "grainsome": 2.92
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": 7.88,
+        "ycoord": 49.96,
+        "grainall": 7.42,
+        "grainsome": 13.89
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": 13.13,
+        "ycoord": 46.37,
+        "grainall": 3.63,
+        "grainsome": 21.73
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": -7.68,
+        "ycoord": 37.94,
+        "grainall": 1.96,
+        "grainsome": 14.9
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": -2.81,
+        "ycoord": 52.09,
+        "grainall": 4.42,
+        "grainsome": 2.43
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": 18.36,
+        "ycoord": 42.79,
+        "grainall": 1.79,
+        "grainsome": 0.61
+    },
+    {
+        "name": "Alexandria ad Issum",
+        "scale": 6,
+        "xcoord": 36.2,
+        "ycoord": 36.58,
+        "grainall": 3.6,
+        "grainsome": 5.21
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": 17.89,
+        "ycoord": 43.14,
+        "grainall": 1.75,
+        "grainsome": 14.93
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": 12.16,
+        "ycoord": 45.42,
+        "grainall": 1.94,
+        "grainsome": 13.45
+    },
+    {
+        "name": "x",
+        "scale": 1,
+        "xcoord": 17.89,
+        "ycoord": 45.4,
+        "grainall": 11.75,
+        "grainsome": 24.3
+    },
+    {
+        "name": "Palantia",
+        "scale": 6,
+        "xcoord": -5.38,
+        "ycoord": 42.45,
+        "grainall": 9.31,
+        "grainsome": 14.13
+    },
+    {
+        "name": "Hadrianoupolis",
+        "scale": 6,
+        "xcoord": 26.57,
+        "ycoord": 41.68,
+        "grainall": 6.67,
+        "grainsome": 13.81
+    },
+    {
+        "name": "Ichthys Pr.",
+        "scale": 6,
+        "xcoord": 21.32,
+        "ycoord": 37.65,
+        "grainall": 0.74,
+        "grainsome": 10.89
+    },
+    {
+        "name": "Mons Porphyrites",
+        "scale": 6,
+        "xcoord": 33.35,
+        "ycoord": 27.21,
+        "grainall": 12.25,
+        "grainsome": 10.49
+    },
+    {
+        "name": "Kallipolis",
+        "scale": 6,
+        "xcoord": 26.68,
+        "ycoord": 40.41,
+        "grainall": 1.39,
+        "grainsome": 14.75
+    },
+    {
+        "name": "Metagonium Pr.",
+        "scale": 6,
+        "xcoord": 6.47,
+        "ycoord": 37.09,
+        "grainall": 0.58,
+        "grainsome": 4.05
+    },
+    {
+        "name": "Mampsoukrenai",
+        "scale": 6,
+        "xcoord": 34.89,
+        "ycoord": 37.08,
+        "grainall": 6,
+        "grainsome": 8.45
+    },
+    {
+        "name": "Astypaleia",
+        "scale": 6,
+        "xcoord": 26.35,
+        "ycoord": 36.55,
+        "grainall": 1.18,
+        "grainsome": 6.27
+    },
+    {
+        "name": "Proconnesus",
+        "scale": 6,
+        "xcoord": 27.56,
+        "ycoord": 40.59,
+        "grainall": 1.42,
+        "grainsome": 10.16
+    },
+    {
+        "name": "Kriou Metopon Pr.",
+        "scale": 6,
+        "xcoord": 23.58,
+        "ycoord": 35.27,
+        "grainall": 1.01,
+        "grainsome": 2.04
+    },
+    {
+        "name": "Maritima",
+        "scale": 6,
+        "xcoord": 12.06,
+        "ycoord": 37.97,
+        "grainall": 0.31,
+        "grainsome": 16.59
+    },
+    {
+        "name": "Samonion Pr.",
+        "scale": 6,
+        "xcoord": 26.25,
+        "ycoord": 35.28,
+        "grainall": 1.15,
+        "grainsome": 12.14
+    },
+    {
+        "name": "Malea Pr.",
+        "scale": 6,
+        "xcoord": 23.2,
+        "ycoord": 36.44,
+        "grainall": 0.93,
+        "grainsome": 14.79
+    },
+    {
+        "name": "Titius (river)",
+        "scale": 6,
+        "xcoord": 15.86,
+        "ycoord": 43.72,
+        "grainall": 0.99,
+        "grainsome": 3.37
+    },
+    {
+        "name": "Ad fl. Tigrim",
+        "scale": 6,
+        "xcoord": 42.19,
+        "ycoord": 37.34,
+        "grainall": 17.95,
+        "grainsome": 18.51
+    },
+    {
+        "name": "Tenedos",
+        "scale": 6,
+        "xcoord": 26.05,
+        "ycoord": 39.82,
+        "grainall": 1.41,
+        "grainsome": 7.55
+    },
+    {
+        "name": "Alpheos (river)",
+        "scale": 6,
+        "xcoord": 21.45,
+        "ycoord": 37.61,
+        "grainall": 0.76,
+        "grainsome": 18.11
+    },
+    {
+        "name": "Maiensis Statio",
+        "scale": 6,
+        "xcoord": 11.17,
+        "ycoord": 46.66,
+        "grainall": 11.24,
+        "grainsome": 20.68
+    },
+    {
+        "name": "Mouth of Pontus",
+        "scale": 6,
+        "xcoord": 29.12,
+        "ycoord": 41.21,
+        "grainall": 1.5,
+        "grainsome": 20.73
+    },
+    {
+        "name": "Acroceraunia Pr.",
+        "scale": 6,
+        "xcoord": 19.32,
+        "ycoord": 40.44,
+        "grainall": 0.76,
+        "grainsome": 0.55
+    },
+    {
+        "name": "Kimaros Pr.",
+        "scale": 6,
+        "xcoord": 23.6,
+        "ycoord": 35.63,
+        "grainall": 1,
+        "grainsome": 24.75
+    },
+    {
+        "name": "Lacinium Pr.",
+        "scale": 6,
+        "xcoord": 17.2,
+        "ycoord": 39.03,
+        "grainall": 0.57,
+        "grainsome": 15.91
+    },
+    {
+        "name": "Cephalae Pr.",
+        "scale": 6,
+        "xcoord": 15.21,
+        "ycoord": 32.37,
+        "grainall": 0.77,
+        "grainsome": 24.16
+    },
+    {
+        "name": "Chersonesos Akra",
+        "scale": 6,
+        "xcoord": 23.12,
+        "ycoord": 32.61,
+        "grainall": 1.14,
+        "grainsome": 18.51
+    },
+    {
+        "name": "Pyramos (river)",
+        "scale": 6,
+        "xcoord": 35.56,
+        "ycoord": 36.57,
+        "grainall": 1.75,
+        "grainsome": 23.25
+    },
+    {
+        "name": "Pedalion Pr.",
+        "scale": 6,
+        "xcoord": 34.08,
+        "ycoord": 34.96,
+        "grainall": 1.66,
+        "grainsome": 21.87
+    },
+    {
+        "name": "Segedunum",
+        "scale": 6,
+        "xcoord": -1.53,
+        "ycoord": 54.99,
+        "grainall": 2.87,
+        "grainsome": 21.72
+    },
+    {
+        "name": "Penne Locos",
+        "scale": 6,
+        "xcoord": 6.92,
+        "ycoord": 46.4,
+        "grainall": 10.58,
+        "grainsome": 19.28
+    },
+    {
+        "name": "Karambis Pr.",
+        "scale": 6,
+        "xcoord": 33.37,
+        "ycoord": 42.01,
+        "grainall": 1.69,
+        "grainsome": 20.53
+    },
+    {
+        "name": "Boiodurum",
+        "scale": 6,
+        "xcoord": 13.45,
+        "ycoord": 48.57,
+        "grainall": 12.71,
+        "grainsome": 17.22
+    },
+    {
+        "name": "Aufidena",
+        "scale": 6,
+        "xcoord": 16.19,
+        "ycoord": 41.34,
+        "grainall": 0.81,
+        "grainsome": 17.14
+    },
+    {
+        "name": "Palinurus Pr.",
+        "scale": 6,
+        "xcoord": 14.93,
+        "ycoord": 40.26,
+        "grainall": 0.27,
+        "grainsome": 11.32
+    },
+    {
+        "name": "Fregellanum",
+        "scale": 6,
+        "xcoord": 13.51,
+        "ycoord": 41.55,
+        "grainall": 3.44,
+        "grainsome": 18.87
+    },
+    {
+        "name": "Abodiacum",
+        "scale": 6,
+        "xcoord": 10.91,
+        "ycoord": 47.91,
+        "grainall": 13.28,
+        "grainsome": 23.45
+    },
+    {
+        "name": "Spinis",
+        "scale": 6,
+        "xcoord": -1.23,
+        "ycoord": 51.4,
+        "grainall": 4.2,
+        "grainsome": 22.29
+    },
+    {
+        "name": "Loium",
+        "scale": 6,
+        "xcoord": 0.72,
+        "ycoord": 49.52,
+        "grainall": 2.59,
+        "grainsome": 15.33
+    },
+    {
+        "name": "Caput Vada",
+        "scale": 6,
+        "xcoord": 11.16,
+        "ycoord": 35.23,
+        "grainall": 0.57,
+        "grainsome": 22.94
+    },
+    {
+        "name": "Qasr Farafra",
+        "scale": 6,
+        "xcoord": 27.93,
+        "ycoord": 27.04,
+        "grainall": 17.4,
+        "grainsome": 12.39
+    },
+    {
+        "name": "Veldidena",
+        "scale": 6,
+        "xcoord": 11.39,
+        "ycoord": 47.26,
+        "grainall": 11.8,
+        "grainsome": 2.85
+    },
+    {
+        "name": "Akitas Pr.",
+        "scale": 6,
+        "xcoord": 21.88,
+        "ycoord": 36.72,
+        "grainall": 0.84,
+        "grainsome": 7.09
+    },
+    {
+        "name": "Cambete",
+        "scale": 6,
+        "xcoord": 7.5,
+        "ycoord": 47.67,
+        "grainall": 8.63,
+        "grainsome": 3.34
+    },
+    {
+        "name": "Venonis",
+        "scale": 6,
+        "xcoord": -1.3,
+        "ycoord": 52.49,
+        "grainall": 7.63,
+        "grainsome": 18.82
+    },
+    {
+        "name": "Ad Publicanos",
+        "scale": 6,
+        "xcoord": 6.37,
+        "ycoord": 45.67,
+        "grainall": 10.34,
+        "grainsome": 2.43
+    },
+    {
+        "name": "Tiliaventum (river)",
+        "scale": 6,
+        "xcoord": 13.1,
+        "ycoord": 45.64,
+        "grainall": 1.12,
+        "grainsome": 19.36
+    },
+    {
+        "name": "Kadiston Mons",
+        "scale": 6,
+        "xcoord": 25.77,
+        "ycoord": 35.34,
+        "grainall": 1.11,
+        "grainsome": 3.28
+    },
+    {
+        "name": "Cinolis",
+        "scale": 6,
+        "xcoord": 34.16,
+        "ycoord": 41.96,
+        "grainall": 1.73,
+        "grainsome": 21.78
+    },
+    {
+        "name": "Trogilion Pr.",
+        "scale": 6,
+        "xcoord": 27.02,
+        "ycoord": 37.67,
+        "grainall": 1.24,
+        "grainsome": 18.22
+    },
+    {
+        "name": "Endidae",
+        "scale": 6,
+        "xcoord": 11.27,
+        "ycoord": 46.32,
+        "grainall": 9.6,
+        "grainsome": 22.12
+    },
+    {
+        "name": "Summus Pyreneus (West)",
+        "scale": 6,
+        "xcoord": -1.36,
+        "ycoord": 43.01,
+        "grainall": 9.74,
+        "grainsome": 17.36
+    },
+    {
+        "name": "Lousonna",
+        "scale": 6,
+        "xcoord": 6.63,
+        "ycoord": 46.52,
+        "grainall": 9.59,
+        "grainsome": 13.83
+    },
+    {
+        "name": "Mercurii Pr.",
+        "scale": 6,
+        "xcoord": 11.01,
+        "ycoord": 37.06,
+        "grainall": 0.41,
+        "grainsome": 7.07
+    },
+    {
+        "name": "Thelseai",
+        "scale": 6,
+        "xcoord": 36.7,
+        "ycoord": 33.64,
+        "grainall": 11.01,
+        "grainsome": 6.7
+    },
+    {
+        "name": "Heracleum Pr.",
+        "scale": 6,
+        "xcoord": 16.06,
+        "ycoord": 37.93,
+        "grainall": 0.48,
+        "grainsome": 2.7
+    },
+    {
+        "name": "Gallicum Fretum",
+        "scale": 6,
+        "xcoord": 9.16,
+        "ycoord": 41.39,
+        "grainall": 0.23,
+        "grainsome": 20.37
+    },
+    {
+        "name": "Athos Mons",
+        "scale": 6,
+        "xcoord": 24.22,
+        "ycoord": 40.26,
+        "grainall": 1.5,
+        "grainsome": 16.46
+    },
+    {
+        "name": "Summus Pyreneus (East)",
+        "scale": 6,
+        "xcoord": -0.73,
+        "ycoord": 42.85,
+        "grainall": 11.33,
+        "grainsome": 17.23
+    },
+    {
+        "name": "Brundulum",
+        "scale": 6,
+        "xcoord": 12.31,
+        "ycoord": 45.19,
+        "grainall": 1.08,
+        "grainsome": 23.18
+    },
+    {
+        "name": "Colubraria",
+        "scale": 6,
+        "xcoord": 0.69,
+        "ycoord": 39.9,
+        "grainall": 0.79,
+        "grainsome": 17.18
+    },
+    {
+        "name": "Sounion Pr.",
+        "scale": 6,
+        "xcoord": 24.03,
+        "ycoord": 37.65,
+        "grainall": 1.1,
+        "grainsome": 1.29
+    },
+    {
+        "name": "Kleides Pr.",
+        "scale": 6,
+        "xcoord": 34.59,
+        "ycoord": 35.7,
+        "grainall": 1.7,
+        "grainsome": 9.4
+    },
+    {
+        "name": "Dessobriga",
+        "scale": 6,
+        "xcoord": -4.33,
+        "ycoord": 42.41,
+        "grainall": 6.12,
+        "grainsome": 19.27
+    },
+    {
+        "name": "Pons Drusi",
+        "scale": 6,
+        "xcoord": 11.34,
+        "ycoord": 46.48,
+        "grainall": 10.35,
+        "grainsome": 4.04
+    },
+    {
+        "name": "Galacum",
+        "scale": 6,
+        "xcoord": -2.59,
+        "ycoord": 54.17,
+        "grainall": 5.94,
+        "grainsome": 15.01
+    },
+    {
+        "name": "Ad Tricensium",
+        "scale": 6,
+        "xcoord": 13.22,
+        "ycoord": 46.16,
+        "grainall": 2.71,
+        "grainsome": 23.79
+    },
+    {
+        "name": "Anemurium",
+        "scale": 6,
+        "xcoord": 32.8,
+        "ycoord": 36.02,
+        "grainall": 1.57,
+        "grainsome": 22.51
+    },
+    {
+        "name": "Galata",
+        "scale": 6,
+        "xcoord": 8.93,
+        "ycoord": 37.53,
+        "grainall": 0.41,
+        "grainsome": 9.16
+    },
+    {
+        "name": "Phiara",
+        "scale": 6,
+        "xcoord": 36.6,
+        "ycoord": 39.86,
+        "grainall": 11.29,
+        "grainsome": 13.71
+    },
+    {
+        "name": "Vivisco",
+        "scale": 6,
+        "xcoord": 6.84,
+        "ycoord": 46.47,
+        "grainall": 10.19,
+        "grainsome": 8.28
+    },
+    {
+        "name": "Akamas Pr.",
+        "scale": 6,
+        "xcoord": 32.28,
+        "ycoord": 35.11,
+        "grainall": 1.52,
+        "grainsome": 9.53
+    },
+    {
+        "name": "Ad Aras",
+        "scale": 6,
+        "xcoord": -0.98,
+        "ycoord": 38.74,
+        "grainall": 5.11,
+        "grainsome": 9.46
+    },
+    {
+        "name": "Sallentinum Pr.",
+        "scale": 6,
+        "xcoord": 18.36,
+        "ycoord": 39.8,
+        "grainall": 0.65,
+        "grainsome": 11.3
+    },
+    {
+        "name": "Parthanum",
+        "scale": 6,
+        "xcoord": 11.08,
+        "ycoord": 47.49,
+        "grainall": 13.65,
+        "grainsome": 0.06
+    },
+    {
+        "name": "Aulon",
+        "scale": 7,
+        "xcoord": 19.42,
+        "ycoord": 40.51,
+        "grainall": 0.76,
+        "grainsome": 16.28
+    },
+    {
+        "name": "Horreum Margi",
+        "scale": 7,
+        "xcoord": 21.39,
+        "ycoord": 43.93,
+        "grainall": 13.76,
+        "grainsome": 12.62
+    },
+    {
+        "name": "Ticinum",
+        "scale": 7,
+        "xcoord": 9.16,
+        "ycoord": 45.19,
+        "grainall": 3.63,
+        "grainsome": 22.76
+    },
+    {
+        "name": "Myos Hormos",
+        "scale": 7,
+        "xcoord": 34.24,
+        "ycoord": 26.16,
+        "grainall": 12.37,
+        "grainsome": 1.56
+    },
+    {
+        "name": "Flaviopolis",
+        "scale": 7,
+        "xcoord": 32.2,
+        "ycoord": 40.81,
+        "grainall": 5.68,
+        "grainsome": 4.89
+    },
+    {
+        "name": "Servitium",
+        "scale": 7,
+        "xcoord": 17.26,
+        "ycoord": 45.13,
+        "grainall": 8.26,
+        "grainsome": 13.06
+    },
+    {
+        "name": "Condate",
+        "scale": 7,
+        "xcoord": -1.69,
+        "ycoord": 48.13,
+        "grainall": 6.82,
+        "grainsome": 13
+    },
+    {
+        "name": "Legio VII",
+        "scale": 7,
+        "xcoord": -5.57,
+        "ycoord": 42.6,
+        "grainall": 10.19,
+        "grainsome": 13.01
+    },
+    {
+        "name": "Themiskyra",
+        "scale": 7,
+        "xcoord": 36.97,
+        "ycoord": 41.22,
+        "grainall": 1.89,
+        "grainsome": 4.77
+    },
+    {
+        "name": "Soura",
+        "scale": 7,
+        "xcoord": 38.8,
+        "ycoord": 35.91,
+        "grainall": 11.19,
+        "grainsome": 18.31
+    },
+    {
+        "name": "Kardamis",
+        "scale": 7,
+        "xcoord": 25.04,
+        "ycoord": 31.92,
+        "grainall": 1.41,
+        "grainsome": 7.09
+    },
+    {
+        "name": "Segusio",
+        "scale": 7,
+        "xcoord": 7.01,
+        "ycoord": 45.12,
+        "grainall": 6.69,
+        "grainsome": 2.26
+    },
+    {
+        "name": "Vorgium",
+        "scale": 7,
+        "xcoord": -3.58,
+        "ycoord": 48.3,
+        "grainall": 11.79,
+        "grainsome": 20.24
+    },
+    {
+        "name": "Lacobriga",
+        "scale": 7,
+        "xcoord": -4.6,
+        "ycoord": 42.35,
+        "grainall": 6.96,
+        "grainsome": 6.66
+    },
+    {
+        "name": "Mamucio",
+        "scale": 7,
+        "xcoord": -2.33,
+        "ycoord": 53.46,
+        "grainall": 4.73,
+        "grainsome": 9.46
+    },
+    {
+        "name": "Divodurum",
+        "scale": 7,
+        "xcoord": 6.19,
+        "ycoord": 49.12,
+        "grainall": 7.8,
+        "grainsome": 1.69
+    },
+    {
+        "name": "Samarobriva",
+        "scale": 7,
+        "xcoord": 2.29,
+        "ycoord": 49.89,
+        "grainall": 6.31,
+        "grainsome": 3.18
+    },
+    {
+        "name": "Hydruntum",
+        "scale": 7,
+        "xcoord": 18.49,
+        "ycoord": 40.15,
+        "grainall": 0.68,
+        "grainsome": 12.48
+    },
+    {
+        "name": "Beneharnum",
+        "scale": 7,
+        "xcoord": -0.44,
+        "ycoord": 43.33,
+        "grainall": 9.03,
+        "grainsome": 11.53
+    },
+    {
+        "name": "Genua",
+        "scale": 7,
+        "xcoord": 8.93,
+        "ycoord": 44.41,
+        "grainall": 0.33,
+        "grainsome": 13.87
+    },
+    {
+        "name": "Virovesca",
+        "scale": 7,
+        "xcoord": -3.32,
+        "ycoord": 42.55,
+        "grainall": 9.32,
+        "grainsome": 2.93
+    },
+    {
+        "name": "Genava",
+        "scale": 7,
+        "xcoord": 6.14,
+        "ycoord": 46.2,
+        "grainall": 7.49,
+        "grainsome": 1.86
+    },
+    {
+        "name": "Kos",
+        "scale": 7,
+        "xcoord": 27.29,
+        "ycoord": 36.89,
+        "grainall": 1.26,
+        "grainsome": 8.24
+    },
+    {
+        "name": "Cabilonnum",
+        "scale": 7,
+        "xcoord": 4.84,
+        "ycoord": 46.78,
+        "grainall": 3.49,
+        "grainsome": 14.8
+    },
+    {
+        "name": "Praetorium",
+        "scale": 7,
+        "xcoord": 15.97,
+        "ycoord": 31.29,
+        "grainall": 0.89,
+        "grainsome": 23.15
+    },
+    {
+        "name": "Portus Magnus",
+        "scale": 7,
+        "xcoord": -0.27,
+        "ycoord": 35.81,
+        "grainall": 0.9,
+        "grainsome": 7.58
+    },
+    {
+        "name": "Boubastis",
+        "scale": 7,
+        "xcoord": 31.52,
+        "ycoord": 30.58,
+        "grainall": 5.07,
+        "grainsome": 5.41
+    },
+    {
+        "name": "Myndos",
+        "scale": 7,
+        "xcoord": 27.24,
+        "ycoord": 37.08,
+        "grainall": 1.26,
+        "grainsome": 9.18
+    },
+    {
+        "name": "Aesuris",
+        "scale": 7,
+        "xcoord": -7.45,
+        "ycoord": 37.22,
+        "grainall": 1.29,
+        "grainsome": 20.38
+    },
+    {
+        "name": "Noviomagus",
+        "scale": 7,
+        "xcoord": 8.44,
+        "ycoord": 49.31,
+        "grainall": 7.13,
+        "grainsome": 12.65
+    },
+    {
+        "name": "Arae Philaenorum",
+        "scale": 7,
+        "xcoord": 18.79,
+        "ycoord": 30.29,
+        "grainall": 11.55,
+        "grainsome": 12.72
+    },
+    {
+        "name": "Portus Blendium",
+        "scale": 7,
+        "xcoord": -4.04,
+        "ycoord": 43.43,
+        "grainall": 1.87,
+        "grainsome": 5.11
+    },
+    {
+        "name": "Parium",
+        "scale": 7,
+        "xcoord": 27.07,
+        "ycoord": 40.42,
+        "grainall": 1.4,
+        "grainsome": 20.16
+    },
+    {
+        "name": "Herdoniae",
+        "scale": 7,
+        "xcoord": 15.62,
+        "ycoord": 41.32,
+        "grainall": 4.65,
+        "grainsome": 1.68
+    },
+    {
+        "name": "Cossyra",
+        "scale": 7,
+        "xcoord": 11.94,
+        "ycoord": 36.83,
+        "grainall": 0.4,
+        "grainsome": 4.3
+    },
+    {
+        "name": "Sisapo",
+        "scale": 7,
+        "xcoord": -4.52,
+        "ycoord": 38.64,
+        "grainall": 13.63,
+        "grainsome": 11.31
+    },
+    {
+        "name": "Taliata",
+        "scale": 7,
+        "xcoord": 22.15,
+        "ycoord": 44.46,
+        "grainall": 10.36,
+        "grainsome": 16.88
+    },
+    {
+        "name": "Barium",
+        "scale": 7,
+        "xcoord": 16.87,
+        "ycoord": 41.13,
+        "grainall": 0.78,
+        "grainsome": 16.46
+    },
+    {
+        "name": "Cetium",
+        "scale": 7,
+        "xcoord": 15.62,
+        "ycoord": 48.2,
+        "grainall": 15.66,
+        "grainsome": 15.23
+    },
+    {
+        "name": "Nemetacum",
+        "scale": 7,
+        "xcoord": 2.76,
+        "ycoord": 50.3,
+        "grainall": 6.08,
+        "grainsome": 23.6
+    },
+    {
+        "name": "Terenouthis",
+        "scale": 7,
+        "xcoord": 30.82,
+        "ycoord": 30.43,
+        "grainall": 1.96,
+        "grainsome": 5.2
+    },
+    {
+        "name": "Salsovia",
+        "scale": 7,
+        "xcoord": 29.12,
+        "ycoord": 45.07,
+        "grainall": 1.68,
+        "grainsome": 15.37
+    },
+    {
+        "name": "Pompelo",
+        "scale": 7,
+        "xcoord": -1.65,
+        "ycoord": 42.8,
+        "grainall": 10.94,
+        "grainsome": 8.89
+    },
+    {
+        "name": "Selinous",
+        "scale": 7,
+        "xcoord": 23.68,
+        "ycoord": 39.14,
+        "grainall": 1.34,
+        "grainsome": 4.34
+    },
+    {
+        "name": "Lutetia",
+        "scale": 7,
+        "xcoord": 2.34,
+        "ycoord": 48.85,
+        "grainall": 4.72,
+        "grainsome": 7.39
+    },
+    {
+        "name": "Interpromium",
+        "scale": 7,
+        "xcoord": 13.93,
+        "ycoord": 42.24,
+        "grainall": 2.28,
+        "grainsome": 17.33
+    },
+    {
+        "name": "Kotyora",
+        "scale": 7,
+        "xcoord": 37.88,
+        "ycoord": 41,
+        "grainall": 1.91,
+        "grainsome": 5.68
+    },
+    {
+        "name": "Gesoriacum",
+        "scale": 7,
+        "xcoord": 1.61,
+        "ycoord": 50.72,
+        "grainall": 2.58,
+        "grainsome": 20.1
+    },
+    {
+        "name": "Portus Pachyni",
+        "scale": 7,
+        "xcoord": 15.14,
+        "ycoord": 36.68,
+        "grainall": 0.54,
+        "grainsome": 23.15
+    },
+    {
+        "name": "Caeciliana",
+        "scale": 7,
+        "xcoord": 38.12,
+        "ycoord": 36.66,
+        "grainall": 10.04,
+        "grainsome": 7.8
+    },
+    {
+        "name": "Petuaria",
+        "scale": 7,
+        "xcoord": -0.59,
+        "ycoord": 53.69,
+        "grainall": 2.78,
+        "grainsome": 8.98
+    },
+    {
+        "name": "Coriosopitum",
+        "scale": 7,
+        "xcoord": -2,
+        "ycoord": 54.98,
+        "grainall": 3.12,
+        "grainsome": 20.55
+    },
+    {
+        "name": "Summuntorium",
+        "scale": 7,
+        "xcoord": 10.79,
+        "ycoord": 48.64,
+        "grainall": 14.56,
+        "grainsome": 14.08
+    },
+    {
+        "name": "Potidaion",
+        "scale": 7,
+        "xcoord": 27.21,
+        "ycoord": 35.51,
+        "grainall": 1.2,
+        "grainsome": 13.11
+    },
+    {
+        "name": "Iulium Carnicum",
+        "scale": 7,
+        "xcoord": 13.01,
+        "ycoord": 46.45,
+        "grainall": 4.16,
+        "grainsome": 20.45
+    },
+    {
+        "name": "Perdices",
+        "scale": 7,
+        "xcoord": 5.37,
+        "ycoord": 35.84,
+        "grainall": 6.21,
+        "grainsome": 18.81
+    },
+    {
+        "name": "Augustobriga",
+        "scale": 7,
+        "xcoord": -5.68,
+        "ycoord": 39.81,
+        "grainall": 12.16,
+        "grainsome": 22.79
+    },
+    {
+        "name": "Aquae Sulis",
+        "scale": 7,
+        "xcoord": -2.37,
+        "ycoord": 51.39,
+        "grainall": 4.75,
+        "grainsome": 18.93
+    },
+    {
+        "name": "Iuliobona",
+        "scale": 7,
+        "xcoord": 0.54,
+        "ycoord": 49.53,
+        "grainall": 2.49,
+        "grainsome": 2.91
+    },
+    {
+        "name": "Brigantium",
+        "scale": 7,
+        "xcoord": 9.72,
+        "ycoord": 47.5,
+        "grainall": 9.46,
+        "grainsome": 7.64
+    },
+    {
+        "name": "Kallipolis-Anxa",
+        "scale": 7,
+        "xcoord": 17.99,
+        "ycoord": 40.06,
+        "grainall": 0.68,
+        "grainsome": 18.44
+    },
+    {
+        "name": "Arupium",
+        "scale": 7,
+        "xcoord": 15.29,
+        "ycoord": 44.83,
+        "grainall": 2.32,
+        "grainsome": 15.3
+    },
+    {
+        "name": "Pons Aeni",
+        "scale": 7,
+        "xcoord": 12.12,
+        "ycoord": 47.88,
+        "grainall": 12.16,
+        "grainsome": 8.45
+    },
+    {
+        "name": "Geraistos",
+        "scale": 7,
+        "xcoord": 24.55,
+        "ycoord": 37.98,
+        "grainall": 1.22,
+        "grainsome": 24.33
+    },
+    {
+        "name": "Albulae",
+        "scale": 7,
+        "xcoord": -1.16,
+        "ycoord": 35.29,
+        "grainall": 2.02,
+        "grainsome": 14.84
+    },
+    {
+        "name": "Aequum Tuticum",
+        "scale": 7,
+        "xcoord": 15.07,
+        "ycoord": 41.26,
+        "grainall": 4.43,
+        "grainsome": 17.4
+    },
+    {
+        "name": "Salapia",
+        "scale": 7,
+        "xcoord": 16.02,
+        "ycoord": 41.39,
+        "grainall": 0.83,
+        "grainsome": 7.76
+    },
+    {
+        "name": "Atria",
+        "scale": 7,
+        "xcoord": 12.05,
+        "ycoord": 45.05,
+        "grainall": 3.42,
+        "grainsome": 21.38
+    },
+    {
+        "name": "Lugdunum Batavorum",
+        "scale": 7,
+        "xcoord": 4.4,
+        "ycoord": 52.2,
+        "grainall": 2.74,
+        "grainsome": 3.18
+    },
+    {
+        "name": "Civitas Namnetum",
+        "scale": 7,
+        "xcoord": -1.56,
+        "ycoord": 47.21,
+        "grainall": 2.09,
+        "grainsome": 22.43
+    },
+    {
+        "name": "Katabolos",
+        "scale": 7,
+        "xcoord": 35.98,
+        "ycoord": 36.92,
+        "grainall": 1.79,
+        "grainsome": 10.21
+    },
+    {
+        "name": "Sigeion",
+        "scale": 7,
+        "xcoord": 26.2,
+        "ycoord": 40.01,
+        "grainall": 1.34,
+        "grainsome": 5.06
+    },
+    {
+        "name": "Curia",
+        "scale": 7,
+        "xcoord": 9.53,
+        "ycoord": 46.85,
+        "grainall": 9.62,
+        "grainsome": 22.56
+    },
+    {
+        "name": "Hierasykaminos",
+        "scale": 7,
+        "xcoord": 32.68,
+        "ycoord": 23.07,
+        "grainall": 9.06,
+        "grainsome": 24.21
+    },
+    {
+        "name": "Hierakonpolis",
+        "scale": 7,
+        "xcoord": 30.48,
+        "ycoord": 31.02,
+        "grainall": 1.68,
+        "grainsome": 10.64
+    },
+    {
+        "name": "Mounesis",
+        "scale": 7,
+        "xcoord": 30.61,
+        "ycoord": 24.68,
+        "grainall": 15.53,
+        "grainsome": 24.66
+    },
+    {
+        "name": "Petras Megas",
+        "scale": 7,
+        "xcoord": 25.09,
+        "ycoord": 31.75,
+        "grainall": 1.4,
+        "grainsome": 9.63
+    },
+    {
+        "name": "Automalax",
+        "scale": 7,
+        "xcoord": 19.13,
+        "ycoord": 30.25,
+        "grainall": 1.12,
+        "grainsome": 21.33
+    },
+    {
+        "name": "Augusta Suessionum",
+        "scale": 7,
+        "xcoord": 3.32,
+        "ycoord": 49.38,
+        "grainall": 9.64,
+        "grainsome": 5.34
+    },
+    {
+        "name": "Confluentes",
+        "scale": 7,
+        "xcoord": 7.59,
+        "ycoord": 50.36,
+        "grainall": 5.85,
+        "grainsome": 3.68
+    },
+    {
+        "name": "Augustobona",
+        "scale": 7,
+        "xcoord": 4.06,
+        "ycoord": 48.31,
+        "grainall": 6.47,
+        "grainsome": 22.92
+    },
+    {
+        "name": "Aquae Terebellicae",
+        "scale": 7,
+        "xcoord": -1.06,
+        "ycoord": 43.73,
+        "grainall": 6.63,
+        "grainsome": 16.34
+    },
+    {
+        "name": "Hephaistia",
+        "scale": 7,
+        "xcoord": 25.23,
+        "ycoord": 39.93,
+        "grainall": 1.54,
+        "grainsome": 9.81
+    },
+    {
+        "name": "Decetia",
+        "scale": 7,
+        "xcoord": 3.46,
+        "ycoord": 46.85,
+        "grainall": 9.56,
+        "grainsome": 11.89
+    },
+    {
+        "name": "Faventia",
+        "scale": 7,
+        "xcoord": 11.88,
+        "ycoord": 44.29,
+        "grainall": 3.2,
+        "grainsome": 12.4
+    },
+    {
+        "name": "Clipea",
+        "scale": 7,
+        "xcoord": 11.11,
+        "ycoord": 36.84,
+        "grainall": 0.44,
+        "grainsome": 16.24
+    },
+    {
+        "name": "Mariana",
+        "scale": 7,
+        "xcoord": -2.93,
+        "ycoord": 38.56,
+        "grainall": 9.59,
+        "grainsome": 23.38
+    },
+    {
+        "name": "Zacynthus",
+        "scale": 7,
+        "xcoord": 20.9,
+        "ycoord": 37.78,
+        "grainall": 0.76,
+        "grainsome": 2.89
+    },
+    {
+        "name": "Kaudos",
+        "scale": 7,
+        "xcoord": 24.06,
+        "ycoord": 34.86,
+        "grainall": 1.06,
+        "grainsome": 2.5
+    },
+    {
+        "name": "Delos",
+        "scale": 7,
+        "xcoord": 25.27,
+        "ycoord": 37.4,
+        "grainall": 1.13,
+        "grainsome": 7.02
+    },
+    {
+        "name": "Flavium Brigantium",
+        "scale": 7,
+        "xcoord": -8.4,
+        "ycoord": 43.37,
+        "grainall": 1.68,
+        "grainsome": 21.81
+    },
+    {
+        "name": "Santicum",
+        "scale": 7,
+        "xcoord": 13.87,
+        "ycoord": 46.64,
+        "grainall": 6.31,
+        "grainsome": 12.64
+    },
+    {
+        "name": "Vappincum",
+        "scale": 7,
+        "xcoord": 6.03,
+        "ycoord": 44.55,
+        "grainall": 6.84,
+        "grainsome": 7.76
+    },
+    {
+        "name": "Bagacum",
+        "scale": 7,
+        "xcoord": 3.81,
+        "ycoord": 50.3,
+        "grainall": 8.87,
+        "grainsome": 11.52
+    },
+    {
+        "name": "Ilva",
+        "scale": 7,
+        "xcoord": 10.24,
+        "ycoord": 42.74,
+        "grainall": 0.24,
+        "grainsome": 22.33
+    },
+    {
+        "name": "Kapitolias",
+        "scale": 7,
+        "xcoord": 35.86,
+        "ycoord": 32.61,
+        "grainall": 5.63,
+        "grainsome": 17.25
+    },
+    {
+        "name": "Rutupiae",
+        "scale": 7,
+        "xcoord": 1.32,
+        "ycoord": 51.3,
+        "grainall": 2.61,
+        "grainsome": 4.06
+    },
+    {
+        "name": "Rotomagus",
+        "scale": 7,
+        "xcoord": 1.1,
+        "ycoord": 49.45,
+        "grainall": 3.07,
+        "grainsome": 5.21
+    },
+    {
+        "name": "Malaca",
+        "scale": 8,
+        "xcoord": -4.42,
+        "ycoord": 36.72,
+        "grainall": 1.03,
+        "grainsome": 4.78
+    },
+    {
+        "name": "Augustoritum",
+        "scale": 8,
+        "xcoord": 1.25,
+        "ycoord": 45.83,
+        "grainall": 10.56,
+        "grainsome": 23.9
+    },
+    {
+        "name": "Mutina",
+        "scale": 8,
+        "xcoord": 10.92,
+        "ycoord": 44.65,
+        "grainall": 3.4,
+        "grainsome": 18.35
+    },
+    {
+        "name": "Doclea",
+        "scale": 8,
+        "xcoord": 19.28,
+        "ycoord": 42.48,
+        "grainall": 4.2,
+        "grainsome": 22.18
+    },
+    {
+        "name": "Clysma",
+        "scale": 8,
+        "xcoord": 32.57,
+        "ycoord": 29.96,
+        "grainall": 7.1,
+        "grainsome": 5.69
+    },
+    {
+        "name": "Zeugma",
+        "scale": 8,
+        "xcoord": 37.88,
+        "ycoord": 37.06,
+        "grainall": 9.61,
+        "grainsome": 14.7
+    },
+    {
+        "name": "Tyana",
+        "scale": 8,
+        "xcoord": 34.62,
+        "ycoord": 37.83,
+        "grainall": 9.43,
+        "grainsome": 15.09
+    },
+    {
+        "name": "Thebai",
+        "scale": 8,
+        "xcoord": 32.65,
+        "ycoord": 25.7,
+        "grainall": 6.71,
+        "grainsome": 2.85
+    },
+    {
+        "name": "Troesmis",
+        "scale": 8,
+        "xcoord": 28.2,
+        "ycoord": 45.16,
+        "grainall": 3.4,
+        "grainsome": 20.57
+    },
+    {
+        "name": "Mytilene",
+        "scale": 8,
+        "xcoord": 26.31,
+        "ycoord": 39.21,
+        "grainall": 1.48,
+        "grainsome": 19.89
+    },
+    {
+        "name": "Sestus",
+        "scale": 8,
+        "xcoord": 26.42,
+        "ycoord": 40.23,
+        "grainall": 1.36,
+        "grainsome": 14.32
+    },
+    {
+        "name": "Sufetula",
+        "scale": 8,
+        "xcoord": 9.13,
+        "ycoord": 35.26,
+        "grainall": 6.12,
+        "grainsome": 13.15
+    },
+    {
+        "name": "Catabathmus Maior",
+        "scale": 8,
+        "xcoord": 25.16,
+        "ycoord": 31.56,
+        "grainall": 1.42,
+        "grainsome": 6.29
+    },
+    {
+        "name": "Halicarnassus",
+        "scale": 8,
+        "xcoord": 27.43,
+        "ycoord": 37.04,
+        "grainall": 1.29,
+        "grainsome": 14.59
+    },
+    {
+        "name": "Canusium",
+        "scale": 8,
+        "xcoord": 16.07,
+        "ycoord": 41.22,
+        "grainall": 3.28,
+        "grainsome": 20.55
+    },
+    {
+        "name": "Theodosia",
+        "scale": 8,
+        "xcoord": 35.38,
+        "ycoord": 45.05,
+        "grainall": 1.89,
+        "grainsome": 14.89
+    },
+    {
+        "name": "Laodicea",
+        "scale": 8,
+        "xcoord": 35.79,
+        "ycoord": 35.52,
+        "grainall": 1.8,
+        "grainsome": 15.49
+    },
+    {
+        "name": "Viminacium",
+        "scale": 8,
+        "xcoord": 21.23,
+        "ycoord": 44.74,
+        "grainall": 10.51,
+        "grainsome": 14.52
+    },
+    {
+        "name": "Lauriacum",
+        "scale": 8,
+        "xcoord": 14.47,
+        "ycoord": 48.22,
+        "grainall": 13.09,
+        "grainsome": 23.41
+    },
+    {
+        "name": "Savaria",
+        "scale": 8,
+        "xcoord": 16.62,
+        "ycoord": 47.23,
+        "grainall": 12,
+        "grainsome": 15.25
+    },
+    {
+        "name": "Bovianum",
+        "scale": 8,
+        "xcoord": 14.47,
+        "ycoord": 41.49,
+        "grainall": 5.6,
+        "grainsome": 11.22
+    },
+    {
+        "name": "Forum Iulii",
+        "scale": 8,
+        "xcoord": 6.73,
+        "ycoord": 43.44,
+        "grainall": 0.43,
+        "grainsome": 15.42
+    },
+    {
+        "name": "Iulia Concordia",
+        "scale": 8,
+        "xcoord": 12.84,
+        "ycoord": 45.76,
+        "grainall": 2.6,
+        "grainsome": 21.61
+    },
+    {
+        "name": "Augusta Praetoria",
+        "scale": 8,
+        "xcoord": 7.31,
+        "ycoord": 45.74,
+        "grainall": 9.88,
+        "grainsome": 23.21
+    },
+    {
+        "name": "Dura",
+        "scale": 8,
+        "xcoord": 40.73,
+        "ycoord": 34.75,
+        "grainall": 13.32,
+        "grainsome": 13.4
+    },
+    {
+        "name": "Lilybaeum",
+        "scale": 8,
+        "xcoord": 12.44,
+        "ycoord": 37.8,
+        "grainall": 0.34,
+        "grainsome": 2.97
+    },
+    {
+        "name": "Durnonovaria",
+        "scale": 8,
+        "xcoord": -2.44,
+        "ycoord": 50.71,
+        "grainall": 2.38,
+        "grainsome": 8.61
+    },
+    {
+        "name": "Prusias",
+        "scale": 8,
+        "xcoord": 29.16,
+        "ycoord": 40.43,
+        "grainall": 1.51,
+        "grainsome": 21.01
+    },
+    {
+        "name": "Aquae Sextiae",
+        "scale": 8,
+        "xcoord": 5.44,
+        "ycoord": 43.53,
+        "grainall": 1.45,
+        "grainsome": 1.5
+    },
+    {
+        "name": "Caesarodunum",
+        "scale": 8,
+        "xcoord": 0.7,
+        "ycoord": 47.38,
+        "grainall": 3.45,
+        "grainsome": 24.7
+    },
+    {
+        "name": "Tolosa",
+        "scale": 8,
+        "xcoord": 1.43,
+        "ycoord": 43.62,
+        "grainall": 3.95,
+        "grainsome": 20.22
+    },
+    {
+        "name": "Corycus",
+        "scale": 8,
+        "xcoord": 34.15,
+        "ycoord": 36.46,
+        "grainall": 1.65,
+        "grainsome": 22.84
+    },
+    {
+        "name": "Augusta Raurica",
+        "scale": 8,
+        "xcoord": 7.73,
+        "ycoord": 47.54,
+        "grainall": 8.81,
+        "grainsome": 1.86
+    },
+    {
+        "name": "Ulpia Traiana Tricensimae",
+        "scale": 8,
+        "xcoord": 6.44,
+        "ycoord": 51.67,
+        "grainall": 4.29,
+        "grainsome": 5.59
+    },
+    {
+        "name": "Aeclanum",
+        "scale": 8,
+        "xcoord": 15.01,
+        "ycoord": 41.06,
+        "grainall": 4.2,
+        "grainsome": 9.3
+    },
+    {
+        "name": "Apollonia Pontica",
+        "scale": 8,
+        "xcoord": 27.7,
+        "ycoord": 42.42,
+        "grainall": 1.58,
+        "grainsome": 7.7
+    },
+    {
+        "name": "Gorgippia",
+        "scale": 8,
+        "xcoord": 37.31,
+        "ycoord": 44.89,
+        "grainall": 1.9,
+        "grainsome": 7.1
+    },
+    {
+        "name": "Pella",
+        "scale": 8,
+        "xcoord": 22.52,
+        "ycoord": 40.77,
+        "grainall": 2.85,
+        "grainsome": 17.63
+    },
+    {
+        "name": "Comana",
+        "scale": 8,
+        "xcoord": 36.33,
+        "ycoord": 38.34,
+        "grainall": 17.91,
+        "grainsome": 19.24
+    },
+    {
+        "name": "Corfinium",
+        "scale": 8,
+        "xcoord": 13.84,
+        "ycoord": 42.12,
+        "grainall": 2.91,
+        "grainsome": 21.6
+    },
+    {
+        "name": "Neapolis (Thrace)",
+        "scale": 8,
+        "xcoord": 24.47,
+        "ycoord": 40.95,
+        "grainall": 1.49,
+        "grainsome": 7.4
+    },
+    {
+        "name": "Ptolemais Hermiou",
+        "scale": 8,
+        "xcoord": 31.8,
+        "ycoord": 26.48,
+        "grainall": 5.38,
+        "grainsome": 15.7
+    },
+    {
+        "name": "Nuceria",
+        "scale": 8,
+        "xcoord": 14.67,
+        "ycoord": 40.74,
+        "grainall": 0.71,
+        "grainsome": 0.33
+    },
+    {
+        "name": "Castulo",
+        "scale": 8,
+        "xcoord": -3.63,
+        "ycoord": 38.04,
+        "grainall": 6.41,
+        "grainsome": 12.89
+    },
+    {
+        "name": "Populonium",
+        "scale": 8,
+        "xcoord": 10.5,
+        "ycoord": 43,
+        "grainall": 0.21,
+        "grainsome": 4.09
+    },
+    {
+        "name": "Tubusuctu",
+        "scale": 8,
+        "xcoord": 4.83,
+        "ycoord": 36.67,
+        "grainall": 1.59,
+        "grainsome": 22.79
+    },
+    {
+        "name": "Caudium",
+        "scale": 8,
+        "xcoord": 14.64,
+        "ycoord": 41.06,
+        "grainall": 2.83,
+        "grainsome": 13.18
+    },
+    {
+        "name": "Epidaurum",
+        "scale": 8,
+        "xcoord": 18.22,
+        "ycoord": 42.58,
+        "grainall": 0.87,
+        "grainsome": 18.19
+    },
+    {
+        "name": "Banasa",
+        "scale": 8,
+        "xcoord": -6.12,
+        "ycoord": 34.61,
+        "grainall": 3.7,
+        "grainsome": 12.75
+    },
+    {
+        "name": "Sinuessa",
+        "scale": 8,
+        "xcoord": 13.83,
+        "ycoord": 41.16,
+        "grainall": 0.22,
+        "grainsome": 0.04
+    },
+    {
+        "name": "Augusta Taurinorum",
+        "scale": 8,
+        "xcoord": 7.69,
+        "ycoord": 45.07,
+        "grainall": 4.76,
+        "grainsome": 14.52
+    },
+    {
+        "name": "Iuvavum",
+        "scale": 8,
+        "xcoord": 13.06,
+        "ycoord": 47.8,
+        "grainall": 15.16,
+        "grainsome": 14.91
+    },
+    {
+        "name": "Gythion",
+        "scale": 8,
+        "xcoord": 22.57,
+        "ycoord": 36.76,
+        "grainall": 0.92,
+        "grainsome": 0.64
+    },
+    {
+        "name": "Oescus",
+        "scale": 8,
+        "xcoord": 24.48,
+        "ycoord": 43.7,
+        "grainall": 6.42,
+        "grainsome": 12.63
+    },
+    {
+        "name": "Lamasba",
+        "scale": 8,
+        "xcoord": 5.91,
+        "ycoord": 35.6,
+        "grainall": 8.69,
+        "grainsome": 19.34
+    },
+    {
+        "name": "Salmantica",
+        "scale": 8,
+        "xcoord": -5.66,
+        "ycoord": 40.96,
+        "grainall": 16.5,
+        "grainsome": 8.08
+    },
+    {
+        "name": "Tyras",
+        "scale": 8,
+        "xcoord": 30.35,
+        "ycoord": 46.2,
+        "grainall": 1.76,
+        "grainsome": 13.42
+    },
+    {
+        "name": "Valentia",
+        "scale": 8,
+        "xcoord": 4.89,
+        "ycoord": 44.93,
+        "grainall": 1.76,
+        "grainsome": 1.56
+    },
+    {
+        "name": "Salernum",
+        "scale": 8,
+        "xcoord": 14.77,
+        "ycoord": 40.68,
+        "grainall": 0.28,
+        "grainsome": 7.98
+    },
+    {
+        "name": "Argentorate",
+        "scale": 8,
+        "xcoord": 7.77,
+        "ycoord": 48.59,
+        "grainall": 7.85,
+        "grainsome": 14.65
+    },
+    {
+        "name": "Limonum",
+        "scale": 8,
+        "xcoord": 0.35,
+        "ycoord": 46.57,
+        "grainall": 10.63,
+        "grainsome": 14.7
+    },
+    {
+        "name": "Odessus",
+        "scale": 8,
+        "xcoord": 27.91,
+        "ycoord": 43.21,
+        "grainall": 1.63,
+        "grainsome": 20.14
+    },
+    {
+        "name": "Alba Fucens",
+        "scale": 8,
+        "xcoord": 13.41,
+        "ycoord": 42.08,
+        "grainall": 3.23,
+        "grainsome": 0.43
+    },
+    {
+        "name": "Tabia",
+        "scale": 8,
+        "xcoord": 34.53,
+        "ycoord": 39.86,
+        "grainall": 16,
+        "grainsome": 17.25
+    },
+    {
+        "name": "Bononia",
+        "scale": 8,
+        "xcoord": 11.35,
+        "ycoord": 44.49,
+        "grainall": 2.08,
+        "grainsome": 15.54
+    },
+    {
+        "name": "Ilerda",
+        "scale": 8,
+        "xcoord": 0.62,
+        "ycoord": 41.61,
+        "grainall": 3.52,
+        "grainsome": 22.12
+    },
+    {
+        "name": "Xanthos",
+        "scale": 8,
+        "xcoord": 29.33,
+        "ycoord": 36.36,
+        "grainall": 1.99,
+        "grainsome": 13.54
+    },
+    {
+        "name": "Tanais",
+        "scale": 8,
+        "xcoord": 39.26,
+        "ycoord": 47.27,
+        "grainall": 2.02,
+        "grainsome": 21.34
+    },
+    {
+        "name": "Senia",
+        "scale": 8,
+        "xcoord": 14.92,
+        "ycoord": 44.99,
+        "grainall": 1.09,
+        "grainsome": 17.55
+    },
+    {
+        "name": "Thabraca",
+        "scale": 8,
+        "xcoord": 8.75,
+        "ycoord": 36.95,
+        "grainall": 0.44,
+        "grainsome": 10.75
+    },
+    {
+        "name": "Gadara",
+        "scale": 8,
+        "xcoord": 35.73,
+        "ycoord": 32.06,
+        "grainall": 6.18,
+        "grainsome": 0.99
+    },
+    {
+        "name": "Aelana",
+        "scale": 8,
+        "xcoord": 35,
+        "ycoord": 29.53,
+        "grainall": 12.34,
+        "grainsome": 15.24
+    },
+    {
+        "name": "Porolissum",
+        "scale": 8,
+        "xcoord": 23.19,
+        "ycoord": 47.17,
+        "grainall": 23.45,
+        "grainsome": 24.32
+    },
+    {
+        "name": "Italica",
+        "scale": 8,
+        "xcoord": -6.03,
+        "ycoord": 37.44,
+        "grainall": 1.51,
+        "grainsome": 7.5
+    },
+    {
+        "name": "Tibur",
+        "scale": 8,
+        "xcoord": 12.8,
+        "ycoord": 41.96,
+        "grainall": 0.99,
+        "grainsome": 12.33
+    },
+    {
+        "name": "Nisibis",
+        "scale": 8,
+        "xcoord": 41.24,
+        "ycoord": 37.08,
+        "grainall": 14.72,
+        "grainsome": 16.59
+    },
+    {
+        "name": "Ocriculum",
+        "scale": 8,
+        "xcoord": 12.47,
+        "ycoord": 42.41,
+        "grainall": 0.71,
+        "grainsome": 16.76
+    },
+    {
+        "name": "Emmaus",
+        "scale": 8,
+        "xcoord": 34.99,
+        "ycoord": 31.84,
+        "grainall": 4.15,
+        "grainsome": 5.22
+    },
+    {
+        "name": "Diana Veteranorum",
+        "scale": 8,
+        "xcoord": 5.89,
+        "ycoord": 35.79,
+        "grainall": 9.48,
+        "grainsome": 1.84
+    },
+    {
+        "name": "Claudiopolis",
+        "scale": 8,
+        "xcoord": 31.6,
+        "ycoord": 40.74,
+        "grainall": 3.89,
+        "grainsome": 4.6
+    },
+    {
+        "name": "Narnia",
+        "scale": 8,
+        "xcoord": 12.52,
+        "ycoord": 42.52,
+        "grainall": 1.18,
+        "grainsome": 23.19
+    },
+    {
+        "name": "Heliopolis",
+        "scale": 8,
+        "xcoord": 31.3,
+        "ycoord": 30.12,
+        "grainall": 3.38,
+        "grainsome": 9
+    },
+    {
+        "name": "Byblos",
+        "scale": 8,
+        "xcoord": 35.64,
+        "ycoord": 34.12,
+        "grainall": 1.79,
+        "grainsome": 19.02
+    },
+    {
+        "name": "Parma",
+        "scale": 8,
+        "xcoord": 10.33,
+        "ycoord": 44.8,
+        "grainall": 4.02,
+        "grainsome": 20.78
+    },
+    {
+        "name": "Durocortorum",
+        "scale": 8,
+        "xcoord": 4.03,
+        "ycoord": 49.26,
+        "grainall": 10.71,
+        "grainsome": 5.97
+    },
+    {
+        "name": "Dertosa",
+        "scale": 8,
+        "xcoord": 0.52,
+        "ycoord": 40.81,
+        "grainall": 0.55,
+        "grainsome": 7.28
+    },
+    {
+        "name": "Amaseia",
+        "scale": 8,
+        "xcoord": 35.82,
+        "ycoord": 40.65,
+        "grainall": 5.9,
+        "grainsome": 13.2
+    },
+    {
+        "name": "Burrio",
+        "scale": 8,
+        "xcoord": -2.93,
+        "ycoord": 51.74,
+        "grainall": 3.15,
+        "grainsome": 14.51
+    },
+    {
+        "name": "Poetovio",
+        "scale": 8,
+        "xcoord": 15.87,
+        "ycoord": 46.42,
+        "grainall": 8.43,
+        "grainsome": 18.1
+    },
+    {
+        "name": "Latopolis",
+        "scale": 8,
+        "xcoord": 32.55,
+        "ycoord": 25.29,
+        "grainall": 7.11,
+        "grainsome": 1.12
+    },
+    {
+        "name": "Phasis",
+        "scale": 8,
+        "xcoord": 41.67,
+        "ycoord": 42.15,
+        "grainall": 2.08,
+        "grainsome": 9.12
+    },
+    {
+        "name": "Musti",
+        "scale": 8,
+        "xcoord": 9.14,
+        "ycoord": 36.34,
+        "grainall": 4.69,
+        "grainsome": 13.68
+    },
+    {
+        "name": "Caesarea Maritima",
+        "scale": 8,
+        "xcoord": 34.9,
+        "ycoord": 32.51,
+        "grainall": 1.81,
+        "grainsome": 4.43
+    },
+    {
+        "name": "Lugdunum Convenarum",
+        "scale": 8,
+        "xcoord": 0.56,
+        "ycoord": 43.04,
+        "grainall": 7.57,
+        "grainsome": 8.78
+    },
+    {
+        "name": "Camarina",
+        "scale": 8,
+        "xcoord": 14.45,
+        "ycoord": 36.85,
+        "grainall": 0.52,
+        "grainsome": 9.62
+    },
+    {
+        "name": "Narona",
+        "scale": 8,
+        "xcoord": 17.63,
+        "ycoord": 43.05,
+        "grainall": 0.91,
+        "grainsome": 22.97
+    },
+    {
+        "name": "Dorylaion",
+        "scale": 8,
+        "xcoord": 30.53,
+        "ycoord": 39.81,
+        "grainall": 17.01,
+        "grainsome": 22.9
+    },
+    {
+        "name": "Scodra",
+        "scale": 8,
+        "xcoord": 19.51,
+        "ycoord": 42.07,
+        "grainall": 2.15,
+        "grainsome": 24.56
+    },
+    {
+        "name": "Melita",
+        "scale": 8,
+        "xcoord": 14.4,
+        "ycoord": 35.88,
+        "grainall": 0.54,
+        "grainsome": 10.52
+    },
+    {
+        "name": "Lixus",
+        "scale": 8,
+        "xcoord": -6.11,
+        "ycoord": 35.21,
+        "grainall": 1.35,
+        "grainsome": 7.06
+    },
+    {
+        "name": "Cuicul",
+        "scale": 8,
+        "xcoord": 5.73,
+        "ycoord": 36.32,
+        "grainall": 5.89,
+        "grainsome": 13.02
+    },
+    {
+        "name": "Isca",
+        "scale": 8,
+        "xcoord": -2.97,
+        "ycoord": 51.62,
+        "grainall": 2.66,
+        "grainsome": 22.7
+    },
+    {
+        "name": "Glevum",
+        "scale": 8,
+        "xcoord": -2.26,
+        "ycoord": 51.87,
+        "grainall": 2.69,
+        "grainsome": 4.54
+    },
+    {
+        "name": "Perinthus",
+        "scale": 8,
+        "xcoord": 27.96,
+        "ycoord": 40.98,
+        "grainall": 1.44,
+        "grainsome": 6.06
+    },
+    {
+        "name": "Nicopolis (Pontus)",
+        "scale": 8,
+        "xcoord": 38.15,
+        "ycoord": 40.15,
+        "grainall": 11.19,
+        "grainsome": 10.6
+    },
+    {
+        "name": "Novae",
+        "scale": 8,
+        "xcoord": 25.38,
+        "ycoord": 43.62,
+        "grainall": 5.8,
+        "grainsome": 10.1
+    },
+    {
+        "name": "Carnuntum",
+        "scale": 8,
+        "xcoord": 16.92,
+        "ycoord": 48.12,
+        "grainall": 13.06,
+        "grainsome": 12.14
+    },
+    {
+        "name": "Aesernia",
+        "scale": 8,
+        "xcoord": 14.23,
+        "ycoord": 41.59,
+        "grainall": 4.74,
+        "grainsome": 21.1
+    },
+    {
+        "name": "Palma",
+        "scale": 8,
+        "xcoord": 2.65,
+        "ycoord": 39.57,
+        "grainall": 0.63,
+        "grainsome": 10.42
+    },
+    {
+        "name": "Augustodunum",
+        "scale": 8,
+        "xcoord": 4.28,
+        "ycoord": 46.97,
+        "grainall": 5.16,
+        "grainsome": 20.15
+    },
+    {
+        "name": "Emesa",
+        "scale": 8,
+        "xcoord": 36.72,
+        "ycoord": 34.73,
+        "grainall": 4.28,
+        "grainsome": 16.22
+    },
+    {
+        "name": "Castrum Truentinum",
+        "scale": 8,
+        "xcoord": 13.9,
+        "ycoord": 42.9,
+        "grainall": 0.98,
+        "grainsome": 15.19
+    },
+    {
+        "name": "Arausio",
+        "scale": 8,
+        "xcoord": 4.81,
+        "ycoord": 44.14,
+        "grainall": 1.04,
+        "grainsome": 4.11
+    },
+    {
+        "name": "Vesontio",
+        "scale": 8,
+        "xcoord": 6,
+        "ycoord": 47.22,
+        "grainall": 4.57,
+        "grainsome": 2.17
+    },
+    {
+        "name": "Lampsacus",
+        "scale": 8,
+        "xcoord": 26.69,
+        "ycoord": 40.35,
+        "grainall": 1.37,
+        "grainsome": 12.05
+    },
+    {
+        "name": "Magnesia",
+        "scale": 8,
+        "xcoord": 27.53,
+        "ycoord": 37.86,
+        "grainall": 1.97,
+        "grainsome": 14.38
+    },
+    {
+        "name": "Lokroi Epizephyrioi",
+        "scale": 8,
+        "xcoord": 16.26,
+        "ycoord": 38.24,
+        "grainall": 0.5,
+        "grainsome": 14.43
+    },
+    {
+        "name": "Ovilava",
+        "scale": 8,
+        "xcoord": 14.03,
+        "ycoord": 48.16,
+        "grainall": 14.45,
+        "grainsome": 19.1
+    },
+    {
+        "name": "Beroia",
+        "scale": 8,
+        "xcoord": 37.15,
+        "ycoord": 36.22,
+        "grainall": 8.3,
+        "grainsome": 24.53
+    },
+    {
+        "name": "Ammon",
+        "scale": 8,
+        "xcoord": 25.54,
+        "ycoord": 29.2,
+        "grainall": 13.08,
+        "grainsome": 9.44
+    },
+    {
+        "name": "Regina Castra",
+        "scale": 8,
+        "xcoord": 12.1,
+        "ycoord": 49.01,
+        "grainall": 13.71,
+        "grainsome": 8.96
+    },
+    {
+        "name": "Conimbriga",
+        "scale": 8,
+        "xcoord": -8.5,
+        "ycoord": 40.08,
+        "grainall": 8.03,
+        "grainsome": 13.74
+    },
+    {
+        "name": "Cenabum",
+        "scale": 8,
+        "xcoord": 1.91,
+        "ycoord": 47.91,
+        "grainall": 4.28,
+        "grainsome": 6.76
+    },
+    {
+        "name": "Carrhae",
+        "scale": 8,
+        "xcoord": 39.02,
+        "ycoord": 36.88,
+        "grainall": 14.95,
+        "grainsome": 15.32
+    },
+    {
+        "name": "Dertona",
+        "scale": 8,
+        "xcoord": 8.86,
+        "ycoord": 44.9,
+        "grainall": 2.46,
+        "grainsome": 10
+    },
+    {
+        "name": "Bononia (Moesia)",
+        "scale": 8,
+        "xcoord": 22.9,
+        "ycoord": 44.01,
+        "grainall": 7.33,
+        "grainsome": 2.79
+    },
+    {
+        "name": "Rusaddir",
+        "scale": 8,
+        "xcoord": -2.94,
+        "ycoord": 35.28,
+        "grainall": 1.09,
+        "grainsome": 17.44
+    },
+    {
+        "name": "Formiae",
+        "scale": 8,
+        "xcoord": 13.61,
+        "ycoord": 41.26,
+        "grainall": 0.2,
+        "grainsome": 13.27
+    },
+    {
+        "name": "Calagurris",
+        "scale": 8,
+        "xcoord": -1.97,
+        "ycoord": 42.3,
+        "grainall": 13.58,
+        "grainsome": 11.07
+    },
+    {
+        "name": "Krane",
+        "scale": 8,
+        "xcoord": 20.57,
+        "ycoord": 38.22,
+        "grainall": 0.78,
+        "grainsome": 8.14
+    },
+    {
+        "name": "Sala",
+        "scale": 8,
+        "xcoord": -6.81,
+        "ycoord": 34.01,
+        "grainall": 1.45,
+        "grainsome": 20.72
+    },
+    {
+        "name": "Eusperides",
+        "scale": 8,
+        "xcoord": 20.07,
+        "ycoord": 32.12,
+        "grainall": 4.82,
+        "grainsome": 8.77
+    },
+    {
+        "name": "Venusia",
+        "scale": 8,
+        "xcoord": 15.81,
+        "ycoord": 40.96,
+        "grainall": 5.39,
+        "grainsome": 16.76
+    },
+    {
+        "name": "Nemausus",
+        "scale": 8,
+        "xcoord": 4.36,
+        "ycoord": 43.84,
+        "grainall": 1.57,
+        "grainsome": 14.73
+    },
+    {
+        "name": "Drobeta",
+        "scale": 8,
+        "xcoord": 22.66,
+        "ycoord": 44.64,
+        "grainall": 8.35,
+        "grainsome": 3.61
+    },
+    {
+        "name": "Histria",
+        "scale": 8,
+        "xcoord": 28.77,
+        "ycoord": 44.55,
+        "grainall": 1.65,
+        "grainsome": 4.75
+    },
+    {
+        "name": "Igilgili",
+        "scale": 8,
+        "xcoord": 5.77,
+        "ycoord": 36.82,
+        "grainall": 0.64,
+        "grainsome": 14.77
+    },
+    {
+        "name": "Patara",
+        "scale": 8,
+        "xcoord": 29.32,
+        "ycoord": 36.26,
+        "grainall": 1.32,
+        "grainsome": 8.07
+    },
+    {
+        "name": "Satala",
+        "scale": 8,
+        "xcoord": 39.66,
+        "ycoord": 40.02,
+        "grainall": 6.41,
+        "grainsome": 2.62
+    },
+    {
+        "name": "Meninge",
+        "scale": 8,
+        "xcoord": 10.92,
+        "ycoord": 33.68,
+        "grainall": 0.61,
+        "grainsome": 24.02
+    },
+    {
+        "name": "Naupactus",
+        "scale": 8,
+        "xcoord": 21.83,
+        "ycoord": 38.4,
+        "grainall": 0.8,
+        "grainsome": 23.22
+    },
+    {
+        "name": "Sufasar",
+        "scale": 8,
+        "xcoord": 2.51,
+        "ycoord": 36.19,
+        "grainall": 3.38,
+        "grainsome": 8.88
+    },
+    {
+        "name": "Deva",
+        "scale": 8,
+        "xcoord": -2.9,
+        "ycoord": 53.19,
+        "grainall": 2.75,
+        "grainsome": 15.51
+    },
+    {
+        "name": "Lissus",
+        "scale": 8,
+        "xcoord": 19.66,
+        "ycoord": 41.79,
+        "grainall": 0.79,
+        "grainsome": 5.07
+    },
+    {
+        "name": "Amastris",
+        "scale": 8,
+        "xcoord": 32.38,
+        "ycoord": 41.75,
+        "grainall": 1.63,
+        "grainsome": 22.05
+    },
+    {
+        "name": "Caralis",
+        "scale": 8,
+        "xcoord": 9.11,
+        "ycoord": 39.21,
+        "grainall": 0.3,
+        "grainsome": 9.27
+    },
+    {
+        "name": "Chalcedon",
+        "scale": 8,
+        "xcoord": 29.03,
+        "ycoord": 40.99,
+        "grainall": 1.5,
+        "grainsome": 9.86
+    },
+    {
+        "name": "Raphia",
+        "scale": 8,
+        "xcoord": 34.25,
+        "ycoord": 31.29,
+        "grainall": 1.77,
+        "grainsome": 2.82
+    },
+    {
+        "name": "Bonna",
+        "scale": 8,
+        "xcoord": 7.09,
+        "ycoord": 50.74,
+        "grainall": 5.4,
+        "grainsome": 10.93
+    },
+    {
+        "name": "Mursa",
+        "scale": 8,
+        "xcoord": 18.67,
+        "ycoord": 45.55,
+        "grainall": 9.45,
+        "grainsome": 0.43
+    },
+    {
+        "name": "Potaissa",
+        "scale": 8,
+        "xcoord": 23.76,
+        "ycoord": 46.56,
+        "grainall": 19.8,
+        "grainsome": 4.19
+    },
+    {
+        "name": "Emporiae",
+        "scale": 8,
+        "xcoord": 3.1,
+        "ycoord": 42.15,
+        "grainall": 0.54,
+        "grainsome": 22.51
+    },
+    {
+        "name": "Kellis",
+        "scale": 8,
+        "xcoord": 29.09,
+        "ycoord": 25.52,
+        "grainall": 24.28,
+        "grainsome": 2.36
+    },
+    {
+        "name": "Brundisium",
+        "scale": 8,
+        "xcoord": 17.94,
+        "ycoord": 40.64,
+        "grainall": 0.72,
+        "grainsome": 21.3
+    },
+    {
+        "name": "Trapezus",
+        "scale": 8,
+        "xcoord": 39.72,
+        "ycoord": 41,
+        "grainall": 2.01,
+        "grainsome": 11.9
+    },
+    {
+        "name": "Domavium",
+        "scale": 8,
+        "xcoord": 19.38,
+        "ycoord": 44.14,
+        "grainall": 10.15,
+        "grainsome": 17.57
+    },
+    {
+        "name": "Cibyra",
+        "scale": 8,
+        "xcoord": 29.52,
+        "ycoord": 37.16,
+        "grainall": 5.89,
+        "grainsome": 18.84
+    },
+    {
+        "name": "Batnae",
+        "scale": 8,
+        "xcoord": 38.42,
+        "ycoord": 36.98,
+        "grainall": 13.35,
+        "grainsome": 21.33
+    },
+    {
+        "name": "Mothis",
+        "scale": 8,
+        "xcoord": 28.95,
+        "ycoord": 25.51,
+        "grainall": 24.79,
+        "grainsome": 22.21
+    },
+    {
+        "name": "Deultum",
+        "scale": 8,
+        "xcoord": 27.31,
+        "ycoord": 42.4,
+        "grainall": 7.64,
+        "grainsome": 24.23
+    },
+    {
+        "name": "Cumae",
+        "scale": 8,
+        "xcoord": 14.04,
+        "ycoord": 40.85,
+        "grainall": 0.23,
+        "grainsome": 2.01
+    },
+    {
+        "name": "Heraklea",
+        "scale": 8,
+        "xcoord": 21.34,
+        "ycoord": 41.02,
+        "grainall": 7.47,
+        "grainsome": 12.28
+    },
+    {
+        "name": "Attalea",
+        "scale": 8,
+        "xcoord": 30.7,
+        "ycoord": 36.89,
+        "grainall": 1.45,
+        "grainsome": 6.52
+    },
+    {
+        "name": "Corcyra",
+        "scale": 8,
+        "xcoord": 19.92,
+        "ycoord": 39.59,
+        "grainall": 0.75,
+        "grainsome": 21.55
+    },
+    {
+        "name": "Olbia",
+        "scale": 8,
+        "xcoord": 9.5,
+        "ycoord": 40.93,
+        "grainall": 0.21,
+        "grainsome": 0.11
+    },
+    {
+        "name": "Auzia",
+        "scale": 8,
+        "xcoord": 3.68,
+        "ycoord": 36.15,
+        "grainall": 7.47,
+        "grainsome": 4.63
+    },
+    {
+        "name": "Camulodunum",
+        "scale": 8,
+        "xcoord": 0.9,
+        "ycoord": 51.89,
+        "grainall": 2.69,
+        "grainsome": 0.59
+    },
+    {
+        "name": "Tridentum",
+        "scale": 8,
+        "xcoord": 11.12,
+        "ycoord": 46.07,
+        "grainall": 8.44,
+        "grainsome": 10.37
+    },
+    {
+        "name": "Pistoriae",
+        "scale": 8,
+        "xcoord": 10.89,
+        "ycoord": 43.93,
+        "grainall": 1.75,
+        "grainsome": 21.06
+    },
+    {
+        "name": "Massilia",
+        "scale": 8,
+        "xcoord": 5.36,
+        "ycoord": 43.31,
+        "grainall": 0.49,
+        "grainsome": 5.38
+    },
+    {
+        "name": "Ulpiana",
+        "scale": 8,
+        "xcoord": 21.19,
+        "ycoord": 42.6,
+        "grainall": 7.29,
+        "grainsome": 2.9
+    },
+    {
+        "name": "Reate",
+        "scale": 8,
+        "xcoord": 12.86,
+        "ycoord": 42.4,
+        "grainall": 2.51,
+        "grainsome": 23.73
+    },
+    {
+        "name": "Caunus",
+        "scale": 8,
+        "xcoord": 28.63,
+        "ycoord": 36.83,
+        "grainall": 1.29,
+        "grainsome": 16.63
+    },
+    {
+        "name": "Saldae",
+        "scale": 8,
+        "xcoord": 5.07,
+        "ycoord": 36.76,
+        "grainall": 0.68,
+        "grainsome": 18.84
+    },
+    {
+        "name": "Misenum",
+        "scale": 8,
+        "xcoord": 14.08,
+        "ycoord": 40.78,
+        "grainall": 0.23,
+        "grainsome": 12.35
+    },
+    {
+        "name": "Apollonia",
+        "scale": 8,
+        "xcoord": 34.82,
+        "ycoord": 32.21,
+        "grainall": 1.84,
+        "grainsome": 16.87
+    },
+    {
+        "name": "Adramyttium",
+        "scale": 8,
+        "xcoord": 26.94,
+        "ycoord": 39.5,
+        "grainall": 1.38,
+        "grainsome": 4.86
+    },
+    {
+        "name": "Volubilis",
+        "scale": 8,
+        "xcoord": -5.56,
+        "ycoord": 34.09,
+        "grainall": 2.41,
+        "grainsome": 4.98
+    },
+    {
+        "name": "Volsinii",
+        "scale": 8,
+        "xcoord": 11.99,
+        "ycoord": 42.64,
+        "grainall": 3.53,
+        "grainsome": 20.15
+    },
+    {
+        "name": "Syene",
+        "scale": 8,
+        "xcoord": 32.9,
+        "ycoord": 24.09,
+        "grainall": 8.18,
+        "grainsome": 18.76
+    },
+    {
+        "name": "Dianium",
+        "scale": 8,
+        "xcoord": 0.1,
+        "ycoord": 38.84,
+        "grainall": 0.67,
+        "grainsome": 2.83
+    },
+    {
+        "name": "Euesperides",
+        "scale": 8,
+        "xcoord": 20.08,
+        "ycoord": 32.12,
+        "grainall": 0.99,
+        "grainsome": 9.74
+    },
+    {
+        "name": "Myriandros",
+        "scale": 8,
+        "xcoord": 36.19,
+        "ycoord": 36.59,
+        "grainall": 1.81,
+        "grainsome": 6.09
+    },
+    {
+        "name": "Tomis",
+        "scale": 8,
+        "xcoord": 28.64,
+        "ycoord": 44.19,
+        "grainall": 1.67,
+        "grainsome": 22.19
+    },
+    {
+        "name": "Archelais",
+        "scale": 8,
+        "xcoord": 34.05,
+        "ycoord": 38.38,
+        "grainall": 13.48,
+        "grainsome": 24.75
+    },
+    {
+        "name": "Fanum Fortunae",
+        "scale": 8,
+        "xcoord": 13.02,
+        "ycoord": 43.84,
+        "grainall": 0.99,
+        "grainsome": 0.24
+    },
+    {
+        "name": "Calleva",
+        "scale": 8,
+        "xcoord": -1.08,
+        "ycoord": 51.37,
+        "grainall": 3.8,
+        "grainsome": 2.22
+    },
+    {
+        "name": "Apollonia-Sozousa",
+        "scale": 8,
+        "xcoord": 21.75,
+        "ycoord": 32.93,
+        "grainall": 1.03,
+        "grainsome": 19.19
+    },
+    {
+        "name": "Thaenae",
+        "scale": 8,
+        "xcoord": 10.7,
+        "ycoord": 34.67,
+        "grainall": 0.61,
+        "grainsome": 16.04
+    },
+    {
+        "name": "Durostorum",
+        "scale": 8,
+        "xcoord": 27.26,
+        "ycoord": 44.12,
+        "grainall": 4.63,
+        "grainsome": 16.17
+    },
+    {
+        "name": "Kalos Limen",
+        "scale": 8,
+        "xcoord": 32.7,
+        "ycoord": 45.52,
+        "grainall": 1.84,
+        "grainsome": 1.31
+    },
+    {
+        "name": "Zarai",
+        "scale": 8,
+        "xcoord": 5.68,
+        "ycoord": 35.8,
+        "grainall": 7.25,
+        "grainsome": 5.89
+    },
+    {
+        "name": "Aleria",
+        "scale": 8,
+        "xcoord": 9.53,
+        "ycoord": 42.12,
+        "grainall": 0.28,
+        "grainsome": 3.02
+    },
+    {
+        "name": "Pompeii",
+        "scale": 8,
+        "xcoord": 14.48,
+        "ycoord": 40.75,
+        "grainall": 0.25,
+        "grainsome": 21.34
+    },
+    {
+        "name": "Tergeste",
+        "scale": 8,
+        "xcoord": 13.77,
+        "ycoord": 45.65,
+        "grainall": 1.09,
+        "grainsome": 20.94
+    },
+    {
+        "name": "Burnum",
+        "scale": 8,
+        "xcoord": 16,
+        "ycoord": 44.01,
+        "grainall": 3.3,
+        "grainsome": 16.48
+    },
+    {
+        "name": "Coptos",
+        "scale": 8,
+        "xcoord": 32.81,
+        "ycoord": 26.01,
+        "grainall": 6.41,
+        "grainsome": 6.47
+    },
+    {
+        "name": "Theveste",
+        "scale": 8,
+        "xcoord": 8.14,
+        "ycoord": 35.41,
+        "grainall": 9.69,
+        "grainsome": 17.18
+    },
+    {
+        "name": "Iuliobriga",
+        "scale": 8,
+        "xcoord": -4.11,
+        "ycoord": 43,
+        "grainall": 3.62,
+        "grainsome": 1.71
+    },
+    {
+        "name": "Tibiscum",
+        "scale": 8,
+        "xcoord": 22.19,
+        "ycoord": 45.46,
+        "grainall": 13.53,
+        "grainsome": 10.37
+    },
+    {
+        "name": "Thebae",
+        "scale": 8,
+        "xcoord": 23.32,
+        "ycoord": 38.32,
+        "grainall": 2.65,
+        "grainsome": 23.74
+    },
+    {
+        "name": "Naucratis",
+        "scale": 8,
+        "xcoord": 30.61,
+        "ycoord": 30.85,
+        "grainall": 1.75,
+        "grainsome": 0.55
+    },
+    {
+        "name": "Ebusus",
+        "scale": 8,
+        "xcoord": 1.42,
+        "ycoord": 38.91,
+        "grainall": 0.71,
+        "grainsome": 23.58
+    },
+    {
+        "name": "Herakleopolis",
+        "scale": 8,
+        "xcoord": 30.94,
+        "ycoord": 29.09,
+        "grainall": 2.82,
+        "grainsome": 19.4
+    },
+    {
+        "name": "Venta",
+        "scale": 8,
+        "xcoord": -1.32,
+        "ycoord": 51.07,
+        "grainall": 2.45,
+        "grainsome": 24.16
+    },
+    {
+        "name": "Lindum",
+        "scale": 8,
+        "xcoord": -0.54,
+        "ycoord": 53.24,
+        "grainall": 6.9,
+        "grainsome": 5.28
+    },
+    {
+        "name": "Larinum",
+        "scale": 8,
+        "xcoord": 14.92,
+        "ycoord": 41.81,
+        "grainall": 4.03,
+        "grainsome": 23.26
+    },
+    {
+        "name": "Aginnum",
+        "scale": 8,
+        "xcoord": 0.63,
+        "ycoord": 44.2,
+        "grainall": 3.11,
+        "grainsome": 7.25
+    },
+    {
+        "name": "Rhodos",
+        "scale": 8,
+        "xcoord": 28.23,
+        "ycoord": 36.44,
+        "grainall": 1.26,
+        "grainsome": 14.45
+    },
+    {
+        "name": "Aguntum",
+        "scale": 8,
+        "xcoord": 12.82,
+        "ycoord": 46.84,
+        "grainall": 6.06,
+        "grainsome": 8.2
+    },
+    {
+        "name": "Iuliomagus",
+        "scale": 8,
+        "xcoord": -0.55,
+        "ycoord": 47.46,
+        "grainall": 2.7,
+        "grainsome": 17.3
+    },
+    {
+        "name": "Lancia",
+        "scale": 8,
+        "xcoord": -5.42,
+        "ycoord": 42.53,
+        "grainall": 9.66,
+        "grainsome": 21.27
+    },
+    {
+        "name": "Celeia",
+        "scale": 8,
+        "xcoord": 15.26,
+        "ycoord": 46.23,
+        "grainall": 7.22,
+        "grainsome": 19.97
+    },
+    {
+        "name": "Thamugadi",
+        "scale": 8,
+        "xcoord": 6.47,
+        "ycoord": 35.5,
+        "grainall": 6.65,
+        "grainsome": 13.32
+    },
+    {
+        "name": "Viroconium",
+        "scale": 8,
+        "xcoord": -2.65,
+        "ycoord": 52.66,
+        "grainall": 5,
+        "grainsome": 13.63
+    },
+    {
+        "name": "Mediolanum (Aquitania)",
+        "scale": 8,
+        "xcoord": -0.63,
+        "ycoord": 45.75,
+        "grainall": 6.28,
+        "grainsome": 14.9
+    },
+    {
+        "name": "Berenice",
+        "scale": 8,
+        "xcoord": 35.48,
+        "ycoord": 23.9,
+        "grainall": 19.68,
+        "grainsome": 13.47
+    },
+    {
+        "name": "Cnidus",
+        "scale": 8,
+        "xcoord": 27.37,
+        "ycoord": 36.69,
+        "grainall": 1.31,
+        "grainsome": 20.76
+    },
+    {
+        "name": "Iader",
+        "scale": 8,
+        "xcoord": 15.23,
+        "ycoord": 44.11,
+        "grainall": 1.02,
+        "grainsome": 21.26
+    },
+    {
+        "name": "Ammaedara",
+        "scale": 8,
+        "xcoord": 8.46,
+        "ycoord": 35.57,
+        "grainall": 8.48,
+        "grainsome": 19.74
+    },
+    {
+        "name": "Azotus Paralios",
+        "scale": 8,
+        "xcoord": 34.65,
+        "ycoord": 31.8,
+        "grainall": 1.82,
+        "grainsome": 9.16
+    },
+    {
+        "name": "Rusicade",
+        "scale": 8,
+        "xcoord": 6.91,
+        "ycoord": 36.88,
+        "grainall": 0.56,
+        "grainsome": 20.4
+    },
+    {
+        "name": "Omboi",
+        "scale": 8,
+        "xcoord": 32.95,
+        "ycoord": 24.47,
+        "grainall": 7.89,
+        "grainsome": 10.38
+    },
+    {
+        "name": "Nicopolis",
+        "scale": 8,
+        "xcoord": 20.74,
+        "ycoord": 39.01,
+        "grainall": 0.81,
+        "grainsome": 20.67
+    },
+    {
+        "name": "Sarmizegethusa",
+        "scale": 8,
+        "xcoord": 22.78,
+        "ycoord": 45.52,
+        "grainall": 14.14,
+        "grainsome": 6.63
+    },
+    {
+        "name": "Saguntum",
+        "scale": 8,
+        "xcoord": -0.27,
+        "ycoord": 39.67,
+        "grainall": 0.63,
+        "grainsome": 14.31
+    },
+    {
+        "name": "Bargylia",
+        "scale": 8,
+        "xcoord": 27.59,
+        "ycoord": 37.19,
+        "grainall": 1.28,
+        "grainsome": 9.34
+    },
+    {
+        "name": "Chios",
+        "scale": 8,
+        "xcoord": 26.14,
+        "ycoord": 38.37,
+        "grainall": 1.54,
+        "grainsome": 14.98
+    },
+    {
+        "name": "Bilbilis",
+        "scale": 8,
+        "xcoord": -1.6,
+        "ycoord": 41.38,
+        "grainall": 12.18,
+        "grainsome": 2.53
+    },
+    {
+        "name": "Amathous",
+        "scale": 8,
+        "xcoord": 33.13,
+        "ycoord": 34.71,
+        "grainall": 1.61,
+        "grainsome": 9.75
+    },
+    {
+        "name": "Aphroditopolis",
+        "scale": 8,
+        "xcoord": 31.25,
+        "ycoord": 29.41,
+        "grainall": 2.49,
+        "grainsome": 17.12
+    },
+    {
+        "name": "Cosa",
+        "scale": 8,
+        "xcoord": 11.29,
+        "ycoord": 42.41,
+        "grainall": 0.16,
+        "grainsome": 5.34
+    },
+    {
+        "name": "Toletum",
+        "scale": 8,
+        "xcoord": -4.02,
+        "ycoord": 39.86,
+        "grainall": 15.81,
+        "grainsome": 2.41
+    },
+    {
+        "name": "Regium",
+        "scale": 8,
+        "xcoord": 15.64,
+        "ycoord": 38.11,
+        "grainall": 0.43,
+        "grainsome": 11.48
+    },
+    {
+        "name": "Eleusis",
+        "scale": 8,
+        "xcoord": 23.54,
+        "ycoord": 38.05,
+        "grainall": 1.03,
+        "grainsome": 17.18
+    },
+    {
+        "name": "Brigetio",
+        "scale": 8,
+        "xcoord": 18.15,
+        "ycoord": 47.74,
+        "grainall": 12.23,
+        "grainsome": 10.96
+    },
+    {
+        "name": "Philippi",
+        "scale": 8,
+        "xcoord": 24.29,
+        "ycoord": 41.02,
+        "grainall": 2.16,
+        "grainsome": 2.62
+    },
+    {
+        "name": "Oxyrhynchus",
+        "scale": 8,
+        "xcoord": 30.63,
+        "ycoord": 28.67,
+        "grainall": 3.17,
+        "grainsome": 4.79
+    },
+    {
+        "name": "Aternum",
+        "scale": 8,
+        "xcoord": 14.21,
+        "ycoord": 42.46,
+        "grainall": 0.95,
+        "grainsome": 19.04
+    },
+    {
+        "name": "Scarbantia",
+        "scale": 8,
+        "xcoord": 16.6,
+        "ycoord": 47.69,
+        "grainall": 13.82,
+        "grainsome": 20.38
+    },
+    {
+        "name": "Cyrrhus",
+        "scale": 8,
+        "xcoord": 36.91,
+        "ycoord": 36.78,
+        "grainall": 6.03,
+        "grainsome": 23.58
+    },
+    {
+        "name": "Olisipo",
+        "scale": 8,
+        "xcoord": -9.15,
+        "ycoord": 38.73,
+        "grainall": 1.43,
+        "grainsome": 7.55
+    },
+    {
+        "name": "Ariminum",
+        "scale": 8,
+        "xcoord": 12.56,
+        "ycoord": 44.06,
+        "grainall": 1.02,
+        "grainsome": 16.78
+    },
+    {
+        "name": "Thasos",
+        "scale": 8,
+        "xcoord": 24.71,
+        "ycoord": 40.78,
+        "grainall": 1.47,
+        "grainsome": 19.78
+    },
+    {
+        "name": "Iconium",
+        "scale": 8,
+        "xcoord": 32.51,
+        "ycoord": 37.87,
+        "grainall": 15.76,
+        "grainsome": 15.47
+    },
+    {
+        "name": "Epiphaneia",
+        "scale": 8,
+        "xcoord": 36.75,
+        "ycoord": 35.14,
+        "grainall": 3.74,
+        "grainsome": 9.21
+    },
+    {
+        "name": "Capsa",
+        "scale": 8,
+        "xcoord": 8.79,
+        "ycoord": 34.41,
+        "grainall": 5.57,
+        "grainsome": 14.06
+    },
+    {
+        "name": "Klaudianon",
+        "scale": 8,
+        "xcoord": 33.49,
+        "ycoord": 26.81,
+        "grainall": 11.36,
+        "grainsome": 20.24
+    },
+    {
+        "name": "Vibo Valentia",
+        "scale": 8,
+        "xcoord": 16.1,
+        "ycoord": 38.67,
+        "grainall": 0.49,
+        "grainsome": 15.12
+    },
+    {
+        "name": "Augustonemetum",
+        "scale": 8,
+        "xcoord": 3.08,
+        "ycoord": 45.78,
+        "grainall": 7.5,
+        "grainsome": 23.67
+    },
+    {
+        "name": "Darnis",
+        "scale": 8,
+        "xcoord": 22.64,
+        "ycoord": 32.77,
+        "grainall": 1.09,
+        "grainsome": 4.86
+    },
+    {
+        "name": "Luguvalium",
+        "scale": 8,
+        "xcoord": -2.94,
+        "ycoord": 54.89,
+        "grainall": 2.84,
+        "grainsome": 19.53
+    },
+    {
+        "name": "Leucas",
+        "scale": 8,
+        "xcoord": 20.71,
+        "ycoord": 38.83,
+        "grainall": 0.8,
+        "grainsome": 3.43
+    },
+    {
+        "name": "Stobi",
+        "scale": 8,
+        "xcoord": 21.97,
+        "ycoord": 41.55,
+        "grainall": 10.53,
+        "grainsome": 24.52
+    },
+    {
+        "name": "Aventicum",
+        "scale": 8,
+        "xcoord": 7.03,
+        "ycoord": 46.88,
+        "grainall": 12.01,
+        "grainsome": 9.78
+    },
+    {
+        "name": "Sipontum",
+        "scale": 8,
+        "xcoord": 15.9,
+        "ycoord": 41.61,
+        "grainall": 0.84,
+        "grainsome": 20.16
+    },
+    {
+        "name": "Bulla Regia",
+        "scale": 8,
+        "xcoord": 8.74,
+        "ycoord": 36.56,
+        "grainall": 4.29,
+        "grainsome": 15.46
+    },
+    {
+        "name": "Emona",
+        "scale": 8,
+        "xcoord": 14.51,
+        "ycoord": 46.05,
+        "grainall": 4.81,
+        "grainsome": 14.31
+    },
+    {
+        "name": "Florentia",
+        "scale": 8,
+        "xcoord": 11.26,
+        "ycoord": 43.77,
+        "grainall": 0.54,
+        "grainsome": 7.68
+    },
+    {
+        "name": "Thuburnica",
+        "scale": 8,
+        "xcoord": 8.46,
+        "ycoord": 36.53,
+        "grainall": 3.28,
+        "grainsome": 14.49
+    },
+    {
+        "name": "Apollonopolis Magna",
+        "scale": 8,
+        "xcoord": 32.87,
+        "ycoord": 24.98,
+        "grainall": 7.44,
+        "grainsome": 2.23
+    },
+    {
+        "name": "Cibalae",
+        "scale": 8,
+        "xcoord": 18.8,
+        "ycoord": 45.28,
+        "grainall": 10.64,
+        "grainsome": 21.06
+    },
+    {
+        "name": "Pola",
+        "scale": 8,
+        "xcoord": 13.84,
+        "ycoord": 44.87,
+        "grainall": 1.03,
+        "grainsome": 11.22
+    },
+    {
+        "name": "Siga",
+        "scale": 8,
+        "xcoord": -1.47,
+        "ycoord": 35.26,
+        "grainall": 1.01,
+        "grainsome": 9.08
+    },
+    {
+        "name": "Ake-Ptolemais",
+        "scale": 8,
+        "xcoord": 35.08,
+        "ycoord": 32.93,
+        "grainall": 1.84,
+        "grainsome": 21.06
+    },
+    {
+        "name": "Ferentinum",
+        "scale": 8,
+        "xcoord": 13.25,
+        "ycoord": 41.69,
+        "grainall": 2.47,
+        "grainsome": 1.05
+    },
+    {
+        "name": "Verulamium",
+        "scale": 8,
+        "xcoord": -0.36,
+        "ycoord": 51.75,
+        "grainall": 3.88,
+        "grainsome": 2.06
+    },
+    {
+        "name": "Oasis Parva",
+        "scale": 8,
+        "xcoord": 28.85,
+        "ycoord": 28.34,
+        "grainall": 11.45,
+        "grainsome": 23.91
+    },
+    {
+        "name": "Dierna",
+        "scale": 8,
+        "xcoord": 22.4,
+        "ycoord": 44.71,
+        "grainall": 10.48,
+        "grainsome": 5.67
+    },
+    {
+        "name": "Ilium",
+        "scale": 8,
+        "xcoord": 26.26,
+        "ycoord": 39.95,
+        "grainall": 2.19,
+        "grainsome": 11.33
+    },
+    {
+        "name": "Lamia",
+        "scale": 8,
+        "xcoord": 22.44,
+        "ycoord": 38.9,
+        "grainall": 3.53,
+        "grainsome": 23.96
+    },
+    {
+        "name": "Altinum",
+        "scale": 8,
+        "xcoord": 12.41,
+        "ycoord": 45.54,
+        "grainall": 1.1,
+        "grainsome": 14.46
+    },
+    {
+        "name": "Agrigentum",
+        "scale": 8,
+        "xcoord": 13.58,
+        "ycoord": 37.31,
+        "grainall": 0.43,
+        "grainsome": 15.15
+    },
+    {
+        "name": "Tainaron Pr.",
+        "scale": 8,
+        "xcoord": 22.48,
+        "ycoord": 36.39,
+        "grainall": 0.9,
+        "grainsome": 11.07
+    },
+    {
+        "name": "Samos",
+        "scale": 8,
+        "xcoord": 26.94,
+        "ycoord": 37.69,
+        "grainall": 1.25,
+        "grainsome": 0.71
+    },
+    {
+        "name": "Thelepte",
+        "scale": 8,
+        "xcoord": 8.6,
+        "ycoord": 34.99,
+        "grainall": 8,
+        "grainsome": 24.47
+    },
+    {
+        "name": "Paraetonium",
+        "scale": 8,
+        "xcoord": 27.23,
+        "ycoord": 31.36,
+        "grainall": 1.49,
+        "grainsome": 14.53
+    },
+    {
+        "name": "Comum",
+        "scale": 8,
+        "xcoord": 9.08,
+        "ycoord": 45.81,
+        "grainall": 4.41,
+        "grainsome": 2.43
+    },
+    {
+        "name": "Phaselis",
+        "scale": 8,
+        "xcoord": 30.55,
+        "ycoord": 36.52,
+        "grainall": 1.43,
+        "grainsome": 23.33
+    },
+    {
+        "name": "Chersonasos",
+        "scale": 8,
+        "xcoord": 25.39,
+        "ycoord": 35.32,
+        "grainall": 1.11,
+        "grainsome": 21.37
+    },
+    {
+        "name": "Krokodilopolis",
+        "scale": 8,
+        "xcoord": 30.84,
+        "ycoord": 29.32,
+        "grainall": 3.13,
+        "grainsome": 11.98
+    },
+    {
+        "name": "Cambodunum",
+        "scale": 8,
+        "xcoord": 10.33,
+        "ycoord": 47.73,
+        "grainall": 11.52,
+        "grainsome": 18.72
+    },
+    {
+        "name": "Delphi",
+        "scale": 8,
+        "xcoord": 22.5,
+        "ycoord": 38.48,
+        "grainall": 0.84,
+        "grainsome": 4.31
+    },
+    {
+        "name": "Alexandria Troas",
+        "scale": 8,
+        "xcoord": 26.15,
+        "ycoord": 39.76,
+        "grainall": 1.38,
+        "grainsome": 19.66
+    },
+    {
+        "name": "Vindobona",
+        "scale": 8,
+        "xcoord": 16.37,
+        "ycoord": 48.21,
+        "grainall": 13.35,
+        "grainsome": 1.76
+    },
+    {
+        "name": "Teanum",
+        "scale": 8,
+        "xcoord": 14.06,
+        "ycoord": 41.25,
+        "grainall": 1.1,
+        "grainsome": 1.19
+    },
+    {
+        "name": "Lapethos",
+        "scale": 8,
+        "xcoord": 33.17,
+        "ycoord": 35.33,
+        "grainall": 1.59,
+        "grainsome": 13.32
+    },
+    {
+        "name": "Sicca Veneria",
+        "scale": 8,
+        "xcoord": 8.71,
+        "ycoord": 36.18,
+        "grainall": 5.41,
+        "grainsome": 18.72
+    },
+    {
+        "name": "Lykopolis",
+        "scale": 8,
+        "xcoord": 31.19,
+        "ycoord": 27.18,
+        "grainall": 4.57,
+        "grainsome": 17.43
+    },
+    {
+        "name": "Arca",
+        "scale": 8,
+        "xcoord": 36.04,
+        "ycoord": 34.53,
+        "grainall": 2.59,
+        "grainsome": 14.25
+    },
+    {
+        "name": "Myra",
+        "scale": 8,
+        "xcoord": 29.99,
+        "ycoord": 36.24,
+        "grainall": 1.37,
+        "grainsome": 18.64
+    },
+    {
+        "name": "Venta Icenorum",
+        "scale": 8,
+        "xcoord": 1.29,
+        "ycoord": 52.58,
+        "grainall": 5.7,
+        "grainsome": 13.17
+    },
+    {
+        "name": "Osca",
+        "scale": 8,
+        "xcoord": -0.41,
+        "ycoord": 42.14,
+        "grainall": 7.19,
+        "grainsome": 17.2
+    },
+    {
+        "name": "Tralles",
+        "scale": 8,
+        "xcoord": 27.84,
+        "ycoord": 37.86,
+        "grainall": 2.97,
+        "grainsome": 22.42
+    },
+    {
+        "name": "Hibis",
+        "scale": 8,
+        "xcoord": 30.55,
+        "ycoord": 25.44,
+        "grainall": 18.53,
+        "grainsome": 1.88
+    },
+    {
+        "name": "Vercellae",
+        "scale": 8,
+        "xcoord": 8.42,
+        "ycoord": 45.33,
+        "grainall": 6.04,
+        "grainsome": 23.75
+    },
+    {
+        "name": "Amisus",
+        "scale": 8,
+        "xcoord": 36.33,
+        "ycoord": 41.3,
+        "grainall": 1.84,
+        "grainsome": 5.06
+    },
+    {
+        "name": "Thagaste",
+        "scale": 8,
+        "xcoord": 7.98,
+        "ycoord": 36.29,
+        "grainall": 3.09,
+        "grainsome": 1.13
+    },
+    {
+        "name": "Marcianopolis",
+        "scale": 9,
+        "xcoord": 27.44,
+        "ycoord": 43.31,
+        "grainall": 3.06,
+        "grainsome": 12.83
+    },
+    {
+        "name": "Tripolis",
+        "scale": 9,
+        "xcoord": 35.85,
+        "ycoord": 34.43,
+        "grainall": 1.76,
+        "grainsome": 10.15
+    },
+    {
+        "name": "Gades",
+        "scale": 9,
+        "xcoord": -6.29,
+        "ycoord": 36.53,
+        "grainall": 1.23,
+        "grainsome": 10.28
+    },
+    {
+        "name": "Clusium",
+        "scale": 9,
+        "xcoord": 11.95,
+        "ycoord": 43.02,
+        "grainall": 4.75,
+        "grainsome": 1.07
+    },
+    {
+        "name": "Melitene",
+        "scale": 9,
+        "xcoord": 38.37,
+        "ycoord": 38.43,
+        "grainall": 10.87,
+        "grainsome": 16.58
+    },
+    {
+        "name": "Placentia",
+        "scale": 9,
+        "xcoord": 9.7,
+        "ycoord": 45.05,
+        "grainall": 3.19,
+        "grainsome": 10.45
+    },
+    {
+        "name": "Ancona",
+        "scale": 9,
+        "xcoord": 13.52,
+        "ycoord": 43.62,
+        "grainall": 0.96,
+        "grainsome": 6.86
+    },
+    {
+        "name": "Aquincum",
+        "scale": 9,
+        "xcoord": 19.05,
+        "ycoord": 47.57,
+        "grainall": 11.47,
+        "grainsome": 21.35
+    },
+    {
+        "name": "Portus",
+        "scale": 9,
+        "xcoord": 12.26,
+        "ycoord": 41.78,
+        "grainall": 0.09,
+        "grainsome": 17.09
+    },
+    {
+        "name": "Luca",
+        "scale": 9,
+        "xcoord": 10.5,
+        "ycoord": 43.85,
+        "grainall": 2.14,
+        "grainsome": 21.54
+    },
+    {
+        "name": "Ancyra",
+        "scale": 9,
+        "xcoord": 32.87,
+        "ycoord": 39.95,
+        "grainall": 10.39,
+        "grainsome": 15.21
+    },
+    {
+        "name": "Narbo",
+        "scale": 9,
+        "xcoord": 3,
+        "ycoord": 43.2,
+        "grainall": 0.48,
+        "grainsome": 4.96
+    },
+    {
+        "name": "Tyrus",
+        "scale": 9,
+        "xcoord": 35.2,
+        "ycoord": 33.28,
+        "grainall": 1.81,
+        "grainsome": 11.68
+    },
+    {
+        "name": "Capua",
+        "scale": 9,
+        "xcoord": 14.24,
+        "ycoord": 41.09,
+        "grainall": 1.59,
+        "grainsome": 14.67
+    },
+    {
+        "name": "Chersonesos",
+        "scale": 9,
+        "xcoord": 33.49,
+        "ycoord": 44.61,
+        "grainall": 1.77,
+        "grainsome": 21.19
+    },
+    {
+        "name": "Berytus",
+        "scale": 9,
+        "xcoord": 35.52,
+        "ycoord": 33.9,
+        "grainall": 1.77,
+        "grainsome": 10.27
+    },
+    {
+        "name": "Eburacum",
+        "scale": 9,
+        "xcoord": -1.11,
+        "ycoord": 53.95,
+        "grainall": 3.28,
+        "grainsome": 12.79
+    },
+    {
+        "name": "Gaza",
+        "scale": 9,
+        "xcoord": 34.46,
+        "ycoord": 31.51,
+        "grainall": 1.79,
+        "grainsome": 22.01
+    },
+    {
+        "name": "Sebasteia",
+        "scale": 9,
+        "xcoord": 37.03,
+        "ycoord": 39.75,
+        "grainall": 12.88,
+        "grainsome": 4.74
+    },
+    {
+        "name": "Emerita Augusta",
+        "scale": 9,
+        "xcoord": -6.35,
+        "ycoord": 38.91,
+        "grainall": 7.65,
+        "grainsome": 4.43
+    },
+    {
+        "name": "Asturica",
+        "scale": 9,
+        "xcoord": -6.05,
+        "ycoord": 42.46,
+        "grainall": 9.8,
+        "grainsome": 13.87
+    },
+    {
+        "name": "Siscia",
+        "scale": 9,
+        "xcoord": 16.37,
+        "ycoord": 45.48,
+        "grainall": 10.89,
+        "grainsome": 19.11
+    },
+    {
+        "name": "Oea",
+        "scale": 9,
+        "xcoord": 13.17,
+        "ycoord": 32.9,
+        "grainall": 0.72,
+        "grainsome": 10.49
+    },
+    {
+        "name": "Perge",
+        "scale": 9,
+        "xcoord": 30.86,
+        "ycoord": 36.97,
+        "grainall": 2.01,
+        "grainsome": 1.62
+    },
+    {
+        "name": "Pantikapaion",
+        "scale": 9,
+        "xcoord": 36.41,
+        "ycoord": 45.24,
+        "grainall": 1.85,
+        "grainsome": 11.58
+    },
+    {
+        "name": "Caesarea (Phrygia)",
+        "scale": 9,
+        "xcoord": 31.18,
+        "ycoord": 38.3,
+        "grainall": 10.71,
+        "grainsome": 10.01
+    },
+    {
+        "name": "Germa",
+        "scale": 9,
+        "xcoord": 31.62,
+        "ycoord": 39.51,
+        "grainall": 14.64,
+        "grainsome": 7.17
+    },
+    {
+        "name": "Tingi",
+        "scale": 9,
+        "xcoord": -5.8,
+        "ycoord": 35.79,
+        "grainall": 1.29,
+        "grainsome": 16.92
+    },
+    {
+        "name": "Burdigala",
+        "scale": 9,
+        "xcoord": -0.59,
+        "ycoord": 44.86,
+        "grainall": 2.01,
+        "grainsome": 10.86
+    },
+    {
+        "name": "Sinope",
+        "scale": 9,
+        "xcoord": 35.04,
+        "ycoord": 42.05,
+        "grainall": 1.75,
+        "grainsome": 15.09
+    },
+    {
+        "name": "Sardis",
+        "scale": 9,
+        "xcoord": 28.06,
+        "ycoord": 38.48,
+        "grainall": 4.32,
+        "grainsome": 13.75
+    },
+    {
+        "name": "Palmyra",
+        "scale": 9,
+        "xcoord": 38.28,
+        "ycoord": 34.56,
+        "grainall": 10.44,
+        "grainsome": 13.32
+    },
+    {
+        "name": "Naissus",
+        "scale": 9,
+        "xcoord": 21.9,
+        "ycoord": 43.33,
+        "grainall": 11.65,
+        "grainsome": 1.24
+    },
+    {
+        "name": "Heraclea Pontica",
+        "scale": 9,
+        "xcoord": 31.42,
+        "ycoord": 41.28,
+        "grainall": 1.58,
+        "grainsome": 21.51
+    },
+    {
+        "name": "Minturnae",
+        "scale": 9,
+        "xcoord": 13.77,
+        "ycoord": 41.24,
+        "grainall": 0.21,
+        "grainsome": 15.85
+    },
+    {
+        "name": "Amphipolis",
+        "scale": 9,
+        "xcoord": 23.84,
+        "ycoord": 40.81,
+        "grainall": 1.52,
+        "grainsome": 6.73
+    },
+    {
+        "name": "Dioscurias",
+        "scale": 9,
+        "xcoord": 41,
+        "ycoord": 42.99,
+        "grainall": 2,
+        "grainsome": 4.12
+    },
+    {
+        "name": "Edessa",
+        "scale": 9,
+        "xcoord": 38.79,
+        "ycoord": 37.16,
+        "grainall": 11.4,
+        "grainsome": 17.67
+    },
+    {
+        "name": "Sirmium",
+        "scale": 9,
+        "xcoord": 19.61,
+        "ycoord": 44.97,
+        "grainall": 11.17,
+        "grainsome": 1.74
+    },
+    {
+        "name": "Beneventum",
+        "scale": 9,
+        "xcoord": 14.76,
+        "ycoord": 41.14,
+        "grainall": 3.38,
+        "grainsome": 10.77
+    },
+    {
+        "name": "Nicaea",
+        "scale": 9,
+        "xcoord": 29.72,
+        "ycoord": 40.44,
+        "grainall": 3.56,
+        "grainsome": 6.23
+    },
+    {
+        "name": "Ascalon",
+        "scale": 9,
+        "xcoord": 34.55,
+        "ycoord": 31.67,
+        "grainall": 1.8,
+        "grainsome": 22.73
+    },
+    {
+        "name": "Bostra",
+        "scale": 9,
+        "xcoord": 36.48,
+        "ycoord": 32.52,
+        "grainall": 7.9,
+        "grainsome": 13.26
+    },
+    {
+        "name": "Nicomedia",
+        "scale": 9,
+        "xcoord": 29.92,
+        "ycoord": 40.77,
+        "grainall": 1.5,
+        "grainsome": 10.98
+    },
+    {
+        "name": "Thessalonica",
+        "scale": 9,
+        "xcoord": 22.97,
+        "ycoord": 40.64,
+        "grainall": 1.4,
+        "grainsome": 2.77
+    },
+    {
+        "name": "Athenae",
+        "scale": 9,
+        "xcoord": 23.72,
+        "ycoord": 37.97,
+        "grainall": 1.05,
+        "grainsome": 9.63
+    },
+    {
+        "name": "Samosata",
+        "scale": 9,
+        "xcoord": 38.52,
+        "ycoord": 37.53,
+        "grainall": 10.01,
+        "grainsome": 20.39
+    },
+    {
+        "name": "Tacape",
+        "scale": 9,
+        "xcoord": 10.1,
+        "ycoord": 33.88,
+        "grainall": 0.66,
+        "grainsome": 22.02
+    },
+    {
+        "name": "Claudia Aprensis",
+        "scale": 9,
+        "xcoord": 27.07,
+        "ycoord": 40.98,
+        "grainall": 4.15,
+        "grainsome": 14.96
+    },
+    {
+        "name": "Isthmia",
+        "scale": 9,
+        "xcoord": 23.13,
+        "ycoord": 37.93,
+        "grainall": 1.01,
+        "grainsome": 4.41
+    },
+    {
+        "name": "Side",
+        "scale": 9,
+        "xcoord": 31.4,
+        "ycoord": 36.78,
+        "grainall": 1.51,
+        "grainsome": 10.64
+    },
+    {
+        "name": "Sitifis",
+        "scale": 9,
+        "xcoord": 5.39,
+        "ycoord": 36.19,
+        "grainall": 4.7,
+        "grainsome": 20.87
+    },
+    {
+        "name": "Virunum",
+        "scale": 9,
+        "xcoord": 14.41,
+        "ycoord": 46.7,
+        "grainall": 7.89,
+        "grainsome": 8.21
+    },
+    {
+        "name": "Hermopolis Magna",
+        "scale": 9,
+        "xcoord": 30.8,
+        "ycoord": 27.78,
+        "grainall": 3.91,
+        "grainsome": 12.44
+    },
+    {
+        "name": "Bracara Augusta",
+        "scale": 9,
+        "xcoord": -8.42,
+        "ycoord": 41.55,
+        "grainall": 9.28,
+        "grainsome": 2.7
+    },
+    {
+        "name": "Tarsus",
+        "scale": 9,
+        "xcoord": 34.9,
+        "ycoord": 36.92,
+        "grainall": 5.36,
+        "grainsome": 8.07
+    },
+    {
+        "name": "Singidunum",
+        "scale": 9,
+        "xcoord": 20.47,
+        "ycoord": 44.82,
+        "grainall": 10.24,
+        "grainsome": 21.69
+    },
+    {
+        "name": "Barcino",
+        "scale": 9,
+        "xcoord": 2.16,
+        "ycoord": 41.36,
+        "grainall": 0.57,
+        "grainsome": 4.74
+    },
+    {
+        "name": "Ara Agrippinensium",
+        "scale": 9,
+        "xcoord": 6.94,
+        "ycoord": 50.94,
+        "grainall": 5.19,
+        "grainsome": 3.91
+    },
+    {
+        "name": "Augusta Vindelicum",
+        "scale": 9,
+        "xcoord": 10.89,
+        "ycoord": 48.36,
+        "grainall": 15.19,
+        "grainsome": 14.61
+    },
+    {
+        "name": "Dyrrhachium",
+        "scale": 9,
+        "xcoord": 19.45,
+        "ycoord": 41.32,
+        "grainall": 0.76,
+        "grainsome": 14.2
+    },
+    {
+        "name": "Seleukeia Pieria",
+        "scale": 9,
+        "xcoord": 35.93,
+        "ycoord": 36.12,
+        "grainall": 1.78,
+        "grainsome": 11.61
+    },
+    {
+        "name": "Cyrene",
+        "scale": 9,
+        "xcoord": 21.87,
+        "ycoord": 32.82,
+        "grainall": 1.59,
+        "grainsome": 17.43
+    },
+    {
+        "name": "Paphos",
+        "scale": 9,
+        "xcoord": 32.41,
+        "ycoord": 34.76,
+        "grainall": 1.54,
+        "grainsome": 9.04
+    },
+    {
+        "name": "Patrae",
+        "scale": 9,
+        "xcoord": 21.74,
+        "ycoord": 38.26,
+        "grainall": 0.78,
+        "grainsome": 9.65
+    },
+    {
+        "name": "Verona",
+        "scale": 9,
+        "xcoord": 10.99,
+        "ycoord": 45.44,
+        "grainall": 1.87,
+        "grainsome": 11.45
+    },
+    {
+        "name": "Lambaesis",
+        "scale": 9,
+        "xcoord": 6.26,
+        "ycoord": 35.49,
+        "grainall": 7.34,
+        "grainsome": 19.5
+    },
+    {
+        "name": "Puteoli",
+        "scale": 9,
+        "xcoord": 14.11,
+        "ycoord": 40.83,
+        "grainall": 0.22,
+        "grainsome": 18.4
+    },
+    {
+        "name": "Pisae",
+        "scale": 9,
+        "xcoord": 10.4,
+        "ycoord": 43.72,
+        "grainall": 0.25,
+        "grainsome": 22.46
+    },
+    {
+        "name": "Lydda",
+        "scale": 9,
+        "xcoord": 34.89,
+        "ycoord": 31.96,
+        "grainall": 3.54,
+        "grainsome": 9.03
+    },
+    {
+        "name": "Cirta",
+        "scale": 9,
+        "xcoord": 6.59,
+        "ycoord": 36.36,
+        "grainall": 2.98,
+        "grainsome": 12.85
+    },
+    {
+        "name": "Messana",
+        "scale": 9,
+        "xcoord": 15.56,
+        "ycoord": 38.19,
+        "grainall": 0.44,
+        "grainsome": 20.66
+    },
+    {
+        "name": "Augusta Treverorum",
+        "scale": 9,
+        "xcoord": 6.68,
+        "ycoord": 49.76,
+        "grainall": 7.08,
+        "grainsome": 23.86
+    },
+    {
+        "name": "Serdica",
+        "scale": 9,
+        "xcoord": 23.33,
+        "ycoord": 42.73,
+        "grainall": 16.88,
+        "grainsome": 15.78
+    },
+    {
+        "name": "Neapolis",
+        "scale": 9,
+        "xcoord": 14.23,
+        "ycoord": 40.84,
+        "grainall": 0.24,
+        "grainsome": 2.1
+    },
+    {
+        "name": "Londinium",
+        "scale": 9,
+        "xcoord": -0.08,
+        "ycoord": 51.52,
+        "grainall": 2.65,
+        "grainsome": 21.64
+    },
+    {
+        "name": "Aquileia",
+        "scale": 9,
+        "xcoord": 13.36,
+        "ycoord": 45.77,
+        "grainall": 1.1,
+        "grainsome": 24.17
+    },
+    {
+        "name": "Pax Iulia",
+        "scale": 9,
+        "xcoord": -7.85,
+        "ycoord": 38,
+        "grainall": 2.52,
+        "grainsome": 4.17
+    },
+    {
+        "name": "Spoletium",
+        "scale": 9,
+        "xcoord": 12.74,
+        "ycoord": 42.74,
+        "grainall": 2.47,
+        "grainsome": 22.09
+    },
+    {
+        "name": "Pergamum",
+        "scale": 9,
+        "xcoord": 27.18,
+        "ycoord": 39.14,
+        "grainall": 3.12,
+        "grainsome": 22.66
+    },
+    {
+        "name": "Circesium",
+        "scale": 9,
+        "xcoord": 40.45,
+        "ycoord": 35.17,
+        "grainall": 12.81,
+        "grainsome": 11.73
+    },
+    {
+        "name": "Apamea (Pisidia)",
+        "scale": 9,
+        "xcoord": 30.17,
+        "ycoord": 38.07,
+        "grainall": 10.92,
+        "grainsome": 19.88
+    },
+    {
+        "name": "Syracusae",
+        "scale": 9,
+        "xcoord": 15.29,
+        "ycoord": 37.07,
+        "grainall": 0.52,
+        "grainsome": 15.38
+    },
+    {
+        "name": "Iol Caesarea",
+        "scale": 9,
+        "xcoord": 2.2,
+        "ycoord": 36.61,
+        "grainall": 0.81,
+        "grainsome": 19.3
+    },
+    {
+        "name": "Laodicea ad Lycum",
+        "scale": 9,
+        "xcoord": 29.12,
+        "ycoord": 37.84,
+        "grainall": 7.25,
+        "grainsome": 21.75
+    },
+    {
+        "name": "Hadrumetum",
+        "scale": 9,
+        "xcoord": 10.64,
+        "ycoord": 35.84,
+        "grainall": 0.5,
+        "grainsome": 3.01
+    },
+    {
+        "name": "Vienna",
+        "scale": 9,
+        "xcoord": 4.88,
+        "ycoord": 45.52,
+        "grainall": 2.32,
+        "grainsome": 12.17
+    },
+    {
+        "name": "Arelate",
+        "scale": 9,
+        "xcoord": 4.63,
+        "ycoord": 43.69,
+        "grainall": 0.53,
+        "grainsome": 10.25
+    },
+    {
+        "name": "Demetrias",
+        "scale": 9,
+        "xcoord": 22.92,
+        "ycoord": 39.3,
+        "grainall": 1.3,
+        "grainsome": 1.31
+    },
+    {
+        "name": "Philadelpheia",
+        "scale": 9,
+        "xcoord": 35.93,
+        "ycoord": 31.95,
+        "grainall": 7.03,
+        "grainsome": 22.66
+    },
+    {
+        "name": "Selinus",
+        "scale": 9,
+        "xcoord": 12.83,
+        "ycoord": 37.58,
+        "grainall": 0.39,
+        "grainsome": 12.06
+    },
+    {
+        "name": "Pelusium",
+        "scale": 9,
+        "xcoord": 32.57,
+        "ycoord": 31.04,
+        "grainall": 1.66,
+        "grainsome": 7.73
+    },
+    {
+        "name": "Carthago Nova",
+        "scale": 9,
+        "xcoord": -0.99,
+        "ycoord": 37.6,
+        "grainall": 0.8,
+        "grainsome": 16.59
+    },
+    {
+        "name": "Asculum",
+        "scale": 9,
+        "xcoord": 13.57,
+        "ycoord": 42.85,
+        "grainall": 1.96,
+        "grainsome": 5.39
+    },
+    {
+        "name": "Damascus",
+        "scale": 9,
+        "xcoord": 36.31,
+        "ycoord": 33.51,
+        "grainall": 9.56,
+        "grainsome": 21.23
+    },
+    {
+        "name": "Ostia/Portus",
+        "scale": 9,
+        "xcoord": 12.29,
+        "ycoord": 41.75,
+        "grainall": 0.1,
+        "grainsome": 3.88
+    },
+    {
+        "name": "Scythopolis",
+        "scale": 9,
+        "xcoord": 35.5,
+        "ycoord": 32.51,
+        "grainall": 4.06,
+        "grainsome": 22.33
+    },
+    {
+        "name": "Hippo Regius",
+        "scale": 9,
+        "xcoord": 7.75,
+        "ycoord": 36.89,
+        "grainall": 0.5,
+        "grainsome": 8.57
+    },
+    {
+        "name": "Casinum",
+        "scale": 9,
+        "xcoord": 13.83,
+        "ycoord": 41.49,
+        "grainall": 2.43,
+        "grainsome": 16.01
+    },
+    {
+        "name": "Singara",
+        "scale": 9,
+        "xcoord": 41.86,
+        "ycoord": 36.33,
+        "grainall": 18.27,
+        "grainsome": 8.38
+    },
+    {
+        "name": "Memphis",
+        "scale": 9,
+        "xcoord": 31.28,
+        "ycoord": 30,
+        "grainall": 2.23,
+        "grainsome": 12.2
+    },
+    {
+        "name": "Arretium",
+        "scale": 9,
+        "xcoord": 11.86,
+        "ycoord": 43.47,
+        "grainall": 2.91,
+        "grainsome": 20.21
+    },
+    {
+        "name": "Tarracina",
+        "scale": 9,
+        "xcoord": 13.25,
+        "ycoord": 41.29,
+        "grainall": 0.17,
+        "grainsome": 13.77
+    },
+    {
+        "name": "Panormus",
+        "scale": 9,
+        "xcoord": 13.32,
+        "ycoord": 38.12,
+        "grainall": 0.41,
+        "grainsome": 12.57
+    },
+    {
+        "name": "Caesaraugusta",
+        "scale": 9,
+        "xcoord": -0.87,
+        "ycoord": 41.65,
+        "grainall": 9.63,
+        "grainsome": 18.03
+    },
+    {
+        "name": "Eleutheropolis",
+        "scale": 9,
+        "xcoord": 34.89,
+        "ycoord": 31.62,
+        "grainall": 3,
+        "grainsome": 13.97
+    },
+    {
+        "name": "Avaricum",
+        "scale": 9,
+        "xcoord": 2.4,
+        "ycoord": 47.08,
+        "grainall": 12.86,
+        "grainsome": 22.4
+    },
+    {
+        "name": "Salamis",
+        "scale": 9,
+        "xcoord": 33.91,
+        "ycoord": 35.18,
+        "grainall": 1.69,
+        "grainsome": 20.26
+    },
+    {
+        "name": "Larissa",
+        "scale": 9,
+        "xcoord": 22.42,
+        "ycoord": 39.64,
+        "grainall": 6.74,
+        "grainsome": 8.14
+    },
+    {
+        "name": "Philippopolis",
+        "scale": 9,
+        "xcoord": 24.73,
+        "ycoord": 42.15,
+        "grainall": 13.06,
+        "grainsome": 9.35
+    },
+    {
+        "name": "Luna",
+        "scale": 9,
+        "xcoord": 10.03,
+        "ycoord": 44.07,
+        "grainall": 0.27,
+        "grainsome": 24.05
+    },
+    {
+        "name": "Caesarea (Cappadocia)",
+        "scale": 9,
+        "xcoord": 35.5,
+        "ycoord": 38.72,
+        "grainall": 14.11,
+        "grainsome": 0.28
+    },
+    {
+        "name": "Mogontiacum",
+        "scale": 9,
+        "xcoord": 8.26,
+        "ycoord": 50.01,
+        "grainall": 6.46,
+        "grainsome": 20.31
+    },
+    {
+        "name": "Heliopolis (Baalbek)",
+        "scale": 9,
+        "xcoord": 36.2,
+        "ycoord": 34.01,
+        "grainall": 12.27,
+        "grainsome": 23.04
+    },
+    {
+        "name": "Petra",
+        "scale": 9,
+        "xcoord": 35.46,
+        "ycoord": 30.33,
+        "grainall": 8.19,
+        "grainsome": 12.6
+    },
+    {
+        "name": "Chalcis",
+        "scale": 9,
+        "xcoord": 23.59,
+        "ycoord": 38.46,
+        "grainall": 1.15,
+        "grainsome": 0.29
+    },
+    {
+        "name": "Salona",
+        "scale": 9,
+        "xcoord": 16.5,
+        "ycoord": 43.53,
+        "grainall": 0.94,
+        "grainsome": 9.44
+    },
+    {
+        "name": "Hispalis",
+        "scale": 9,
+        "xcoord": -6,
+        "ycoord": 37.38,
+        "grainall": 1.26,
+        "grainsome": 8.27
+    },
+    {
+        "name": "Ravenna",
+        "scale": 9,
+        "xcoord": 12.21,
+        "ycoord": 44.42,
+        "grainall": 1.02,
+        "grainsome": 17.49
+    },
+    {
+        "name": "Apamea",
+        "scale": 9,
+        "xcoord": 36.41,
+        "ycoord": 35.42,
+        "grainall": 3.19,
+        "grainsome": 4.16
+    },
+    {
+        "name": "Tarentum",
+        "scale": 9,
+        "xcoord": 17.24,
+        "ycoord": 40.47,
+        "grainall": 0.65,
+        "grainsome": 18.16
+    },
+    {
+        "name": "Cyzicus",
+        "scale": 9,
+        "xcoord": 27.89,
+        "ycoord": 40.38,
+        "grainall": 1.47,
+        "grainsome": 15.49
+    },
+    {
+        "name": "Sabratha",
+        "scale": 9,
+        "xcoord": 12.48,
+        "ycoord": 32.8,
+        "grainall": 0.69,
+        "grainsome": 9.18
+    },
+    {
+        "name": "Smyrna",
+        "scale": 9,
+        "xcoord": 27.14,
+        "ycoord": 38.43,
+        "grainall": 1.32,
+        "grainsome": 20.27
+    },
+    {
+        "name": "Olbia (Borysthenes)",
+        "scale": 9,
+        "xcoord": 31.9,
+        "ycoord": 46.69,
+        "grainall": 1.83,
+        "grainsome": 1.82
+    },
+    {
+        "name": "Patavium",
+        "scale": 9,
+        "xcoord": 11.88,
+        "ycoord": 45.41,
+        "grainall": 2.72,
+        "grainsome": 1.69
+    },
+    {
+        "name": "Apollonia (Epirus)",
+        "scale": 9,
+        "xcoord": 19.43,
+        "ycoord": 40.77,
+        "grainall": 0.73,
+        "grainsome": 15.57
+    },
+    {
+        "name": "Ptolemais",
+        "scale": 9,
+        "xcoord": 20.95,
+        "ycoord": 32.71,
+        "grainall": 1.04,
+        "grainsome": 7.97
+    },
+    {
+        "name": "Apulum",
+        "scale": 9,
+        "xcoord": 23.59,
+        "ycoord": 46.07,
+        "grainall": 17.03,
+        "grainsome": 15.03
+    },
+    {
+        "name": "Alexandria",
+        "scale": 10,
+        "xcoord": 29.91,
+        "ycoord": 31.2,
+        "grainall": 1.46,
+        "grainsome": 17.45
+    },
+    {
+        "name": "Lepcis Magna",
+        "scale": 10,
+        "xcoord": 14.29,
+        "ycoord": 32.64,
+        "grainall": 0.71,
+        "grainsome": 22.6
+    },
+    {
+        "name": "Antiochia",
+        "scale": 10,
+        "xcoord": 36.17,
+        "ycoord": 36.21,
+        "grainall": 2.11,
+        "grainsome": 5.5
+    },
+    {
+        "name": "Corduba",
+        "scale": 10,
+        "xcoord": -4.78,
+        "ycoord": 37.88,
+        "grainall": 2.48,
+        "grainsome": 16.96
+    },
+    {
+        "name": "Roma",
+        "scale": 10,
+        "xcoord": 12.49,
+        "ycoord": 41.89,
+        "grainall": 0,
+        "grainsome": 0.87
+    },
+    {
+        "name": "Corinthus",
+        "scale": 10,
+        "xcoord": 22.89,
+        "ycoord": 37.91,
+        "grainall": 0.86,
+        "grainsome": 12.93
+    },
+    {
+        "name": "Ephesus",
+        "scale": 10,
+        "xcoord": 27.35,
+        "ycoord": 37.94,
+        "grainall": 1.23,
+        "grainsome": 16.97
+    },
+    {
+        "name": "Lugdunum",
+        "scale": 10,
+        "xcoord": 4.82,
+        "ycoord": 45.76,
+        "grainall": 2.55,
+        "grainsome": 2.64
+    },
+    {
+        "name": "Mediolanum",
+        "scale": 10,
+        "xcoord": 9.19,
+        "ycoord": 45.46,
+        "grainall": 3.97,
+        "grainsome": 6.59
+    },
+    {
+        "name": "Constantinopolis",
+        "scale": 10,
+        "xcoord": 28.99,
+        "ycoord": 41.02,
+        "grainall": 1.49,
+        "grainsome": 13.37
+    },
+    {
+        "name": "Tarraco",
+        "scale": 10,
+        "xcoord": 1.23,
+        "ycoord": 41.12,
+        "grainall": 0.52,
+        "grainsome": 21.92
+    },
+    {
+        "name": "Jerusalem",
+        "scale": 10,
+        "xcoord": 35.23,
+        "ycoord": 31.78,
+        "grainall": 4.51,
+        "grainsome": 14.79
+    },
+    {
+        "name": "Carthago",
+        "scale": 10,
+        "xcoord": 10.31,
+        "ycoord": 36.85,
+        "grainall": 0.37,
+        "grainsome": 24.63
+    }
+]

@@ -1,0 +1,16 @@
+body{		background-color:#eeeee0;}	
+h2 { 		padding-left:15px; margin: 0;}
+
+#content {	background-color:#ffffff; width:680px; margin:auto;}
+#banner {	font-family:Georgia, 'Times New Roman', Times, serif;font-weight: bolder; background-color:#993333; color:#ffffff; padding: 4px 15px;}
+#wordmark {	color:#E7D19A; font-size:150%;}
+#header {	padding: 0;}
+#main {		background-color:#ff; width:660px; margin: auto; padding-top:3px;}
+#map {		width: 650px; height: 400px; margin: auto;}
+#details { 	margin-top: 8px; background-color:#fff; 
+			border: thin solid #993333; border-radius: 7px; 
+			padding: 6px; width: 642px; font-family: Verdana, sans-serif; font-size: 70%;
+}
+#footer { 	margin-top: 6px; background-color: #e1e8df; 
+			padding: 6px; font-family: Verdana, sans-serif; font-size: 70%;
+}

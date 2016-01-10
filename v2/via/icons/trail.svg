@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="-29.9472 60.9866 50 30.000001"
+   version="1.0"
+   height="30"
+   width="50"
+   id="svg1926"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.1 "
+   sodipodi:docname="medworld.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <sodipodi:namedview
+     inkscape:window-height="878"
+     inkscape:window-width="1345"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10000"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="6.3218998"
+     inkscape:cx="-24.813429"
+     inkscape:cy="12.396337"
+     inkscape:window-x="100"
+     inkscape:window-y="100"
+     inkscape:current-layer="svg1926"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata24111">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:title></dc:title>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1930">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3003"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2999"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2995"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect2991"
+       is_visible="true"
+       pattern="M 0,0 0,10 10,5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2989"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect2985"
+       is_visible="true"
+       pattern="M 0,0 0,10 10,5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+  </defs>
+  <style
+     type="text/css"
+     id="style_css_sheet">
+/*
+ * Below are Cascading Style Sheet (CSS) definitions in use in this file,
+ * which allow easily changing how countries are displayed.
+ *
+ */
+
+/*
+ * Circles around small countries
+ *
+ * Change opacity to 1 to display all circles.
+ *
+ */
+.circle
+{
+   opacity:0;
+   fill:#b9b9b9;
+   fill-opacity:1;
+   stroke:black;
+   stroke-width:0.99986893;
+   stroke-miterlimit:3.97446823;
+   stroke-dasharray:none;
+   stroke-opacity:1;
+}
+
+/*
+ * Land
+ */
+.land
+{
+   fill: #b9b9b9;
+   fill-opacity: 1;
+   stroke: #ffffff;
+   stroke-opacity: 1;
+   stroke-width: 0.99986997;
+   stroke-miterlimit: 3.97446823;
+   stroke-dasharray: none;
+}
+
+/*
+ * Additional style rules
+ *
+ * The following are examples of colouring countries.  You can substitute these with your own styles to colour the countries on the map.
+ *
+ * Color a few countries:
+ *
+ * .gb, .au, .nc
+ * {
+ *    fill:       #ff0000;
+ * }
+ *
+ * Color a few small country circles (and the countries):
+ *
+ * .ms, .ky
+ * {
+ *    opacity:    1;
+ *    fill:       #ff0000;
+ * }
+ *
+ */
+
+/*
+ * Antarctica
+ */
+
+.aq
+{
+   fill:#e6e6e6;
+}
+
+/*
+ * Sea
+ */
+
+.ocean
+{
+   opacity: 1;
+   color: #000000;
+   fill:white;
+   fill-opacity:1;
+   fill-rule:nonzero;
+   stroke:#000000;
+   stroke-width:0.5;
+   stroke-linecap:butt;
+   stroke-linejoin:miter;
+   marker:none;
+   marker-start:none;
+   marker-mid:none;
+   marker-end:none;
+   stroke-miterlimit:1;
+   stroke-dasharray:none;
+   stroke-dashoffset:0;
+   stroke-opacity:1;
+   visibility:visible;
+   display:inline;
+   overflow:visible;
+}
+
+.lake
+{
+   fill:#ffffff;
+   fill-opacity:1;
+   stroke:#ffffff;
+   stroke-opacity:1;
+   stroke-width:0.99986997;
+   stroke-miterlimit:3.97446823;
+   stroke-dasharray:none;
+}
+</style>
+  <path
+     style="fill:none;stroke:#133b71;stroke-width:2.48283648;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m -25.13457,82.862813 c -0.250524,1.404703 0.20759,2.91763 1.195274,3.947404 0.987683,1.029773 2.480187,1.55059 3.894117,1.35887 1.413929,-0.191719 2.713854,-1.09117 3.391656,-2.346773 0.677802,-1.255602 0.716496,-2.835894 0.100958,-4.123164 -0.364584,-0.762452 -0.931747,-1.405545 -1.466914,-2.059648 -0.535166,-0.654103 -1.055084,-1.348788 -1.296783,-2.158624 -0.228247,-0.764765 -0.189294,-1.604729 0.09841,-2.349169 0.287701,-0.744439 0.820808,-1.389891 1.491489,-1.822499 0.670681,-0.432607 1.474927,-0.651817 2.272745,-0.630603 0.797817,0.02121 1.586244,0.281218 2.246582,0.729454 0.994711,0.675207 1.665064,1.737367 2.141718,2.841068 0.476654,1.103701 0.786585,2.272157 1.2316452,3.388971 0.4450607,1.116815 1.0483517,2.208234 1.9818732,2.96579 0.4667607,0.378779 1.012239,0.666889 1.5982127,0.800954 0.5859737,0.134065 1.212812,0.109727 1.774014,-0.105658 0.6344335,-0.243491 1.1649846,-0.724087 1.5200562,-1.303499 0.3550716,-0.579412 0.540845,-1.253207 0.5920108,-1.930832 0.1023316,-1.35525 -0.3163726,-2.691045 -0.760768,-3.975447 -0.4443954,-1.284402 -0.9253414,-2.586851 -0.9539608,-3.945658 -0.01431,-0.679403 0.088372,-1.367075 0.3562246,-1.991614 0.2678526,-0.624539 0.7068391,-1.18361 1.2828458,-1.544179 0.4897658,-0.306584 1.0609955,-0.461925 1.63366484,-0.538828 0.57266931,-0.0769 1.15229595,-0.07919 1.72963619,-0.102479 C 1.497474,67.94336 2.0788382,67.898102 2.6341791,67.738538 3.18952,67.578974 3.7219113,67.297287 4.1024291,66.862465 4.537461,66.365349 4.7412747,65.714367 5.0099834,65.110899 5.1443377,64.809166 5.2985466,64.51347 5.5054921,64.256044 c 0.2069455,-0.257425 0.4700737,-0.476259 0.7788031,-0.593649 0.4469663,-0.169953 0.9638804,-0.111213 1.3880734,0.10952 0.4241929,0.220734 0.7588493,0.592164 0.9843444,1.013845 0.4509903,0.843362 0.4735103,1.841555 0.4934759,2.797721 0.019965,0.956165 0.059902,1.957412 0.5380878,2.785657 0.239093,0.414122 0.5894393,0.772408 1.0238953,0.972184 0.434456,0.199777 0.955462,0.228988 1.390431,0.03033 0.221213,-0.101031 0.413247,-0.255179 0.621274,-0.381144 0.104014,-0.06298 0.212797,-0.119253 0.328398,-0.156964 0.1156,-0.03771 0.238524,-0.0565 0.359447,-0.04372 0.216844,0.02291 0.416312,0.148815 0.54877,0.322023 0.132458,0.173208 0.200976,0.390163 0.215468,0.607732 0.02898,0.435137 -0.147178,0.855201 -0.327865,1.25211 -1.866148,4.099311 -4.6129879,7.79506 -8.0001731,10.76387"
+     id="path3001"
+     inkscape:path-effect="#path-effect3003"
+     inkscape:original-d="m -25.13457,82.862813 c -0.332342,6.510287 10.970582,3.613492 8.582005,-1.163663 -0.791772,-1.583543 -4.00695,-1.420953 -2.763697,-4.218272 0.511515,-1.150909 4.564781,-5.214361 6.109223,-4.072817 1.617428,1.19549 4.1135539,14.248706 8.7274631,9.891125 5.26771909,-4.975068 -2.5008177,-11.666412 2.0364086,-14.691229 1.9944193,-1.329613 4.6302996,-0.618847 6.5455964,-1.745492 0.4805245,-0.282662 0.8145763,-4.481904 2.1818661,-3.20007 2.030893,1.903963 2.8306155,6.855632 5.8183078,7.709258 0.68162,0.194749 0.701651,-0.733697 1.309119,-0.58183 0.719547,0.179886 0.536586,1.446975 0.436373,2.181865 -0.568884,4.171815 -5.8478104,7.176599 -8.0001731,10.76387"
+     inkscape:connector-curvature="0" />
+  <path
+     sodipodi:type="arc"
+     style="color:#000000;fill:#133b71;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     id="path3005"
+     sodipodi:cx="34.641487"
+     sodipodi:cy="24.46369"
+     sodipodi:rx="2.8472455"
+     sodipodi:ry="2.8472455"
+     d="m 37.488733,24.46369 a 2.8472455,2.8472455 0 1 1 -5.694491,0 2.8472455,2.8472455 0 1 1 5.694491,0 z"
+     transform="translate(-30.263562,60.670239)" />
+</svg>
