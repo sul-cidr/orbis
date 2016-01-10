@@ -1,9 +1,4 @@
-orbis_v2
-========
-
 ORBIS v2
-
-.1
 
 This is a pure D3.js version of ORBIS ( http://orbis.stanford.edu ) that introduces several new features:
 
@@ -16,4 +11,4 @@ This is a pure D3.js version of ORBIS ( http://orbis.stanford.edu ) that introdu
 * Mapbox base layer using d3.geo.tile
 * TopoJSON for efficiency and, hopefully, even more interesting cartograms
 
-There are many missing features, inconsistencies and poor UI/HCI/UX/ETC that I'd like to develop with the input and support of the community.
+There are many missing features, inconsistencies and poor UI/HCI/UX/ETC that could be improved with the input and support of the community.
