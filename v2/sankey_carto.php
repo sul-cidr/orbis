@@ -11,7 +11,10 @@ $direction = $_GET['d'];
 
 // display errors or not...
 
-$link = pg_connect("host=orbis-prod.stanford.edu dbname=orbis user=webapp password=sl1ppy");
+include 'conn.php';
+$link_kb = pg_connect($connectString_ov2);
+
+// $link = pg_connect("host=orbis-prod.stanford.edu dbname=orbis user=webapp password=sl1ppy");
 
 $priorityQuery = "(o_speed_new(''".$vehicle."'',type,the_geom,cost) + o_alt_adjust(''".$vehicle."'',restricted))";
 $priorityQuery4 = "(o_speed_new(''".$vehicle."'',type,o_routing.the_geom,".$transferSea."))";
@@ -24,7 +27,7 @@ $priorityQuery5 = "(o_expense(''".$vehicle."'',type,o_routing.the_geom,".$transf
 }
 
 else if($priority == 2) {
-$priorityQuery = "((st_length(Geography(ST_Transform(the_geom,4326)))) / 1000)";    
+$priorityQuery = "((st_length(Geography(ST_Transform(the_geom,4326)))) / 1000)";
 $priorityQuery4 = "0";
 $priorityQuery5 = "0";
 }
@@ -59,7 +62,7 @@ else ".$priorityQuery."
 END) as cost
 FROM
 o_routing WHERE month IN(0,".$month.")
-AND 
+AND
 (''".$modeList."'' LIKE (''%''||type||''%''))
 AND (restricted NOT LIKE ''%''||type||''%'' OR restricted IS NULL)
 AND
@@ -83,7 +86,7 @@ target,
 SELECT replace(unnest(string_to_array(string_agg(the_way, ','),',')), ' ','') as i FROM rr
 )
 SELECT i, COUNT(i) as freq FROM bb WHERE i <> '' AND i <> 'NOTFOUND' GROUP by i ORDER BY i)
-SELECT right(source::text, 5)::integer as source, right(target::text, 5)::integer as target, SUM(freq) as freq FROM gg, o_routing 
+SELECT right(source::text, 5)::integer as source, right(target::text, 5)::integer as target, SUM(freq) as freq FROM gg, o_routing
 WHERE i::integer = o_routing.gid
 GROUP BY
 right(source::text, 5)::integer, right(target::text, 5)::integer
@@ -102,7 +105,7 @@ if (!$link) {
 	$result = pg_query($link, $sql);
 	if (!$result) {
 	  echo "error, no result!<br>";
-      print pg_last_error($link);	  
+      print pg_last_error($link);
 	  exit;
 	}
 }

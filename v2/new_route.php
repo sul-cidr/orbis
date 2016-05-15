@@ -10,7 +10,10 @@ $modeList = $_GET['ml'];
 $excludeList = $_GET['el'];
 // display errors or not...
 
-$link = pg_connect("host=orbis-prod.stanford.edu dbname=orbis user=webapp password=sl1ppy");
+include 'conn.php';
+$link_kb = pg_connect($connectString_ov2);
+
+// $link = pg_connect("host=orbis-prod.stanford.edu dbname=orbis user=webapp password=sl1ppy");
 
 $priorityQuery2 = "(o_speed_new(''".$vehicle."'',type,o_routing.the_geom,o_routing.cost) + o_alt_adjust(''".$vehicle."'',restricted))";
 $priorityQuery4 = "(o_speed_new(''".$vehicle."'',type,o_routing.the_geom,".$transferSea."))";
@@ -47,7 +50,7 @@ when type = 'transferr' then o_expense
 }
 
 else if($priority == 2) {
-$priorityQuery2 = "((st_length(Geography(ST_Transform(o_routing.the_geom,4326)))) / 1000)";    
+$priorityQuery2 = "((st_length(Geography(ST_Transform(o_routing.the_geom,4326)))) / 1000)";
 $priorityQuery4 = "0";
 $priorityQuery5 = "0";
 $priorityQuery6 = "when type = 'transferc' then 0
@@ -65,11 +68,11 @@ $sql = "
 WITH o AS (
 SELECT
 
-'{\"type\": \"Feature\", \"geometry\": '||ST_AsGeoJson(o_routing.the_geom,3,0)||', 
+'{\"type\": \"Feature\", \"geometry\": '||ST_AsGeoJson(o_routing.the_geom,3,0)||',
 \"properties\": {
 \"source\":'||source||',
 \"target\":'||target||',
-\"segmentlength\": '||(st_length(Geography(ST_Transform(o_routing.the_geom,4326))) / 
+\"segmentlength\": '||(st_length(Geography(ST_Transform(o_routing.the_geom,4326))) /
 1000)::numeric(10,3)||',
 \"segmentduration\": '||
 (CASE
@@ -115,7 +118,7 @@ else ".$priorityQuery2."
 END) as cost
 FROM
 o_routing WHERE month IN(0,".$month.")
-AND 
+AND
 (''".$modeList."'' LIKE (''%''||type||''%''))
 AND (restricted NOT LIKE ''%''||type||''%'' OR restricted IS NULL)
 AND
@@ -156,7 +159,7 @@ if (!$link) {
 	$result = pg_query($link, $sql);
 	if (!$result) {
 	  echo "error, no result!<br>";
-      print pg_last_error($link);	  
+      print pg_last_error($link);
 	  exit;
 	}
 }
