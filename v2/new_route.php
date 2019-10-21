@@ -11,9 +11,7 @@ $excludeList = $_GET['el'];
 // display errors or not...
 
 include 'conn.php';
-$link_kb = pg_connect($connectString_ov2);
-
-// $link = pg_connect("host=orbis-prod.stanford.edu dbname=orbis user=webapp password=sl1ppy");
+$link = pg_connect($connectString_ov2);
 
 $priorityQuery2 = "(o_speed_new(''".$vehicle."'',type,o_routing.the_geom,o_routing.cost) + o_alt_adjust(''".$vehicle."'',restricted))";
 $priorityQuery4 = "(o_speed_new(''".$vehicle."'',type,o_routing.the_geom,".$transferSea."))";
