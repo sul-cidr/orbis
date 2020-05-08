@@ -8,9 +8,9 @@ import time
 Map tile harvester, with the ability to random-robin requests
 among multiple server prefixes. Note that this assumes the
 tiles are stored and named using the standard ZXY "quadtiles"
-hierarchial storage schema (zoom level n has 4^n tiles; tiles
-are stored and retrieved via as Z/X/Y.ext, where X and Y range 
-from 0 to 2^n at each zoom level n.
+hierarchial storage schema: zoom level n has 4^n tiles; tiles
+are stored and retrieved as Z/X/Y.ext, where X and Y range from 
+0 to 2^n at each zoom level n.
 '''
 
 robins = ['a', 'b', 'c', 'd']
