@@ -12,7 +12,7 @@ $direction = $_GET['d'];
 // display errors or not...
 
 include 'conn.php';
-$link = pg_connect($connectString_ov2);
+$link = pg_connect($connection_string);
 
 $priorityQuery = "(o_speed_new(''".$vehicle."'',type,the_geom,cost) + o_alt_adjust(''".$vehicle."'',restricted))";
 $priorityQuery4 = "(o_speed_new(''".$vehicle."'',type,o_routing.the_geom,".$transferSea."))";
