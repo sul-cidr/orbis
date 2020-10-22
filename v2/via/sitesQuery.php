@@ -12,8 +12,8 @@ $modelist = $_GET['ml'];
 */
 
 
-/* $link = pg_connect("host=geodata.stanford.edu dbname=orbis user=webapp password=sl1ppy"); */
-$link = pg_connect("host=orbis-prod.stanford.edu dbname=orbis user=webapp password=sl1ppy");
+include '../conn.php';
+$link = pg_connect($connection_string);
 
 $sql="
 SELECT
@@ -68,11 +68,11 @@ if (!$link) {
 	$result = pg_query($link, $sql);
 	if (!$result) {
 	  echo "error, no result!<br>";
-      print pg_last_error($link);	  
+      print pg_last_error($link);
 	  exit;
 	}
 }
-// echo $result;	
+// echo $result;
 
 	$tough = array();
 	$r = 0;
