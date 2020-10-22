@@ -8,7 +8,7 @@
   return M;
  })();
 
-	if (browserTest[0] == "MSIE" || browserTest[0] == "Firefox") {
+	if (browserTest[0] == "MSIE") {
 		document.getElementById("badBrowser").style.display = "block";
 		_gaq.push(['_trackEvent', 'errorEvent', "browser_unsupported, T: " + browserTest[0]]);
 	}
