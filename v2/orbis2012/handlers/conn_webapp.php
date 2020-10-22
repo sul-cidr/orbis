@@ -1,5 +1,9 @@
 <?php
-$connectString_orbis = "host=orbis-prod.stanford.edu dbname=orbis user=webapp password=sl1ppy";
-$connectString_kindred_prod = "host=orbis-prod.stanford.edu dbname=kindred user=webapp password=sl1ppy";
+$dbhost = getenv("DBHOST") ?: "localhost";
+$dbname = getenv("DBNAME") ?: "orbis";
+$dbuser = getenv("DBUSER") ?: "webapp";
 
+$connectString_orbis = "host={$dbhost} dbname={$dbname} user={$dbuser}";
+
+if (getenv("DBPASSWORD")) $connectString_orbis .= " password={getenv('DBPASSWORD')}";
 ?>

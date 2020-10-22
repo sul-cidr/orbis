@@ -1,5 +1,10 @@
 <?php
+$dbhost = getenv("DBHOST") ?: "localhost";
+$dbname = getenv("DBNAME") ?: "orbis";
+$dbuser = getenv("DBUSER") ?: "webapp";
 
-$connectString_ov2 = "host=orbis-prod.stanford.edu dbname=orbis user=webapp password=sl1ppy";
+$connection_string = "host={$dbhost} dbname={$dbname} user={$dbuser}";
+
+if (getenv("DBPASSWORD")) $connection_string .= " password={getenv('DBPASSWORD')}";
 
 ?>
