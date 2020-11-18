@@ -413,7 +413,7 @@ function zoomed() {
       .remove();
 
   image.enter().append("image")
-      .attr("xlink:href", function(d) { return "http://d3msn78fivoryj.cloudfront.net/orbis_tiles/" + d[2] + "/" + d[0] + "/" + d[1] + ".jpg"; })
+      .attr("xlink:href", function(d) { return "https://d3msn78fivoryj.cloudfront.net/orbis_tiles/" + d[2] + "/" + d[0] + "/" + d[1] + ".jpg"; })
       .attr("width", 1)
       .attr("height", 1)
       .attr("x", function(d) { return d[0]; })
