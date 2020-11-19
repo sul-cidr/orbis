@@ -25,7 +25,7 @@ var mapMinZoom = 0;
 var mapMaxZoom = 5;
 // map layers
 var baseNE = new OpenLayers.Layer.WMS(
-	"Natural Earth terrain", "http://regis-prod.stanford.edu/geoserver/orbisv1/wms",
+	"Natural Earth terrain", "/geoserver/orbisv1/wms",
 	{LAYERS: 'orbis:ne10m'  },
 	{isBaseLayer: true, bgcolor: '#434A44' } //, buffer: 0 }
 )
@@ -35,12 +35,12 @@ var baseVMap = new OpenLayers.Layer.WMS(
 	{isBaseLayer: true }
 	)
 var osites = new OpenLayers.Layer.WMS(
-	"Cities and towns", "http://regis-prod.stanford.edu/geoserver/orbisv1/wms",
+	"Cities and towns", "/geoserver/orbisv1/wms",
 	{layers: 'orbis:o_sites', transparent: true },
 	{isBaseLayer: false }
   )
 var oroads = new OpenLayers.Layer.WMS(
-	"Roman roads", "http://regis-prod.stanford.edu/geoserver/orbisv1/wms",
+	"Roman roads", "/geoserver/orbisv1/wms",
 	{layers: 'orbis:o_roads', transparent: true }
 	//{isBaseLayer: false },
 	//{buffer: 0 }
