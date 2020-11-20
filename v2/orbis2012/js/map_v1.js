@@ -25,11 +25,9 @@ var mapMinZoom = 0;
 var mapMaxZoom = 5;
 // map layers
 var baseNE = new OpenLayers.Layer.WMS(
-	//" Natural Earth terrain", "http://orbis-prod.stanford.edu/geoserver/orbisv1/wms",
-	"Natural Earth terrain", "http://regis-prod.stanford.edu/geoserver/orbisv1/wms",
-	//" Natural Earth terrain", "http://regis-dev.stanford.edu/geoserver/orbis/wms",
+	"Natural Earth terrain", "/geoserver/orbisv1/wms",
 	{LAYERS: 'orbis:ne10m'  },
-	{isBaseLayer: true, bgcolor: '#434A44' } //, buffer: 0 }	 
+	{isBaseLayer: true, bgcolor: '#434A44' } //, buffer: 0 }
 )
 var baseVMap = new OpenLayers.Layer.WMS(
 	"Modern boundaries", "http://vmap0.tiles.osgeo.org/wms/vmap0",
@@ -37,17 +35,12 @@ var baseVMap = new OpenLayers.Layer.WMS(
 	{isBaseLayer: true }
 	)
 var osites = new OpenLayers.Layer.WMS(
-	//"Cities and towns", "http://orbis-prod.stanford.edu/geoserver/orbisv1/wms",
-	"Cities and towns", "http://regis-prod.stanford.edu/geoserver/orbisv1/wms",
-	//"Cities and towns", "http://regis-dev.stanford.edu/geoserver/orbis/wms",
-	//{layers: 'barrington:o_sites', transparent: true },
+	"Cities and towns", "/geoserver/orbisv1/wms",
 	{layers: 'orbis:o_sites', transparent: true },
 	{isBaseLayer: false }
   )
 var oroads = new OpenLayers.Layer.WMS(
-	//" Roman roads", "http://orbis-prod.stanford.edu/geoserver/orbisv1/wms",
-	"Roman roads", "http://regis-prod.stanford.edu/geoserver/orbisv1/wms",
-	//" Roman roads", "http://regis-dev.stanford.edu/geoserver/orbis/wms",
+	"Roman roads", "/geoserver/orbisv1/wms",
 	{layers: 'orbis:o_roads', transparent: true }
 	//{isBaseLayer: false },
 	//{buffer: 0 }
@@ -97,9 +90,9 @@ if (OpenLayers.Util.alphaHack() == false) { baseNE.setOpacity(0.7); }
 
 map.zoomTo(omap.properzoom);
 omap.properzoom = function() {
-	if (omap.windowwidth < 1340 ) {return 0} 
-		else if (omap.windowwidth < 1490) {return 1} 
-		else if (omap.windowwidth < 1570) {return 3} 
+	if (omap.windowwidth < 1340 ) {return 0}
+		else if (omap.windowwidth < 1490) {return 1}
+		else if (omap.windowwidth < 1570) {return 3}
 		else if (omap.windowwidth < 1610) {return 4}
 		else if (omap.windowwidth < 1700) {return 5}
 		else {return 6};
@@ -108,7 +101,7 @@ mapPanelB = new GeoExt.MapPanel({
 	title: "Mapping ORBIS",
 	map: map,
 	zoom: omap.properzoom(),
-	center: ([15, 41.5]), 
+	center: ([15, 41.5]),
 	region: 'center',
 	listeners: {
 		scope: this,
@@ -118,11 +111,11 @@ mapPanelB = new GeoExt.MapPanel({
 			Ext.getCmp('eastPanel').show();
 			Ext.getCmp('eastPanel').expand();
 			Ext.getCmp('southPanel').show();
-			// Ext.getCmp('southPanel').expand(true);		
+			// Ext.getCmp('southPanel').expand(true);
 			// Ext.getCmp('westPanel').show();
-			if(resultWin) 
+			if(resultWin)
 				{resultWin.show(this).alignTo(Ext.getBody(), "bl-bl?", [10, -110]);};
-			if(resultGridWin) //(omap.gridup == true) 
+			if(resultGridWin) //(omap.gridup == true)
 				{resultGridWin.show(this).alignTo(Ext.getBody(), "bl-bl?", [410, -110]);};
 			Ext.getCmp('fubar').doLayout();
 			// google analytics
