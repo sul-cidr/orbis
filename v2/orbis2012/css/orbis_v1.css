@@ -4,7 +4,7 @@ html, body {
 	margin:0 0 1px;
 	padding:0;
 	border:0 none;
-	height:100%; 
+	height:100%;
 	overflow: hidden;
 	/* background-color: #E7D19A;  SU tan -- not here, but where? */
 }
@@ -35,12 +35,12 @@ ol.a {list-style-type:lower-alpha !important;}
 	/*font-size: medium;*/
 	font-style: normal;
 	font-size: 1.2em;
-	padding: 6px; 
+	padding: 6px;
 	width: 970px;
 	height: 100%;
 	}
 .footer {background-color:#e1e8df; height: 30px; padding-left:5px;
-	text-decoration:none; font-family:Verdana, Geneva, sans-serif; 
+	text-decoration:none; font-family:Verdana, Geneva, sans-serif;
 	font-size:x-small;}
 .footer a, .footer visited  { color:#336699; text-decoration:none; }
 .hang {
@@ -57,7 +57,7 @@ ol.a {list-style-type:lower-alpha !important;}
 
 div .righttoc {
     width: 285px; margin-top: 10px; color:#333;
-	border:thin #434A44 dotted; 
+	border:thin #434A44 dotted;
 	float: right; font-size: .9em; padding: 4px;}}
 .rightcol a {text-decoration:none; color: #336699;}
 div .rightpull {
@@ -66,11 +66,11 @@ div .rightpull {
 	float: right; padding: 18px; font-size:small;}
 div .rightpic {
     width: 280px; margin: 10px; color:#333;
-	border:thin #993333 dotted; 
+	border:thin #993333 dotted;
 	float: right; font-size: .8em; padding:6 18 18 18;}
 div .leftpic {
     width: 300px; margin: 10px; 	color:#333;
-	border:thin #993333 dotted; 
+	border:thin #993333 dotted;
 	float: left; font-size: .8em; padding:6 18 18 18;}
 div .inlinepic {
     width: 99%; margin: 10px;	color:#333;
@@ -121,15 +121,15 @@ div .inlinepic_plain {
 
 
 .goldlabel {font-family:Verdana, Geneva, sans-serif; font-size: .8em; color:#E7D19A; font-weight:bold;}
-.slatelabel {font-family:Verdana, Geneva, sans-serif; font-size: .7em; color:#434A44; font-weight:bold; 
+.slatelabel {font-family:Verdana, Geneva, sans-serif; font-size: .7em; color:#434A44; font-weight:bold;
 	vertical-align:top; padding-right:5px; padding-top:2px}
 .bitsmaller {font-size: .9em;}
 /*  end north */
-.colhead {font-family: Verdana, Geneva, sans-serif; font-weight:bold; color:#d6ddd3; 
+.colhead {font-family: Verdana, Geneva, sans-serif; font-weight:bold; color:#d6ddd3;
 	background-color: #434A44; padding:2px 0 2px 4px; line-height: 18px;}
 .colhead a, .colhead visited  {color:#C6FFFF; text-decoration:none;	}
 .firstchar { float: left; color: #990000; font-size: 50px; line-height: 40px; padding-top: 4px; padding-right: 4px; padding-left: 3px; font-family: Georgia; }
-#building ul { list-style-type: square;	
+#building ul { list-style-type: square;
 	margin-left: 0;
 	padding-left: 1.3em;
 	text-indent: .5em;}
@@ -172,11 +172,11 @@ h3.applying {color:#434A44}
 #applyingDiv  ul {list-style: square; margin: 4px 20px; line-height:1.3em;}
 #applyingDiv  li {margin-bottom:2px;}
 #applyingDiv  h2 { margin-bottom:4px;}
-.applyingPanel {width: 580px; padding:8px; background-color:#fff; border: thin dotted #993333; 
+.applyingPanel {width: 580px; padding:8px; background-color:#fff; border: thin dotted #993333;
 	clear:both; margin-top: 8px; margin-bottom: 8px;}
 .applyingPanel p { padding-left: 0;}
 /* d3 stuff */
-.dclabel { font-family:Verdana, Geneva, sans-serif; font-weight:bold; letter-spacing:1.5px; 
+.dclabel { font-family:Verdana, Geneva, sans-serif; font-weight:bold; letter-spacing:1.5px;
 	color: #333; text-shadow: 1px 1px 2px grey, 0 0 1em white, 0 0 0.2em white;}
 .gratext { font-family:Verdana, Geneva, sans-serif; font-weight:bold; letter-spacing:2px;}
 .titletext { font-family:Georgia, "Times New Roman", Times, serif; font-size:1.7em;  letter-spacing:2px; color:#900;}
