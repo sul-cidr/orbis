@@ -86,7 +86,7 @@ div .inlinepic_plain {
 /*  north banner */
 #north {
 	font-family:Georgia, 'Times New Roman', Times, serif;  padding: 0 6px 6px 6px; margin:auto;
-	padding-left:10px; background-image: url(http://orbis.stanford.edu/images/banner_peut01.jpg); }
+	padding-left:10px; background-image: url(/images/banner_peut01.jpg); }
 #north #sitetitle {font-weight:bolder; font-size:3em; color:#E7D19A; line-height: 60px;}
 #sitetitle a {color:#E7D19A; text-decoration:none;}
 #north #tagline {
@@ -152,12 +152,12 @@ div .inlinepic_plain {
 
 
 #carto_explain {font-size:.9em; margin-right:10px;}
-#link_introducing {background-image: url(http://orbis.stanford.edu/images/column1.png);}
-#link_understanding {background-image: url(http://orbis.stanford.edu/images/column2.png);}
-#link_building {background-image: url(http://orbis.stanford.edu/images/column3.png);}
-#link_using {background-image: url(http://orbis.stanford.edu/images/column4.png);}
-#link_mapping {background-image: url(http://orbis.stanford.edu/images/column5.png);}
-#link_applying {background-image: url(http://orbis.stanford.edu/images/column6.png);}
+#link_introducing {background-image: url(/images/column1.png);}
+#link_understanding {background-image: url(/images/column2.png);}
+#link_building {background-image: url(/images/column3.png);}
+#link_using {background-image: url(/images/column4.png);}
+#link_mapping {background-image: url(/images/column5.png);}
+#link_applying {background-image: url(/images/column6.png);}
 
 /* Applying section */
 h3.applying {color:#434A44}
